@@ -1,0 +1,129 @@
+{
+	"VN0054": {
+		"dateArrive": "2020-03-02",
+		"from": {
+			"country": "Anh",
+			"city": "London"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hà Nội",
+			"airport": "Nội Bài"
+		}
+	},
+	"VJ981": {
+		"dateArrive": "2020-03-04",
+		"from": {
+			"country": "Hàn Quốc",
+			"city": "Busan"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Quảng Ninh",
+			"airport": "Vân Đồn"
+		}
+	},
+	"BN34": {
+		"dateArrive": "2020-03-02",
+		"from": {
+			"country": "Mỹ",
+			"city": "Washington D.C"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hồ Chí ",
+			"airport": "Tan Sơn Nhất"
+		}
+	},
+	"BN46": {
+		"dateArrive": "2020-03-09",
+		"from": {
+			"country": "Anh",
+			"city": "London"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hà Nội",
+			"airport": "Nội Bài"
+		}
+	},
+	"BN50": {
+		"dateArrive": "2020-03-09",
+		"from": {
+			"country": "Anh",
+			"city": "London"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hà Nội",
+			"airport": "Nội Bài"
+		}
+	},
+	"BN51": {
+		"dateArrive": "2020-03-10",
+		"from": {
+			"country": "Pháp",
+			"city": "Paris"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hà Nội",
+			"airport": "Nội Bài"
+		}
+	},
+	"QR968": {
+		"dateArrive": "2020-03-13",
+		"from": {
+			"country": "EU"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hà Nội",
+			"airport": "Nội Bài"
+		}
+	},
+	"QR970": {
+		"dateArrive": "2020-03-10",
+		"from": {
+			"country": "EU"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Ho Chí Minh",
+			"airport": "Tân Sơn Nhất"
+		}
+	},
+	"TK162": {
+		"dateArrive": "2020-03-08",
+		"from": {
+			"country": "EU"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Ho Chí Minh",
+			"airport": "Tân Sơn Nhất"
+		}
+	},
+	"VN0018": {
+		"dateArrive": "2020-03-",
+		"from": {
+			"country": "EU"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Hà Nội",
+			"airport": "Nội Bài"
+		}
+	},
+	"VJ826": {
+		"dateArrive": "2020-03-04",
+		"from": {
+			"country": "Malaysia"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Ho Chí Minh",
+			"airport": "Tân Sơn Nhất"
+		}
+	}
+}

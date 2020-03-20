@@ -7,8 +7,8 @@
 		"positiveDate": "2020-03-06",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
-		"description": "Nữ 26 tuổi đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020"
+		"source": ["GB"],
+		"description": "Nữ 26 thử tuổi đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020"
 	},
 	"18": {
 		"gender": "male",
@@ -18,7 +18,7 @@
 		"positiveDate": "2020-03-07",
 		"status": "negative",
 		"flights": ["VJ981"],
-		"source": ["Hàn Quốc"],
+		"source": ["KR"],
 		"description": "nam 27 tuổi, quê Thái Bình đến Daegu (Hàn Quốc) và trở về Việt Nam ngày 4/3/2020 "
 	},
 	"19": {
@@ -49,7 +49,7 @@
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam 61 tuổi ở Hà Nội, là người ngồi gần hàng ghế trên chuyến bay với BN17 ."
 	},
 	"22": {
@@ -60,7 +60,7 @@
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "60 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"23": {
@@ -71,73 +71,73 @@
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "66 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"24": {
-		"gender": "NA",
+		"gender": "male",
 		"age": 58,
 		"residence": "NA",
 		"nationality": "Anh",
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "58 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"25": {
-		"gender": "NA",
+		"gender": "male",
 		"age": 70,
 		"residence": "NA",
 		"nationality": "Anh",
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "70 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"26": {
-		"gender": "NA",
+		"gender": "male",
 		"age": 50,
 		"residence": "NA",
 		"nationality": "Anh",
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "50 tuổi, quốc tịch Ireland, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"27": {
-		"gender": "NA",
+		"gender": "male",
 		"age": 67,
 		"residence": "NA",
 		"nationality": "Anh",
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "67 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"28": {
-		"gender": "NA",
+		"gender": "male",
 		"age": 74,
 		"residence": "NA",
 		"nationality": "Anh",
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "74 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"29": {
-		"gender": "NA",
+		"gender": "male",
 		"age": 58,
 		"residence": "NA",
 		"nationality": "Anh",
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "58 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"30": {
@@ -148,7 +148,7 @@
 		"positiveDate": "2020-03-08",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nữ 66 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
 	},
 	"31": {
@@ -159,7 +159,7 @@
 		"positiveDate": "2020-03-09",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam 49 tuổi, quốc tịch Anh cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020 "
 	},
 	"32": {
@@ -170,7 +170,7 @@
 		"positiveDate": "2020-03-10",
 		"status": "positive",
 		"flights": ["private"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nữ 24 tuổi sống tại Anh, quốc tịch Việt Nam, có tiếp xúc với BN17 hôm 27/2 tại Anh, đã trở về Việt Nam ngày 9/3/2020 . "
 	},
 	"33": {
@@ -181,7 +181,7 @@
 		"positiveDate": "2020-03-10",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam 58 tuổi, quốc tịch Anh, là hành khách cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam."
 	},
 	"34": {
@@ -192,7 +192,7 @@
 		"positiveDate": "2020-03-10",
 		"status": "positive",
 		"flights": ["BN34"],
-		"source": ["Mỹ"],
+		"source": ["US"],
 		"description": "nữ 51 tuổi, quốc tịch Việt Nam, khởi hành từ Washington DC (Mỹ) về Việt Nam, quá cảnh tại sân bay Quốc tế Doha (Qatar) và sáng ngày 2/3/2020 nhập cảnh vào Việt Nam. "
 	},
 	"35": {
@@ -313,7 +313,7 @@
 		"positiveDate": "2020-03-14",
 		"status": "positive",
 		"flights": ["BN46"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": " nữ 30 tuổi tại Hà Nội, là tiếp viên hàng không trên chuyến bay từ London (Anh) về Hà Nội ngày 09/3/2020."
 	},
 	"47": {
@@ -344,7 +344,7 @@
 		"positiveDate": "2020-03-14",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam 71 tuổi quốc tịch Anh, đi trên chuyến bay VN0054 từ London tới Hà Nội ngày 2/3/2020, là chồng của BN30."
 	},
 	"50": {
@@ -355,7 +355,7 @@
 		"positiveDate": "2020-03-14",
 		"status": "positive",
 		"flights": ["BN50"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nữ 24 tuổi tại Hạ Long (Quảng Ninh), là hành khách trên chuyến bay từ London (Anh) về Việt Nam ngày 9/3/2020"
 	},
 	"51": {
@@ -366,7 +366,7 @@
 		"positiveDate": "2020-03-14",
 		"status": "positive",
 		"flights": ["BN51"],
-		"source": ["Pháp"],
+		"source": ["FR"],
 		"description": "nam 50 tuổi tại Hà Nội từ Paris về Việt Nam ngày 10/3/2020 ."
 	},
 	"52": {
@@ -421,7 +421,7 @@
 		"positiveDate": "2020-03-15",
 		"status": "positive",
 		"flights": ["BN56"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam, 30 tuổi quốc tịch Anh, là hành khách trên chuyến bay từ Anh về Nội Bài sáng 09/03/2020 "
 	},
 	"57": {
@@ -432,7 +432,7 @@
 		"positiveDate": "2020-03-16",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam  66 tuổi, quốc tịch Anh, là hành khách  trên chuyến bay từ Anh về Nội Bài (cùng BN46 tại Hà Nội) sáng 09/03/2020 )"
 	},
 	"58": {
@@ -442,7 +442,7 @@
 		"nationality": "Việt Nam",
 		"positiveDate": "2020-03-16",
 		"status": "positive",
-		"source": ["Pháp"],
+		"source": ["FR"],
 		"description": "nữ  26 tuổi, trú quán quận Ba Đình,  Hà Nội, là du học sinh tại Pháp, nhập cảnh tại Cảng Hàng không quốc tế Nội Bài ngày 15/3/2020."
 	},
 	"59": {
@@ -452,7 +452,7 @@
 		"nationality": "Việt Nam",
 		"positiveDate": "2020-03-16",
 		"status": "positive",
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": " nữ  30 tuổi, trú quán quận Long Biên, Hà Nội, là tiếp viên trên chuyến bay từ Vương Quốc Anh về Việt Nam ngày 02/3/2020."
 	},
 	"60": {
@@ -462,7 +462,7 @@
 		"nationality": "Pháp",
 		"positiveDate": "2020-03-16",
 		"status": "positive",
-		"source": ["Pháp"],
+		"source": ["FR"],
 		"description": "nam, 29 tuổi quốc tịch Pháp là hành khách trên chuyến bay từ Pháp về Nội Bài ngày 09/03/2020."
 	},
 	"61": {
@@ -483,7 +483,7 @@
 		"nationality": "Việt Nam",
 		"positiveDate": "2020-03-17",
 		"status": "positive",
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam, 18 tuổi trú quận Hoàn Kiếm,  Hà Nội, là du học sinh từ Anh về Việt Nam trên chuyến bay Vietnam Airlines từ Anh về Việt Nam ngày 16/03/2020"
 	},
 	"63": {
@@ -493,7 +493,7 @@
 		"nationality": "Việt Nam",
 		"positiveDate": "2020-03-17",
 		"status": "positive",
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nữ, 20 tuổi trú quận Cầu Giấy, Hà Nội, là du học sinh tại Anh nhập cảnh về Nội Bài ngày 15/03/2020 trên chuyến bay TG564."
 	},
 	"64": {
@@ -524,7 +524,7 @@
 		"positiveDate": "2020-03-17",
 		"status": "positive",
 		"flights": ["BR395"],
-		"source": ["Mỹ"],
+		"source": ["US"],
 		"description": "nữ, 21 tuổi, trú quận 7, TP.HCM. Ngày 14/3 bệnh nhân đi từ Mỹ ( Pennsylvania - Philadenphia) tới Toronto - Canada và quá cảnh ở Đài Loan, về tới Việt Nam ngày 16/3 trên chuyến bay BR395."
 	},
 	"67": {
@@ -546,7 +546,7 @@
 		"positiveDate": "2020-03-18",
 		"status": "positive",
 		"flights": ["MI632"],
-		"source": ["Singapore"],
+		"source": ["SG"],
 		"description": "nam, 41 tuổi, quốc tịch Mỹ, lấy vợ người Việt Nam có địa chỉ tại TP. Đà Nẵng. Bệnh nhân đi từ Singapore đến TP Đà Nẵng trên chuyến bay MI 632  trưa ngày 14/3/2020. "
 	},
 	"69": {
@@ -568,18 +568,18 @@
 		"positiveDate": "2020-03-18",
 		"status": "positive",
 		"flights": ["TK164"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam, 19 tuổi, trú quán ở Thanh Xuân, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 16/03/2020 trên chuyến bay TK164."
 	},
 	"71": {
 		"gender": "female",
-		"age": ,
+		"age": 19,
 		"residence": "NA",
 		"nationality": "Việt Nam",
 		"positiveDate": "2020-03-18",
 		"status": "positive",
 		"flights": ["TK164"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nữ, 19 tuổi, trú quán ở Hai Bà Trưng, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 16/03/2020 trên chuyến bay TK164."
 	},
 	"72": {
@@ -589,7 +589,8 @@
 		"nationality": "Pháp",
 		"positiveDate": "2020-03-18",
 		"status": "positive",
-		"source": ["Pháp"],
+		"flights": null,
+		"source": ["FR"],
 		"description": "nữ, 25 tuổi, quốc tịch Pháp, là hành khách trên chuyến bay từ Pháp về Nội Bài ngày 09/03/2020"
 	},
 	"73": {
@@ -600,7 +601,7 @@
 		"positiveDate": "2020-03-18",
 		"status": "positive",
 		"flights": ["VN0054"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nam, 11 tuổi ở Huyện Thanh Miện, Hải Dương, về Việt Nam trên chuyến bay VN0054 ngày 09/03/2020."
 	},
 	"74": {
@@ -622,7 +623,7 @@
 		"positiveDate": "2020-03-18",
 		"status": "positive",
 		"flights": ["VN50"],
-		"source": ["Anh"],
+		"source": ["GB"],
 		"description": "nữ, 40 tuổi, ở Quận 2, TP. Hồ Chí Minh, từ Việt Nam sang London - Anh thăm người thân và về Việt Nam trên chuyến bay VN50 của hãng hàng không VietnamAirline."
 	},
 	"76": {
@@ -633,7 +634,173 @@
 		"positiveDate": "2020-03-18",
 		"status": "positive",
 		"flights": ["TK162"],
-		"source": ["Pháp"],
+		"source": ["FR"],
 		"description": "nam, 52 tuổi, quốc tịch Pháp, là hành khách trên chuyến bay TK162 nhập cảnh tại Cảng hàng không quốc tế Tân Sơn Nhất ngày 10/03/2020."
+	},
+	"77": {
+		"gender": "female",
+		"age": 25,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["QR976"],
+		"source": ["GB"],
+		"description": "nữ, 25 tuổi quê quán Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 17/03/2020 trên chuyến bay QR976."
+	},
+
+	"78": {
+		"gender": "male",
+		"age": 22,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["EK394"],
+		"source": ["GB"],
+		"description": "nam, 22 tuổi quê quán Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 17/03/2020 trên chuyến bay EK394."
+	},
+	"79": {
+		"gender": "female",
+		"age": 48,
+		"residence": "Bạc Liêu",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["EK392"],
+		"source": ["GB"],
+		"description": "nữ, 48 tuổi quê tỉnh Bạc Liêu, sống tại Anh gần 2 năm nay. Ngày 14/3/2020, từ London (Anh) đi Dubai và sau đó về Việt Nam ngày 15/3 trên chuyến bay của hãng hàng không Emirates, số hiệu EK392."
+	},
+	"80": {
+		"gender": "male",
+		"age": 18,
+		"residence": "Bạc Liêu",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["EK392"],
+		"source": ["Anh", "79"],
+		"description": "nam, 18 tuổi quê tỉnh Bạc Liêu, con của BN79. Ngày 14/3/2020, cùng BN79 từ London (Anh) đi Dubai và sau đó về Việt Nam ngày 15/3 trên chuyến bay của hãng hàng không Emirates, số hiệu EK392."
+	},
+	"81": {
+		"gender": "male",
+		"age": 20,
+		"residence": "Kom Tum",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["AF258"],
+		"source": ["FR"],
+		"description": "nam, 20 tuổi quê tỉnh Kom Tum. Ngày 14/3/2020 từ Paris - Pháp lên chuyến bay của hãng hàng không AirFrance, số hiệu AF258 và về tới Việt Nam ngày 15/3/2020."
+	},
+	"82": {
+		"gender": "female",
+		"age": 16,
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["EK364"],
+		"source": ["GB"],
+		"description": "nữ, 16 tuổi ở Quận 5, TP.Hồ Chí Minh. Ngày 14/3/2020 cùng mẹ từ London - Anh đi Dubai và sau đó về Việt Nam ngày 15/3/2020 trên chuyến bay của hãng hàng không Emirates, số hiệu EK364."
+	},
+	"83": {
+		"gender": "female",
+		"age": 50,
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["TK162"],
+		"source": ["Thái Lan"],
+		"description": "nữ, 50 tuổi, quốc tịch Hoa Kỳ, trú tại quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân đi Phuket - Thái Lan và từ Istanbul - Thổ Nhĩ Kỳ lên chuyến bay của hãng hàng không Turkish Airline, số hiệu TK162 về tới Việt Nam ngày 15/3/2020."
+	},
+	"84": {
+		"gender": "male",
+		"age": 21,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["VN0054"],
+		"source": ["GB"],
+		"description": "nam, 21 tuổi ở Đống Đa, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 18/03/2020 trên chuyến bay VN0054."
+	},
+	"85": {
+		"gender": "male",
+		"age": 20,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-19",
+		"status": "positive",
+		"flights": ["VN0054"],
+		"source": ["GB"],
+		"description": "nam, 20 tuổi ở Ba Đình, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 18/03/2020 trên chuyến bay VN0054."
+	},
+	"86": {
+		"gender": "female",
+		"age": 54,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-20",
+		"status": "positive",
+		"flights": null,
+		"source": ["VN"],
+		"description": " nữ 54 tuổi, điều dưỡng của Phòng khám ngoại trú HIV - Trung tâm Bệnh nhiệt đới thuộc Bệnh viện Bạch Mai, trở về sau kỳ nghỉ ở Côn Đảo."
+	},
+	"87": {
+		"gender": "female",
+		"age": 34,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-20",
+		"status": "positive",
+		"flights": null,
+		"source": ["86"],
+		"description": "nữ, 34 tuổi, điều dưỡng làm việc tiếp đón tại khu cách ly Trung tâm Bệnh nhiệt đới thuộc Bệnh viện Bạch Mai. Qua rà soát cho thấy, bệnh nhân có nhiều lần tiếp xúc gần với BN86."
+	},
+	"88": {
+		"gender": "female",
+		"age": 25,
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-20",
+		"status": "positive",
+		"flights": null,
+		"source": ["GB"],
+		"description": "nữ, 25 tuổi trú tại Hà Đông, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 12/03/2020."
+	},
+	"89": {
+		"gender": "female",
+		"age": 22,
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-20",
+		"status": "positive",
+		"flights": ["NH831"],
+		"source": ["JP"],
+		"description": "nữ, quốc tịch Việt Nam, 22 tuổi ở Quận 7, TP Hồ Chí Minh. Bệnh nhân về sân bay Tân Sơn Nhất khuya ngày 17/3/2020 từ Nhật Bản trên chuyến bay có số hiệu NH 831."
+	},
+	"90": {
+		"gender": "female",
+		"age": 21,
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"positiveDate": "2020-03-20",
+		"status": "positive",
+		"flights": ["EK392"],
+		"source": ["ES"],
+		"description": "nữ,  21 tuổi, quốc tịch Việt Nam ở Quận Bình Thạnh, TP.HCM. Bệnh nhân từ Tây Ban Nha đi Dubai và về tới sân bay Tân Sơn Nhất ngày 16/3/2020 trên chuyến bay của hãng hàng không Emirates số hiệu EK392."
+	},
+	"91": {
+		"gender": "male",
+		"age": 43,
+		"residence": "Hồ Chí Minh",
+		"nationality": "Anh",
+		"positiveDate": "2020-03-20",
+		"status": "positive",
+		"flights": null,
+		"source": ["GB"],
+		"description": "nam, quốc tịch Anh, 43 tuổi, trú tại Quận 2, TP.HCM là phi công hãng hàng không Vietnam Airline."
 	}
 }

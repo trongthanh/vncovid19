@@ -1,6 +1,7 @@
 {
 	"VN0054": {
 		"dateArrive": "2020-03-02",
+		"airline": "Vietnam Airlines",
 		"from": {
 			"country": "Anh",
 			"city": "London"
@@ -13,6 +14,7 @@
 	},
 	"VJ981": {
 		"dateArrive": "2020-03-04",
+		"airline": "VietJet Air",
 		"from": {
 			"country": "Hàn Quốc",
 			"city": "Busan"
@@ -73,6 +75,7 @@
 	},
 	"QR968": {
 		"dateArrive": "2020-03-13",
+		"airline": "Qatar Airways",
 		"from": {
 			"country": "EU"
 		},
@@ -84,6 +87,7 @@
 	},
 	"QR970": {
 		"dateArrive": "2020-03-10",
+		"airline": "Qatar Airways",
 		"from": {
 			"country": "EU"
 		},
@@ -94,7 +98,8 @@
 		}
 	},
 	"TK162": {
-		"dateArrive": "2020-03-08",
+		"dateArrive": "2020-03-10",
+		"airline": "Turkish Airlines",
 		"from": {
 			"country": "EU"
 		},
@@ -104,8 +109,22 @@
 			"airport": "Tân Sơn Nhất"
 		}
 	},
+	"EK392@2020-03-12": {
+		"dateArrive": "2020-03-12",
+		"airline": "Emirates Airlines",
+		"from": {
+			"country": "United Arab Emirates",
+			"city": "Dubai"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Ho Chí Minh",
+			"airport": "Tân Sơn Nhất"
+		}
+	},
 	"VN0018": {
-		"dateArrive": "2020-03-",
+		"dateArrive": "2020-03-16",
+		"airline": "Vietnam Airlines",
 		"from": {
 			"country": "EU"
 		},
@@ -117,8 +136,34 @@
 	},
 	"VJ826": {
 		"dateArrive": "2020-03-04",
+		"airline": "VietJet Air",
 		"from": {
 			"country": "Malaysia"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Ho Chí Minh",
+			"airport": "Tân Sơn Nhất"
+		}
+	},
+	"QR976": {
+		"dateArrive": "2020-03-17",
+		"airline": "Qatar Airways",
+		"from": {
+			"country": "EU"
+		},
+		"to": {
+			"country": "Việt Nam",
+			"city": "Ho Chí Minh",
+			"airport": "Tân Sơn Nhất"
+		}
+	},
+	"EK392@2020-03-16": {
+		"dateArrive": "2020-03-16",
+		"airline": "Emirates Airlines",
+		"from": {
+			"country": "United Arab Emirates",
+			"city": "Dubai"
 		},
 		"to": {
 			"country": "Việt Nam",

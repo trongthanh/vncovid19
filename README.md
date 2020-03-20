@@ -15,7 +15,7 @@ Dữ liệu mở thu thập từ trang [thông tin chính thức](https://ncov.m
         "positiveDate": "2020-03-06", // ngày xác nhận dương tính
         "status": "positive",      // tình trạng hiện tại
         "flights": ["VN0054"],     // mã chuyến bay
-        "contractFrom": "Anh",     // bị lây nhiễm từ (nước ngoài)
+        "source": ["Anh"],         // nguồn từ (nước ngoài hoặc mã BN)
         "description": "Nữ 26 tuổi đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020"
     }
 }

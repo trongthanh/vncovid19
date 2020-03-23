@@ -1202,5 +1202,41 @@
 		"flights": null,
 		"source": ["KH"],
 		"description": "nữ, 23 tuổi, trú tại huyện Châu Phú, tỉnh An Giang. Hai tuần gần đây bệnh nhân từ Việt Nam sang Campuchia làm nhân viên casino Galaxy và về Việt Nam ngày 19/3/2020 qua cửa khẩu Mộc Bài-Tây Ninh."
+	},
+	"119": {
+		"positiveDate": "2020-03-23",
+		"gender": "nam",
+		"age": 29,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Mỹ",
+		"status": "positive",
+		"flights": null,
+		"source": ["TH"],
+		"description": "nam, 29 tuổi, quốc tịch Mỹ, trú tại Quận Bình Thạnh, TP. Hồ Chí Minh. Từ ngày 01/3 đến ngày 15/3/2020, bệnh nhân thường xuyên di chuyển giữa Việt Nam, Indonesia, Thái Lan và về lại Việt Nam ngày 15/3/2020."
+	},
+	"120": {
+		"positiveDate": "2020-03-23",
+		"gender": "nam",
+		"age": 27,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Canada",
+		"status": "positive",
+		"flights": null,
+		"source": ["91"],
+		"description": "nam, quốc tịch Canada, 27 tuổi, trú tại Quận 2, TP. Hồ Chí Minh. Bệnh nhân từ Canada vào Việt Nam từ ngày 11/2/2020 đến nay, bệnh nhân trực tiếp tiếp xúc với BN91 từ ngày 14/3/2020 tại một số quán ăn, nơi vui chơi, trong đó có quán Bar Buddha."
+	},
+	"121": {
+		"positiveDate": "2020-03-23",
+		"gender": "nam",
+		"age": 58,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Canada",
+		"status": "positive",
+		"flights": ["NH831"],
+		"source": ["US"],
+		"description": "nam, 58 tuổi, trú tại Quận Tân Bình, TP. Hồ Chí Minh. Ngày 19/3/2020 nhập cảnh Cảng hàng không quốc tế Tân Sơn Nhất trên chuyến bay số hiệu NH831 từ New York- Hoa Kỳ về Việt Nam, quá cảnh tại Narita - Nhật Bản."
 	}
 }

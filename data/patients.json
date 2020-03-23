@@ -1111,7 +1111,7 @@
 		"positiveDate": "2020-03-22",
 		"gender": "female",
 		"age": 25,
-		"treatmentLocation": "Hà Nội",
+		"treatmentLocation": "Hưng Yên",
 		"residence": "Nam Định",
 		"nationality": "Việt Nam",
 		"status": "positive",
@@ -1123,7 +1123,7 @@
 		"positiveDate": "2020-03-22",
 		"gender": "female",
 		"age": 30,
-		"treatmentLocation": "Hà Nội",
+		"treatmentLocation": "Hưng Yên",
 		"residence": "Hà Nội",
 		"nationality": "Việt Nam",
 		"status": "positive",
@@ -1145,7 +1145,7 @@
 	},
 	"114": {
 		"positiveDate": "2020-03-23",
-		"gender": "nam",
+		"gender": "male",
 		"age": 19,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -1157,7 +1157,7 @@
 	},
 	"115": {
 		"positiveDate": "2020-03-23",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 44,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -1169,7 +1169,7 @@
 	},
 	"116": {
 		"positiveDate": "2020-03-23",
-		"gender": "nam",
+		"gender": "male",
 		"age": 29,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -1178,5 +1178,29 @@
 		"flights": null,
 		"source": ["VN"],
 		"description": "nam, 29 tuổi, quốc tịch Việt Nam, bác sỹ khoa Cấp cứu, Bệnh viện Bệnh nhiệt đới trung ương cơ sở Đông Anh, tham gia chống dịch COVID-19 từ 31/1/2020."
+	},
+	"117": {
+		"positiveDate": "2020-03-23",
+		"gender": "male",
+		"age": 30,
+		"treatmentLocation": "Tây Ninh",
+		"residence": "Long An",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["KH"],
+		"description": "nam, 30 tuổi, trú tại huyện Tân Hưng, Long An, làm nghề công nghệ thông tin. Từ ngày 09/3/2020 đến ngày 19/3/2020, bệnh nhân du lịch ở Campuchia và về Việt Nam qua cửa khẩu Mộc Bài-Tây Ninh."
+	},
+	"118": {
+		"positiveDate": "2020-03-23",
+		"gender": "female",
+		"age": 23,
+		"treatmentLocation": "Tây Ninh",
+		"residence": "An Giang",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["KH"],
+		"description": "nữ, 23 tuổi, trú tại huyện Châu Phú, tỉnh An Giang. Hai tuần gần đây bệnh nhân từ Việt Nam sang Campuchia làm nhân viên casino Galaxy và về Việt Nam ngày 19/3/2020 qua cửa khẩu Mộc Bài-Tây Ninh."
 	}
 }

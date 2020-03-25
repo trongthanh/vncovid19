@@ -1,4 +1,5 @@
 {
+	"CN": "Trung Quốc",
 	"EU": "Châu Âu",
 	"ES": "Tây Ban Nha",
 	"GB": "Anh",
@@ -7,10 +8,12 @@
 	"KR": "Hàn Quốc",
 	"JP": "Nhật",
 	"HU": "Hungary",
-	"CZ": "Cộng hòa Séc",
 	"MY": "Malaysia",
+	"SG": "Singapore",
 	"US": "Mỹ",
 	"NL": "Hà Lan",
 	"KH": "Campuchia",
-	"TH": "Thái Lan"
+	"TH": "Thái Lan",
+	"DK": "Đan Mạch",
+	"DE": "Đức"
 }

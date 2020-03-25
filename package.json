@@ -1,0 +1,20 @@
+{
+  "name": "t3-covid-tracker",
+  "version": "1.0.0",
+  "description": "Dữ liệu mở thu thập từ trang [thông tin chính thức](https://ncov.moh.gov.vn) của [Bộ Y Tế Việt Nam](https://moh.gov.vn), dùng cho data visualization.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongthanh/covid19-vn-tracker.git"
+  },
+  "author": "Thanh Tran <trongthanh@gmail.com> (https://int3ractive.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trongthanh/covid19-vn-tracker/issues"
+  },
+  "homepage": "https://github.com/trongthanh/covid19-vn-tracker#readme"
+}

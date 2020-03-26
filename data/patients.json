@@ -1,83 +1,195 @@
 {
 	"1": {
 		"positiveDate": "2020-01-23",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"dischargeDate": "2020-01-29",
+		"gender": "male",
+		"age": 66,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Trung Quốc",
+		"nationality": "Trung Quốc",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "Hai trường hợp xác nhận nhiễm bệnh đầu tiên đã nhập viện vào Bệnh viện Chợ Rẫy, Thành phố Hồ Chí Minh ngày 22 tháng 1 năm 2020, bao gồm một người đàn ông Trung Quốc 66 tuổi (#1) đi từ Vũ Hán đến Hà Nội để thăm con trai sống ở Việt Nam, và con trai 28 tuổi (#2), người được cho là đã bị lây bệnh từ cha mình khi họ gặp gỡ tại Nha Trang."
 	},
 	"2": {
 		"positiveDate": "2020-01-23",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"dischargeDate": "2020-02-12",
+		"gender": "male",
+		"age": 28,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Trung Quốc",
+		"status": "negative",
+		"source": ["1"],
+		"description": "Hai trường hợp xác nhận nhiễm bệnh đầu tiên đã nhập viện vào Bệnh viện Chợ Rẫy, Thành phố Hồ Chí Minh ngày 22 tháng 1 năm 2020, bao gồm một người đàn ông Trung Quốc 66 tuổi (#1) đi từ Vũ Hán đến Hà Nội để thăm con trai sống ở Việt Nam, và con trai 28 tuổi (#2), người được cho là đã bị lây bệnh từ cha mình khi họ gặp gỡ tại Nha Trang."
 	},
 	"3": {
-		"positiveDate": "2020-02-01",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-01-30",
+		"dischargeDate": "2020-02-03",
+		"gender": "female",
+		"age": 25,
+		"treatmentLocation": "Thanh Hóa",
+		"residence": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "Một tuần sau, ngày 30 tháng 1, ba trường hợp dương tính đã được Bộ y tế xác nhận, liên quan đến việc công dân Việt Nam trở về từ Vũ Hán. Trường hợp #3 (phụ nữ - 25 tuổi) được cách ly và chữa khỏi ở tỉnh Thanh Hóa,"
 	},
 	"4": {
-		"positiveDate": "2020-02-01",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-01-30",
+		"dischargeDate": "2020-02-10",
+		"gender": "male",
+		"age": 29,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "trong khi hai trường hợp khác (#4: nam - 29 tuổi; #5: nữ - 23 tuổi) được cách ly tại Bệnh viện Nhiệt đới Trung ương."
 	},
 	"5": {
 		"positiveDate": "2020-02-01",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"dischargeDate": "2020-02-10",
+		"gender": "female",
+		"age": 23,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "trong khi hai trường hợp khác (#4: nam - 29 tuổi; #5: nữ - 23 tuổi) được cách ly tại Bệnh viện Nhiệt đới Trung ương."
 	},
 	"6": {
 		"positiveDate": "2020-02-01",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"dischargeDate": "",
+		"gender": "female",
+		"age": 25,
+		"treatmentLocation": "Nha Trang",
+		"residence": "Nha Trang",
+		"nationality": "Việt Nam",
+		"status": "negative",
+		"source": ["1"],
+		"description": "Vào ngày 1 tháng 2, một người phụ nữ 25 tuổi (#6) được xác định nhiễm virus corona tại tỉnh Khánh Hòa. Cô đã tiếp xúc với một nhân viên tiếp tân và có liên quan đến 2 cha con người Trung Quốc (trường hợp #1-2)."
 	},
 	"7": {
-		"positiveDate": "2020-02-03",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-02",
+		"dischargeDate": "",
+		"gender": "male",
+		"age": -1,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Mỹ",
+		"nationality": "Mỹ",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "Ngày 2 tháng 2, một người Mỹ gốc Việt (#7) đã bị nhiễm virus corona, do quá cảnh 2 giờ tại Sân bay quốc tế Thiên Hà Vũ Hán trong chuyến đi từ Mỹ đến Việt Nam"
 	},
 	"8": {
 		"positiveDate": "2020-02-03",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"dischargeDate": "",
+		"gender": "female",
+		"age": 29,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "Ngày 3 tháng 2, Việt Nam công bố trường hợp thứ 8 là một phụ nữ 29 tuổi (#8). Người này cùng trong một đội ngũ đào tạo với các trường hợp đã được xác nhận trước đó (trường hợp #3-4-5)"
 	},
 	"9": {
-		"positiveDate": "2020-02-06",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-04",
+		"dischargeDate": "2020-02-10",
+		"gender": "male",
+		"age": 30,
+		"treatmentLocation": "Vĩnh Phúc",
+		"residence": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "Ngày 4 tháng 2, một người đàn ông 30 tuổi (#9) được xác nhận nhiễm virus tại Vĩnh Phúc. Người này cùng với #8 nằm trong cùng trong một đội ngũ đào tạo với các trường hợp đã được xác nhận trước đó (trường hợp #3-4-5)"
 	},
 	"10": {
-		"positiveDate": "2020-02-06",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-04",
+		"dischargeDate": "",
+		"gender": "female",
+		"age": 42,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["5"],
+		"description": "Ngoài ra, trường hợp thứ #10 cũng được xác định là một người phụ nữ 42 tuổi, bị lây nhiễm do gặp và chào hỏi với trường hợp #5 trong kỳ nghỉ Tết âm lịch."
 	},
 	"11": {
-		"positiveDate": "2020-02-08",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-06",
+		"dischargeDate": "",
+		"gender": "female",
+		"age": 49,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["5"],
+		"description": "Mẹ (49 tuổi, #11) và em gái (16 tuổi, #12) của trường hợp #5 cũng được xác nhận bị nhiễm vào ngày 6 tháng 2"
 	},
 	"12": {
-		"positiveDate": "2020-02-08",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-06",
+		"dischargeDate": "",
+		"gender": "female",
+		"age": 16,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["5"],
+		"description": "Mẹ (49 tuổi, #11) và em gái (16 tuổi, #12) của trường hợp #5 cũng được xác nhận bị nhiễm vào ngày 6 tháng 2"
 	},
 	"13": {
-		"positiveDate": "2020-02-08",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-07",
+		"dischargeDate": "",
+		"gender": "male",
+		"age": 29,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["CN"],
+		"description": "Ngày 7 tháng 2, Việt Nam xác nhận trường hợp thứ #13, một công nhân 29 tuổi, là thành viên của cùng một đội ngũ đào tạo với 5 trường hợp được xác nhận trước đây (#3, 4, 5, 8, 9)"
 	},
 	"14": {
-		"positiveDate": "2020-02-10",
+		"positiveDate": "2020-02-9",
 		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"gender": "female",
+		"age": 55,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["5"],
+		"description": "Ngày 9 tháng 2, một phụ nữ 55 tuổi, một người hàng xóm của trường hợp #5, dương tính với virus, là trường hợp thứ #14."
 	},
 	"15": {
 		"positiveDate": "2020-02-11",
 		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"gender": "male",
+		"age": 0.25,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["10"],
+		"description": "Trường hợp thứ #15 được xác định vào ngày 11 tháng 2, một đứa cháu trai 3 tháng tuổi của trường hợp #10."
 	},
 	"16": {
-		"positiveDate": "2020-02-16",
-		"dischargeDate": "2020-02-13",
-		"source": ["CN"]
+		"positiveDate": "2020-02-13",
+		"dischargeDate": "2020-02-25",
+		"gender": "male",
+		"age": -1,
+		"treatmentLocation": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"residence": "Vĩnh Phúc",
+		"status": "negative",
+		"source": ["5"],
+		"description": "Ngày 13 tháng 2, cha của trường hợp #5 đã được xác định dương tính với virus, làm cho số lượng các trường hợp tại Vĩnh Phúc tăng lên 11 và Việt Nam tăng lên 16."
 	},
 	"17": {
 		"positiveDate": "2020-03-06",
@@ -1327,7 +1439,7 @@
 		"residence": "Hà Tĩnh",
 		"nationality": "Việt Nam",
 		"status": "positive",
-		"flights": ["TG947"],
+		"flights": ["TG947TG947"],
 		"source": ["TH"],
 		"description": "nữ, 24 tuổi ở huyện Can Lộc, tỉnh Hà Tĩnh, là nhân viên quán rượu tại Bangkok – Thái Lan. Ngày 20/3/2020, bệnh nhân từ Sân bay Quốc tế Suvarnabhumi - Thái Lan về đến Cảng hàng không quốc tế Đà Nẵng  trên chuyến bay số hiệu TG947."
 	},
@@ -1476,7 +1588,7 @@
 		"description": "nam, 10 tuổi ở Thạch Thất, Hà Nội, từ nước ngoài về Nội Bài ngày 18/03/2020 trên chuyến bay SU290."
 	},
 	"135": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "female",
 		"age": 27,
 		"treatmentLocation": "Hà Nội",
@@ -1488,7 +1600,7 @@
 		"description": "nữ, 27 tuổi (địa chỉ của bố mẹ ở quận Lê Chân, TP.Hải Phòng). Ngày 19/3/2020 bệnh nhân khởi hành từ Copenhagen, Đan Mạch, quá cảnh tại Doha và Bangkok, nhập cảnh Việt Nam ngày 21/3/2020 trên chuyến bay số hiệu PG947."
 	},
 	"136": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "female",
 		"age": 23,
 		"treatmentLocation": "Hà Nội",
@@ -1500,7 +1612,7 @@
 		"description": "nữ, 23 tuổi ở Hoàng Mai, Hà Nội. Bệnh nhân là học sinh từ Mỹ, nhập cảnh về Nội Bài ngày 16/03/2020."
 	},
 	"137": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "male",
 		"age": 36,
 		"treatmentLocation": "Hà Nội",
@@ -1512,7 +1624,7 @@
 		"description": "nam, 36 tuổi ở Yên Thành, Nghệ An, là du khách từ Đức, nhập cảnh về Nội Bài ngày 15/03/2020."
 	},
 	"138": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "male",
 		"age": 23,
 		"treatmentLocation": "Hà Nội",
@@ -1524,7 +1636,7 @@
 		"description": "nam, 23 tuổi ở Đống Đa, Hà Nội, là học sinh từ Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054."
 	},
 	"139": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "female",
 		"age": 24,
 		"treatmentLocation": "Hà Nội",
@@ -1536,7 +1648,7 @@
 		"description": "nữ, 24 tuổi ở Hai Bà Trưng, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054."
 	},
 	"140": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "male",
 		"age": 21,
 		"treatmentLocation": "Hà Nội",
@@ -1548,7 +1660,7 @@
 		"description": "nam, 21 tuổi ở Tây Hồ, Hà Nội, là du học sinh từ Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054."
 	},
 	"141": {
-		"positiveDate": "2020-03-24",
+		"positiveDate": "2020-03-25",
 		"gender": "male",
 		"age": 29,
 		"treatmentLocation": "Hà Nội",
@@ -1558,5 +1670,90 @@
 		"flights": null,
 		"source": ["28"],
 		"description": "nam, 29 tuổi, bác sỹ làm việc tại Khoa Cấp cứu, Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh, bị lây khi thao tác thiết lập máy thở cho BN28, phơi nhiễm cùng ngày với một bác sĩ khác là BN116."
+	},
+
+	"142": {
+		"positiveDate": "2020-03-26",
+		"gender": "male",
+		"age": 26,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["BR395"],
+		"source": ["US"],
+		"description": "nam, 26 tuổi ở huyện Bình Chánh, TP.Hồ Chí Minh, là du học sinh tại Hoa Kỳ. Bệnh nhân từ Hoa Kỳ và về tới Việt Nam ngày 10/3/2020 trên chuyến bay có số  hiệu BR395."
+	},
+	"143": {
+		"positiveDate": "2020-03-26",
+		"gender": "female",
+		"age": 58,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Nam Phi",
+		"status": "positive",
+		"flights": ["BR395"],
+		"source": ["US"],
+		"description": "nữ, 58 tuổi, quốc tịch Nam Phi thường trú quận Tân Phú, TP. Hồ Chí Minh. Từ Hoa Kỳ, quá cảnh tại Đài Loan và về tới Việt Nam ngày 21/3/2020 trên chuyến bay số hiệu BR395."
+	},
+	"144": {
+		"positiveDate": "2020-03-26",
+		"gender": "male",
+		"age": 22,
+		"treatmentLocation": "Cần Thơ",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["VN0050"],
+		"source": ["GB"],
+		"description": "nam, 22 tuổi, trú tại quận Phú Nhuận, TP. Hồ Chí Minh. Bệnh nhân từ Anh về Việt Nam trên chuyến bay của Vietnam Airlines VN0050 ngày 22/3/2020."
+	},
+	"145": {
+		"positiveDate": "2020-03-26",
+		"gender": "male",
+		"age": 34,
+		"treatmentLocation": "Cần Thơ",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["VN0050"],
+		"source": ["GB"],
+		"description": "nam, 34 tuổi trú quận Tân Phú, TP. Hồ Chí Minh. Bệnh nhân đáp chuyến bay VN0050 của Hãng hàng không VietnamAirlines, số ghế 28A, về tới sân bay Cần Thơ ngày 22/3/2020."
+	},
+	"146": {
+		"positiveDate": "2020-03-26",
+		"gender": "female",
+		"age": 17,
+		"treatmentLocation": "Đà Nẵng",
+		"residence": "Nghệ An",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["TG947"],
+		"source": ["122"],
+		"description": "nữ, 17 tuổi ở huyện Nghi Lộc,  Nghệ An, đi từ Thái Lan về ngày 20/03/2020, trước đó có tiếp xúc gần với ca dương tính xác định tại Đà Nẵng."
+	},
+	"147": {
+		"positiveDate": "2020-03-26",
+		"gender": "male",
+		"age": 19,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["VN0054"],
+		"source": ["GB"],
+		"description": "nam, 19 tuổi ở Cầu Giấy, Hà Nội, là du học sinh từ Anh, đáp chuyến bay VN0054 của Vietnam Airlines về Nội Bài ngày 21/03/2020."
+	},
+	"148": {
+		"positiveDate": "2020-03-26",
+		"gender": "male",
+		"age": 58,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Pháp",
+		"status": "positive",
+		"flights": ["VN0018"],
+		"source": ["FR"],
+		"description": "nam, 58 tuổi, quốc tịch Pháp thường trú ở Đống Đa, Hà Nội, là du khách từ Pháp đến Việt Nam ngày 12/03/2020 trên chuyến bay VN0018."
 	}
 }

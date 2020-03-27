@@ -4,8 +4,15 @@ const countries = {"AU":{"label":"Úc","icon":"icon-au.png"},"CN":{"label":"Trun
 const width = 900;
 const radius = width / 2;
 
-const dotScale = d3.scaleLog([1, 100], [3, 15]);
+const radiusScale = d3.scaleLog([1, 100], [3, 15]);
 const sepScale = d3.scaleLog([1, 100], [1, 2]);
+
+function getDotScale(d) {
+	if (d.data.label === 'Trung Quốc') {
+		console.log(d);
+	}
+	return radiusScale(d.children ? d.children.length : 1);
+}
 
 const radialTree = d3
 	.tree()
@@ -35,7 +42,6 @@ d3.json('data/patients.json').then((patients) => {
 	keys.forEach((no) => {
 		const patient = patients[no];
 		const sourceId = patient.source && patient.source[0];
-		/* global countries */
 		if (countries[sourceId]) {
 			countryIds.add(sourceId);
 		}
@@ -44,11 +50,15 @@ d3.json('data/patients.json').then((patients) => {
 	// only pick the country that's in the source of patients collection
 	const sourcesTable = [];
 	for (const id of countryIds) {
-		sourcesTable.push({
-			id,
-			parent: 'sars-cov-2',
-			label: countries[id].label,
-		});
+		sourcesTable.push(
+			Object.assign(
+				{
+					id,
+					parent: 'sars-cov-2',
+				},
+				countries[id]
+			)
+		);
 	}
 
 	const patientsTable = keys.map((id) => {
@@ -107,13 +117,13 @@ function renderChart(hierarchyData) {
 
 	const links = svg
 		.append('g')
-		.attr('fill', 'none')
-		.attr('stroke', '#555')
-		.attr('stroke-opacity', 0.4)
-		.attr('stroke-width', 1.5)
 		.selectAll('path')
 		.data(root.links())
-		.join('path');
+		.join('path')
+		.attr('fill', 'none')
+		.attr('stroke', ({ target }) => (target.data.status === 'negative' ? 'green' : '#555'))
+		.attr('stroke-opacity', 0.4)
+		.attr('stroke-width', 1.5);
 
 	// only draw the radial link from depth 1++
 	links
@@ -126,24 +136,56 @@ function renderChart(hierarchyData) {
 				.radius((d) => d.y)
 		);
 
-	svg
+	const dots = svg
 		.append('g')
-		.selectAll('circle')
+		.selectAll('g')
 		.data(root.descendants())
-		.join('circle')
+		.join('g')
 		.attr(
 			'transform',
 			(d) => `
         rotate(${(d.x * 180) / Math.PI - 90})
         translate(${d.y},0)
       `
-		)
+		);
+
+	// drag the center
+	dots
+		.filter((d) => d.depth === 0)
+		.append('circle')
+		.attr('fill', '#f0f0f0')
+		.attr('stroke', 'black')
+		.attr('stroke-width', 1)
+		.attr('r', (d) => `${d.children[0].y}`);
+
+	// patients and countries with scale based on children.length
+	dots
+		.filter((d) => d.depth > 0)
+		.append('circle')
 		.attr('fill', ({ data }) =>
 			!data.gender ? '#999' : data.gender === 'male' ? '#0066ff' : '#ff0000'
 		)
-		.attr('stroke', 'black')
-		.attr('stroke-width', 1)
-		.attr('r', (d) => (d.children ? dotScale(d.children.length) : 3));
+		.attr('stroke', (d) => (d.data.status === 'negative' ? 'green' : 'black'))
+		.attr('stroke-width', (d) => (d.data.status === 'negative' ? 1.5 : 1))
+		.attr('r', (d) => getDotScale(d))
+		.classed('tippy', true);
+
+	// flag image for countries
+	dots
+		.filter((d) => d.depth === 1)
+		.append('svg:image')
+		.attr('xlink:href', (d) => `img/${d.data.icon}`)
+		.attr('height', 3)
+		.attr('width', 3)
+		.attr('x', -1.5)
+		.attr('y', -1.5)
+		.attr(
+			'transform',
+			(d) => `
+        rotate(${90 - (d.x * 180) / Math.PI})
+        scale(${getDotScale(d) * 1.2})
+      `
+		);
 
 	const labels = svg
 		.append('g')

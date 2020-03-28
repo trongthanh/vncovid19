@@ -10,14 +10,16 @@ Một số thông tin được thu thập bổ sung từ trang [Wiki Đại dị
 {
     "17": // số thứ tự bệnh nhân, xem như ID
     {
-        "gender": "female", // male or female
-        "age": 26,
+        "positiveDate": "2020-03-06",  // ngày xác nhận dương tính
+        "dischargeDate": "2020-03-22", // ngày xác xác nhận khỏi bệnh
+        "gender": "female",            // male or female
+        "age": 26,                     // tuổi, gán -1 nếu không có
+        "treatmentLocation": "Hà Nội", // địa phương nơi có bệnh viện bệnh nhân được chữa
         "residence": "Hà Nội",     // nơi cư trú
         "nationality": "Việt Nam", // quốc tịch
-        "positiveDate": "2020-03-06", // ngày xác nhận dương tính
-        "status": "positive",      // tình trạng hiện tại
-        "flights": ["VN0054"],     // mã chuyến bay
-        "source": ["Anh"],         // nguồn từ (nước ngoài hoặc mã BN)
+        "status": "positive",      // tình trạng hiện tại (positive, negative, deseased)
+        "flights": ["VN0054"],     // (các) mã chuyến bay
+        "source": ["Anh"],         // nguồn lây từ (nước, ổ dịch hoặc mã BN)
         "description": "Nữ 26 tuổi đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020"
     }
 }

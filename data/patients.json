@@ -1013,7 +1013,7 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN"],
+		"source": ["BVBM"],
 		"description": " nữ 54 tuổi, điều dưỡng của Phòng khám ngoại trú HIV - Trung tâm Bệnh nhiệt đới thuộc Bệnh viện Bạch Mai, trở về sau kỳ nghỉ ở Côn Đảo."
 	},
 	"87": {
@@ -1579,7 +1579,7 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN"],
+		"source": ["BVBM"],
 		"description": "nữ, 66 tuổi ở Tân Phong, Lai Châu, trong tháng 3/2020 có đến Bệnh viện Bạch Mai điều trị bệnh và 22/03/2020 trở về nhà tại tỉnh Lai Châu."
 	},
 	"134": {
@@ -1915,7 +1915,7 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN", "133"],
+		"source": ["BVBM", "133"],
 		"description": "nữ, 88 tuổi , trú tại Văn Lâm, Hưng Yên, là người nằm cùng phòng với BN133 tại Phòng điều trị tự nguyên, Khoa Thần kinh Bệnh viện  Bạch Mai từ ngày 17-22/3/2020 ."
 	},
 	"162": {
@@ -1950,7 +1950,6 @@
 		"flights": ["VN0054"],
 		"source": ["GB"],
 		"description": "nam, 23 tuổi ở Rạch Giá, Kiên Giang. Bệnh nhân là du học sinh tại Anh, về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
-
 	},
 	"165": {
 		"positiveDate": "2020-03-28",
@@ -1963,7 +1962,6 @@
 		"flights": ["VN0054"],
 		"source": ["GB"],
 		"description": "nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
-
 	},
 	"166": {
 		"positiveDate": "2020-03-28",
@@ -1976,7 +1974,6 @@
 		"flights": ["TG564"],
 		"source": ["TH"],
 		"description": "nữ, 25 tuổi ở Lục Nam, Bắc Giang. Bệnh nhân sống tại Thái Lan, về Việt Nam ngày 20/03/2020 trên chuyến bay mang số hiệu TG564."
-
 	},
 	"167": {
 		"positiveDate": "2020-03-28",
@@ -1989,7 +1986,6 @@
 		"flights": ["QR976"],
 		"source": ["DK"],
 		"description": "nữ, 20 tuổi, quốc tịch Đan Mạch, ngày 8/3/2020 cùng bạn nhập cảnh sân bay Hà Nội trên chuyến bay số hiệu QR976."
-
 	},
 	"168": {
 		"positiveDate": "2020-03-28",
@@ -2000,7 +1996,7 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN"],
+		"source": ["BVBM"],
 		"description": "nữ, là nhân viên cung cấp nước sôi của Bệnh viện Bạch Mai (sẽ cập nhật thêm)."
 	},
 	"169": {
@@ -2012,9 +2008,8 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN"],
+		"source": ["BVBM"],
 		"description": "nữ, là nhân viên cung cấp nước sôi của Bệnh viện Bạch Mai (sẽ cập nhật thêm)."
-
 	},
 	"170": {
 		"positiveDate": "2020-03-28",
@@ -2025,9 +2020,8 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN"],
+		"source": ["BVBM"],
 		"description": "nam, 27 tuổi ở huyện Kim Sơn, tỉnh Ninh Bình. Ngày 20 - 22/3 ở Bệnh viện Bạch Mai chăm bố chữa bệnh, đến mua và ăn cơm 5 lần ở quầy số 1 căng tin Bệnh viện Bạch Mai."
-
 	},
 	"171": {
 		"positiveDate": "2020-03-28",
@@ -2040,7 +2034,6 @@
 		"flights": null,
 		"source": ["US"],
 		"description": "nữ, 19 tuổi, có địa chỉ tại quận 10, TP. Hồ Chí Minh, là du học sinh tại Mỹ. Bệnh nhân từ Mỹ về, quá cảnh ở Philippines, nhập cảnh Việt Nam ngày 13/3/2020."
-
 	},
 	"172": {
 		"positiveDate": "2020-03-28",
@@ -2053,7 +2046,6 @@
 		"flights": null,
 		"source": ["133"],
 		"description": " nữ, là con dâu bệnh nhân số 133, chăm sóc bệnh nhân 23 ngày."
-
 	},
 	"173": {
 		"positiveDate": "2020-03-28",
@@ -2066,7 +2058,6 @@
 		"flights": null,
 		"source": ["RU"],
 		"description": "nữ, quốc tịch Việt Nam,  sống và làm việc Mátxcơva (LB Nga) về nước ngày 25/3/2020."
-
 	},
 	"174": {
 		"positiveDate": "2020-03-28",
@@ -2077,7 +2068,175 @@
 		"nationality": "Việt Nam",
 		"status": "positive",
 		"flights": null,
-		"source": ["VN"],
+		"source": ["BVBM"],
 		"description": " nữ, làm việc tại nhà ăn Bệnh viện Bạch Mai"
+	},
+	"175": {
+		"positiveDate": "2020-03-29",
+		"gender": "male",
+		"age": 57,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nam, 57 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người."
+	},
+	"176": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 38,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nữ, 38 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người."
+	},
+	"177": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 49,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nữ, 49 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người."
+	},
+	"178": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 44,
+		"treatmentLocation": "Thái Nguyên",
+		"residence": "Thái Nguyên",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nữ, 44 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai. Hiện bệnh nhân được cách ly, điều trị tại Đại Từ, Thái Nguyên."
+	},
+	"179": {
+		"positiveDate": "2020-03-29",
+		"gender": "",
+		"age": 62,
+		"treatmentLocation": "Thanh Hóa",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["EU"],
+		"description": "62 tuổi, có địa chỉ ở quận Hà Đông, TP Hà Nội, từ nước ngoài về trên chuyến bay EK394, nhập cảnh ngày 18/03."
+	},
+	"180": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 27,
+		"treatmentLocation": "Ninh Bình",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["TG564"],
+		"source": ["FR"],
+		"description": "nữ, 27 tuổi địa chỉ tại Mỹ Đức, Hà Nội, du học sinh tại Pháp (quá cảnh Thái Lan) về Nội Bài ngày 20/03/2020 trên chuyến bay TG564."
+	},
+	"181": {
+		"positiveDate": "2020-03-29",
+		"gender": "male",
+		"age": 33,
+		"treatmentLocation": "Ninh Bình",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["TG564"],
+		"source": ["TH"],
+		"description": "nam, 33 tuổi ở Hà Nội, từ Thái Lan về Việt Nam ngày 20/03/2020 trên chuyến bay TG564."
+	},
+	"182": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 19,
+		"treatmentLocation": "Ninh Bình",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["VN618"],
+		"source": ["CH"],
+		"description": "nữ, 19 tuổi, ở Hà Nội, du học sinh từ Thuỵ Sỹ (quá cảnh Thái Lan) về Nội Bài ngày 20/03/2020 trên chuyến bay VN618."
+	},
+	"183": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 43,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["148"],
+		"description": "nữ, 43 tuổi, địa chỉ tại Cầu Giấy, Hà Nội; là phóng viên có tiếp xúc gần (phỏng vấn) với bệnh nhân số 148 ngày 12/3/2020."
+	},
+	"184": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 43,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Vĩnh Phúc",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": ["SU290"],
+		"source": ["RU"],
+		"description": "nữ, 43 tuổi ở huyện Phúc Yên, tỉnh Vĩnh Phúc, từ Nga về Việt Nam trên chuyến bay SU290 ngày 25/03/2020."
+	},
+	"185": {
+		"positiveDate": "2020-03-29",
+		"gender": "male",
+		"age": 38,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nam, 38 tuổi. địa chỉ ở Hoài Đức, Hà Nội, điều trị 8 ngày tại khoa Thần Kinh bệnh viện Bạch Mai."
+	},
+	"186": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 52,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Pháp",
+		"nationality": "Pháp",
+		"status": "positive",
+		"flights": ["TK162"],
+		"source": ["FR", "76"],
+		"description": "nữ, 52 tuổi, quốc tịch Pháp, là vợ của bệnh nhân số 76, đến Sân bay Tân Sơn Nhất ngày 10/03/2020 trên chuyến bay TK162."
+	},
+	"187": {
+		"positiveDate": "2020-03-29",
+		"gender": "male",
+		"age": 30,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Mỹ",
+		"status": "positive",
+		"flights": ["VN0054"],
+		"source": ["US"],
+		"description": "nam, 30 tuổi, quốc tịch Mỹ, trú tại Tây Hồ, Hà Nội. Từ nước ngoài về sân bay Nội Bài trên chuyến bay VN0054 ngày 13/03/2020."
+	},
+	"188": {
+		"positiveDate": "2020-03-29",
+		"gender": "female",
+		"age": 44,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nữ, 44 tuổi, địa chỉ tại Mỹ Đức, Hà Nội, là nhân viên của công ty Trường Sinh cung cấp nước sôi cho Bệnh viện Bạch Mai."
 	}
 }

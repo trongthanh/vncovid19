@@ -740,12 +740,13 @@
 	},
 	"64": {
 		"positiveDate": "2020-03-17",
+		"dischargeDate": "2020-03-29",
 		"gender": "female",
 		"age": 36,
 		"treatmentLocation": "Ho Chi Minh",
 		"residence": "Ho Chi Minh",
 		"nationality": "Việt Nam",
-		"status": "positive",
+		"status": "negative",
 		"source": ["EU"],
 		"description": "nữ, 36 tuổi, trú quận 8, TP.HCM đi cùng bạn trai từ Thuỵ Sỹ tới Dubai và về Việt Nam ngày 12/3/2020 trên chuyến bay EK392 từ Thuỵ Sỹ quá cảnh Dubai về Cảng hàng không sân bay Tân Sơn Nhất."
 	},
@@ -762,12 +763,13 @@
 	},
 	"66": {
 		"positiveDate": "2020-03-17",
+		"dischargeDate": "2020-03-29",
 		"gender": "female",
 		"age": 21,
 		"treatmentLocation": "Ho Chi Minh",
 		"residence": "Ho Chi Minh",
 		"nationality": "Việt Nam",
-		"status": "positive",
+		"status": "negative",
 		"flights": ["BR395"],
 		"source": ["US"],
 		"description": "nữ, 21 tuổi, trú quận 7, TP.HCM. Ngày 14/3 bệnh nhân đi từ Mỹ ( Pennsylvania - Philadenphia) tới Toronto - Canada và quá cảnh ở Đài Loan, về tới Việt Nam ngày 16/3 trên chuyến bay BR395."
@@ -919,12 +921,13 @@
 	},
 	"79": {
 		"positiveDate": "2020-03-19",
+		"dischargeDate": "2020-03-29",
 		"gender": "female",
 		"age": 48,
 		"treatmentLocation": "Bạc Liêu",
 		"residence": "Bạc Liêu",
 		"nationality": "Việt Nam",
-		"status": "positive",
+		"status": "negative",
 		"flights": ["EK392"],
 		"source": ["GB"],
 		"description": "nữ, 48 tuổi quê tỉnh Bạc Liêu, sống tại Anh gần 2 năm nay. Ngày 14/3/2020, từ London (Anh) đi Dubai và sau đó về Việt Nam ngày 15/3 trên chuyến bay của hãng hàng không Emirates, số hiệu EK392."
@@ -1051,12 +1054,13 @@
 	},
 	"90": {
 		"positiveDate": "2020-03-20",
+		"dischargeDate": "2020-03-29",
 		"gender": "female",
 		"age": 21,
 		"treatmentLocation": "Hồ Chí Minh",
 		"residence": "Hồ Chí Minh",
 		"nationality": "Việt Nam",
-		"status": "positive",
+		"status": "negative",
 		"flights": ["EK392"],
 		"source": ["ES"],
 		"description": "nữ,  21 tuổi, quốc tịch Việt Nam ở Quận Bình Thạnh, TP.HCM. Bệnh nhân từ Tây Ban Nha đi Dubai và về tới sân bay Tân Sơn Nhất ngày 16/3/2020 trên chuyến bay của hãng hàng không Emirates số hiệu EK392."

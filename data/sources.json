@@ -9,6 +9,7 @@
 	"EU": { "label": "Châu Âu",        "icon": "icon-eu.png" },
 	"FR": { "label": "Pháp",           "icon": "icon-fr.png" },
 	"GB": { "label": "Anh",            "icon": "icon-gb.png" },
+	"GR": { "label": "Hy Lạp",         "icon": "icon-gr.png" },
 	"HU": { "label": "Hungary",        "icon": "icon-hu.png" },
 	"JP": { "label": "Nhật",           "icon": "icon-jp.png" },
 	"KH": { "label": "Campuchia",      "icon": "icon-kh.png" },

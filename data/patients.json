@@ -1972,6 +1972,8 @@
 		"gender": "male",
 		"age": 23,
 		"treatmentLocation": "Hà Nội",
+		"residence": "Kiên Giang",
+		"nationality": "Việt Nam",
 		"flights": ["VN0054"],
 		"source": ["GB"],
 		"description": "nam, 23 tuổi ở Rạch Giá, Kiên Giang. Bệnh nhân là du học sinh tại Anh, về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
@@ -2268,7 +2270,7 @@
 
 	"189": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 46,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Thanh Hóa",
@@ -2280,7 +2282,7 @@
 	},
 	"190": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 49,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2292,7 +2294,7 @@
 	},
 	"191": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 36,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2304,7 +2306,7 @@
 	},
 	"192": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 23,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2316,7 +2318,7 @@
 	},
 	"193": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 21,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2328,7 +2330,7 @@
 	},
 	"194": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 42,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2340,7 +2342,7 @@
 	},
 	"195": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 41,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2352,7 +2354,7 @@
 	},
 	"196": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 34,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2364,7 +2366,7 @@
 	},
 	"197": {
 		"positiveDate": "2020-03-30",
-		"gender": "nam",
+		"gender": "male",
 		"age": 41,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2376,7 +2378,7 @@
 	},
 	"198": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 53,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2388,7 +2390,7 @@
 	},
 	"199": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 57,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2400,7 +2402,7 @@
 	},
 	"200": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 61,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2412,7 +2414,7 @@
 	},
 	"201": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 23,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2424,7 +2426,7 @@
 	},
 	"202": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 57,
 		"treatmentLocation": "Hà Nội",
 		"residence": "Hà Nội",
@@ -2436,7 +2438,7 @@
 	},
 	"203": {
 		"positiveDate": "2020-03-30",
-		"gender": "nữ",
+		"gender": "female",
 		"age": 35,
 		"treatmentLocation": "Hồ Chí Minh",
 		"residence": "Hồ Chí Minh",
@@ -2448,7 +2450,7 @@
 	},
 	"204": {
 		"positiveDate": "2020-03-31",
-		"gender": "nam",
+		"gender": "male",
 		"age": 10,
 		"treatmentLocation": "Hồ Chí Minh",
 		"residence": "Hồ Chí Minh",
@@ -2457,5 +2459,41 @@
 		"flights": ["TK162"],
 		"source": ["CZ"],
 		"description": "nam, 10 tuổi có địa chỉ tại Quận 2, TP.HCM. Bệnh nhân đi từ CH Czech tới Thổ Nhĩ Kỳ vào ngày 14/03/2020 và từ Thổ Nhĩ Kỳ về tới Việt Nam ngày 15/3/2020 (cùng chuyến bay với BN83) trên chuyến bay số hiệu TK162."
+	},
+	"205": {
+		"positiveDate": "2020-03-31",
+		"gender": "male",
+		"age": 41,
+		"treatmentLocation": "Hà Nội",
+		"residence": "Hà Nội",
+		"nationality": "Việt Nam",
+		"status": "positive",
+		"flights": null,
+		"source": ["BVBM"],
+		"description": "nam, 41 tuổi, nhân viên Công ty Trường Sinh, cung cấp dịch vụ cho Bệnh viện Bạch Mai."
+	},
+	"206": {
+		"positiveDate": "2020-03-31",
+		"gender": "male",
+		"age": 48,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Brazil",
+		"status": "positive",
+		"flights": null,
+		"source": ["124"],
+		"description": "nam, 48 tuổi, có địa chỉ tại Quận 2, TPHCM; là lái xe riêng của BN124 và BN151, hàng ngày đưa đón hai người đến các chi nhánh công ty tại Đồng Nai và TP Hồ Chí Minh."
+	},
+	"207": {
+		"positiveDate": "2020-03-31",
+		"gender": "male",
+		"age": 49,
+		"treatmentLocation": "Hồ Chí Minh",
+		"residence": "Hồ Chí Minh",
+		"nationality": "Brazil",
+		"status": "positive",
+		"flights": null,
+		"source": ["151", "124"],
+		"description": "nam, 49 tuổi, quốc tịch Brazil trú tại Quận 2, TP Hồ Chí Minh. Bệnh nhân là chồng BN151 và là đồng nghiệp BN124."
 	}
 }

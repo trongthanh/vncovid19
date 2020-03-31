@@ -2,7 +2,7 @@
 // inline from sources.json
 // prettier-ignore
 const countries = {"AU":{"label":"Úc","icon":"icon-au.png"},"CH":{"label":"Thụy Sĩ","icon":"icon-ch.png"},"CN":{"label":"Trung Quốc","icon":"icon-cn.png"},"CZ":{"label":"CH Séc","icon":"icon-cz.png"},"DE":{"label":"Đức","icon":"icon-de.png"},"DK":{"label":"Đan Mạch","icon":"icon-dk.png"},"ES":{"label":"Tây Ban Nha","icon":"icon-es.png"},"EU":{"label":"Châu Âu","icon":"icon-eu.png"},"FR":{"label":"Pháp","icon":"icon-fr.png"},"GB":{"label":"Anh","icon":"icon-gb.png"},"GR":{"label":"Hy Lạp","icon":"icon-gr.png"},"HU":{"label":"Hungary","icon":"icon-hu.png"},"JP":{"label":"Nhật","icon":"icon-jp.png"},"KH":{"label":"Campuchia","icon":"icon-kh.png"},"KR":{"label":"Hàn Quốc","icon":"icon-kr.png"},"MY":{"label":"Malaysia","icon":"icon-my.png"},"NL":{"label":"Hà Lan","icon":"icon-nl.png"},"RU":{"label":"Nga","icon":"icon-ru.png"},"SG":{"label":"Singapore","icon":"icon-sg.png"},"TH":{"label":"Thái Lan","icon":"icon-th.png"},"US":{"label":"Mỹ","icon":"icon-us.png"},"VN":{"label":"Việt Nam","icon":"icon-vn.png"},"BVBM":{"label":"BV Bạch Mai","icon":"icon-bvbm.png"}};
-const width = 900;
+const width = 1200;
 const radius = width / 2;
 
 const radiusScale = d3.scaleLog([1, 100], [3, 15]);

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx live-server .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/validate.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trongthanh/covid19-vn-tracker/issues"
   },
-  "homepage": "https://github.com/trongthanh/covid19-vn-tracker#readme"
+  "homepage": "https://github.com/trongthanh/covid19-vn-tracker#readme",
+  "devDependencies": {
+    "ajv": "^6.12.0"
+  }
 }

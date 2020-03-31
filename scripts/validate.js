@@ -1,26 +1,9 @@
-const patients = require('../data/patients.json');
+const Ajv = require('ajv');
 
-function validatePatients() {
-	const keys = Object.keys(patients);
-	const count = keys.length;
+const ajv = new Ajv();
+const validate = ajv.compile(require('../data/patients-schema.json'));
 
-	for (let num = 1; num <= count; num++) {
-		const patient = patients[num];
-		if (patient == null) {
-			throw new Error(`Patient ${num} is undefined`);
-		}
+const patientsJson = require('../data/patients.json');
 
-		if (patient.positiveDate == null) {
-			throw new Error(`Patient ${num} doesn't have positiveDate`);
-		}
-
-		if (patient.source == null || patient.source[0] == null) {
-			throw new Error(`Patient ${num} doesn't have source`);
-		}
-	}
-
-	return true;
-}
-
-if (validatePatients()) console.log('OK');
-else console.log('Errors');
+if (validate(patientsJson)) console.log('patients.json OK');
+else console.log('Errors:', validate.errors);

@@ -1974,6 +1974,7 @@
 		"treatmentLocation": "Hà Nội",
 		"residence": "Kiên Giang",
 		"nationality": "Việt Nam",
+		"status": "positive",
 		"flights": ["VN0054"],
 		"source": ["GB"],
 		"description": "nam, 23 tuổi ở Rạch Giá, Kiên Giang. Bệnh nhân là du học sinh tại Anh, về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."

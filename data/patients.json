@@ -1,10 +1,10 @@
 {
-	"modified": "2020-04-01T14:47:44+07:00",
+	"modified": "2020-04-02T00:56:39+07:00",
 	"total": 212,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
-			"dischargeDate": "2020-01-29",
+			"dischargeDate": "2020-01-12",
 			"gender": "male",
 			"age": 66,
 			"treatmentLocation": "Hồ Chí Minh",
@@ -159,7 +159,7 @@
 			"description": "Ngày 7 tháng 2, Việt Nam xác nhận trường hợp thứ #13, một công nhân 29 tuổi, là thành viên của cùng một đội ngũ đào tạo với 5 trường hợp được xác nhận trước đây (#3, 4, 5, 8, 9)"
 		},
 		"14": {
-			"positiveDate": "2020-02-9",
+			"positiveDate": "2020-02-09",
 			"dischargeDate": "2020-02-13",
 			"gender": "female",
 			"age": 55,
@@ -220,7 +220,7 @@
 			"description": "nam 27 tuổi, quê Thái Bình đến Daegu (Hàn Quốc) và trở về Việt Nam ngày 4/3/2020 "
 		},
 		"19": {
-			"positiveDate": "2020-03-0",
+			"positiveDate": "2020-03-07",
 			"gender": "female",
 			"age": 64,
 			"treatmentLocation": "Hà Nội",
@@ -294,12 +294,13 @@
 		},
 		"25": {
 			"positiveDate": "2020-03-08",
+			"dischargeDate": "2020-03-30",
 			"gender": "male",
 			"age": 70,
 			"treatmentLocation": "",
 			"residence": "",
 			"nationality": "Anh",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"description": "70 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
@@ -530,12 +531,13 @@
 		},
 		"45": {
 			"positiveDate": "2020-03-14",
+			"dischargeDate": "2020-04-01",
 			"gender": "male",
 			"age": -1,
 			"treatmentLocation": "Ho Chi Minh",
 			"residence": "Ho Chi Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["34"],
 			"description": "nam, trú quán tại quận Tân Bình, TP. Hồ Chí Minh có tiếp xúc gần với BN34 ngày 3/3/2020."
 		},
@@ -566,12 +568,13 @@
 		},
 		"48": {
 			"positiveDate": "2020-03-14",
+			"dischargeDate": "2020-04-01",
 			"gender": "male",
 			"age": 31,
 			"treatmentLocation": "Ho Chi Minh",
 			"residence": "Ho Chi Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["45", "34"],
 			"description": "nam 31 tuổi, trú quán tại quận 10, thành phố Hồ Chí Minh, ngồi chung xe ô tô với BN45 và cùng gặp gỡ với BN34 "
 		},
@@ -640,7 +643,7 @@
 		},
 		"54": {
 			"positiveDate": "2020-03-15",
-			"dischargeDate": "2020-03-30",
+			"dischargeDate": "2020-03-31",
 			"gender": "male",
 			"age": 33,
 			"treatmentLocation": "Latvia",
@@ -727,12 +730,13 @@
 		},
 		"61": {
 			"positiveDate": "2020-03-16",
+			"dischargeDate": "2020-03-29",
 			"gender": "male",
 			"age": 42,
 			"treatmentLocation": "Ninh Thuận",
 			"residence": "Ninh Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VJ826"],
 			"source": ["MY"],
 			"description": "nam giới 42 tuổi, trú quán huyện Thuận Nam, tỉnh Ninh Thuận từ Malaysia về sân bay Tân Sơn Nhất ngày 4/3/2020 trên chuyến bay VJ826."
@@ -774,12 +778,13 @@
 		},
 		"65": {
 			"positiveDate": "2020-03-17",
+			"dischargeDate": "2020-04-01",
 			"gender": "female",
 			"age": 28,
 			"treatmentLocation": "Ho Chi Minh",
 			"residence": "Ho Chi Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["45", "48"],
 			"description": "nữ, 28 tuổi trú quận Gò Vấp, TP.HCM có tiếp xúc và làm việc cùng BN45,48 vào các ngày 7/3 và 10/3."
 		},
@@ -798,12 +803,13 @@
 		},
 		"67": {
 			"positiveDate": "2020-03-18",
+			"dischargeDate": "2020-03-29",
 			"gender": "male",
 			"age": 36,
 			"treatmentLocation": "Ninh Thuận",
 			"residence": "Ninh Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VJ826"],
 			"source": ["MY"],
 			"description": "nam, 36 tuổi trú quán huyện Thuận Nam, tỉnh Ninh Thuận, là người đi cùng BN61 đến Malaysia và về Việt Nam ngày 04/3/2020 trên chuyến bay VJ826. "
@@ -873,12 +879,13 @@
 		},
 		"73": {
 			"positiveDate": "2020-03-18",
+			"dischargeDate": "2020-03-29",
 			"gender": "male",
 			"age": 11,
 			"treatmentLocation": "Hải Dương",
 			"residence": "Hải Dương",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"description": "nam, 11 tuổi ở Huyện Thanh Miện, Hải Dương, về Việt Nam trên chuyến bay VN0054 ngày 09/03/2020."
@@ -897,7 +904,7 @@
 		},
 		"75": {
 			"positiveDate": "2020-03-18",
-			"dischargeDate": "2020-03-31",
+			"dischargeDate": "2020-03-30",
 			"gender": "female",
 			"age": 40,
 			"treatmentLocation": "Ho Chi Minh",
@@ -2567,6 +2574,78 @@
 			"flights": ["SU290"],
 			"source": ["RU"],
 			"description": "nữ, 35 tuổi, có địa chỉ tại Hưng Hà, Thái Bình. Bệnh nhân cùng chồng từ Nga về Việt Nam ngày 27/3 trên chuyến bay mang số hiệu SU290."
+		},
+		"213": {
+			"positiveDate": "2020-04-01",
+			"gender": "female",
+			"age": 40,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nữ, 40 tuổi, có địa chỉ tại Thanh Oai, Hà Nội. Do sốt 38,6 độ C nên bệnh nhân đã cùng chồng đến khám tại Trung tâm nhiệt đới, Bệnh viện Bạch Mai."
+		},
+		"214": {
+			"positiveDate": "2020-04-01",
+			"gender": "female",
+			"age": 45,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nữ, 45 tuổi, nhân viên Công ty Trường Sinh, cung cấp dịch vụ cho Bệnh viện Bạch Mai."
+		},
+		"215": {
+			"positiveDate": "2020-04-01",
+			"gender": "male",
+			"age": 31,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nam, 31 tuổi, nhân viên công ty Trường Sinh, có địa chỉ tại Đống Đa, Hà Nội."
+		},
+		"216": {
+			"positiveDate": "2020-04-01",
+			"gender": "female",
+			"age": 48,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["DE"],
+			"description": "nữ, 48 tuổi, từ Đức trở về Việt Nam trên chuyến bay SU290 ngày 23/3."
+		},
+		"217": {
+			"positiveDate": "2020-04-01",
+			"gender": "female",
+			"age": 25,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Nghệ An",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["NH857"],
+			"source": ["JP"],
+			"description": "nữ, 25 tuổi, có địa chỉ tại Nam Đàn, Nghệ An. Bệnh nhân từ Nhật Bản về nước ngày 25/3/2020 trên chuyến bay NH857."
+		},
+		"218": {
+			"positiveDate": "2020-04-01",
+			"gender": "female",
+			"age": 43,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Thái Nguyên",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["RU"],
+			"description": "nữ 43 tuổi, có địa chỉ tại Phú Xá, Thái Nguyên. Bệnh nhân về nước trên chuyến bay SU290 ngày 25/3/2020"
 		}
 	}
 }

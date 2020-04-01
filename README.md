@@ -1,4 +1,4 @@
-# Vietnam COVID-19 Open data and visualization
+# Vietnam COVID-19 Open Data and Visualization
 
 Dữ liệu mở thu thập từ trang [thông tin chính thức](https://ncov.moh.gov.vn) của [Bộ Y Tế Việt Nam](https://moh.gov.vn), dùng cho data visualization.
 
@@ -7,6 +7,11 @@ Một số thông tin được thu thập bổ sung từ trang [Wiki Đại dị
 ## Các biểu đồ
 
 - Biểu đồ tổng quan các ca bệnh và nguồn lây: [vncovid19.github.io](http://vncovid19.github.io)
+
+## Dữ liệu JSON
+
+- Dữ liệu bệnh nhân: https://vncovid19.github.io/data/patients.json
+- Dữ liệu bổ sung (nguồn lây): https://vncovid19.github.io/data/sources.json
 
 ## Mô tả trường dữ liệu:
 

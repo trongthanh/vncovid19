@@ -34,7 +34,7 @@ const radialTree = d3
 		return sep / a.depth;
 	});
 
-d3.json('data/patients.json').then((patients) => {
+d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
 	const keys = Object.keys(patients);
 	// ID should only listed once
 	const countryIds = new Set();

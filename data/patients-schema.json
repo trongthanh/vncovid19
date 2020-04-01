@@ -55,10 +55,7 @@
 				"gender": {
 					"type": "string",
 					"description": "Giới tính",
-					"enum": ["male", "female", ""],
-					"examples": [
-						"male"
-					]
+					"enum": ["male", "female", ""]
 				},
 				"age": {
 					"type": "number",
@@ -127,7 +124,7 @@
 				},
 				"description": {
 					"type": "string",
-					"description": "Ghi chú, mô tả về bậnh nhân.",
+					"description": "Ghi chú, mô tả về bệnh nhân.",
 					"default": "",
 					"examples": [
 						"nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."

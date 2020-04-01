@@ -15,6 +15,13 @@ function getDotScale(d) {
 	return radiusScale(d.children ? d.children.length : 1);
 }
 
+const tooltip = d3
+	.select('body')
+	.append('div')
+	.attr('class', 'svg-tooltip')
+	.style('position', 'absolute')
+	.style('visibility', 'hidden');
+
 const radialTree = d3
 	.tree()
 	.size([2 * Math.PI, radius])
@@ -34,9 +41,16 @@ const radialTree = d3
 		return sep / a.depth;
 	});
 
+// summary object, to be updated qhen data is fetched
+const summary = {
+	total: 0,
+	positive: 0,
+	negative: 0,
+};
+
 d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
-	// update modified
-	d3.select('#modified-time').text(new Date(modified).toISOString());
+	// update modified time
+	d3.select('#modified-time').text(`Cập nhật lần cuối: ${new Date(modified).toLocaleString()}.`);
 
 	const keys = Object.keys(patients);
 	// ID should only listed once
@@ -54,11 +68,12 @@ d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
 	// only pick the country that's in the source of patients collection
 	const sourcesTable = [];
 	for (const id of countryIds) {
+		// these sources need a single root, that is sars-cov-2
 		sourcesTable.push(
 			Object.assign(
 				{
 					id,
-					parent: 'sars-cov-2',
+					parent: 'root',
 				},
 				countries[id]
 			)
@@ -78,11 +93,18 @@ d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
 		);
 	});
 
+	summary.total = patientsTable.length;
+	summary.negative = patientsTable.reduce(
+		(negTotal, patient) => (patient.status === 'negative' ? negTotal + 1 : negTotal),
+		0
+	);
+	summary.positive = summary.total - summary.negative;
+
 	// console.log(sourcesTable);
 
 	const table = [
 		{
-			id: 'sars-cov-2',
+			id: 'root',
 			parent: null,
 			label: 'SARS-CoV-2',
 		},
@@ -189,6 +211,19 @@ function renderChart(hierarchyData) {
       `
 		);
 
+	dots
+		.on('mouseover', function(d) {
+			return tooltip.style('visibility', 'visible').text(tooltipText(d));
+		})
+		.on('mousemove', function() {
+			return tooltip
+				.style('top', d3.event.pageY - 10 + 'px')
+				.style('left', d3.event.pageX + 10 + 'px');
+		})
+		.on('mouseout', function() {
+			return tooltip.style('visibility', 'hidden');
+		});
+
 	const labels = svg
 		.append('g')
 		.attr('font-family', 'sans-serif')
@@ -209,6 +244,7 @@ function renderChart(hierarchyData) {
         rotate(${d.x >= Math.PI ? 180 : 0})
       `
 		)
+		.style('cursor', 'default')
 		.attr('dy', '0.31em')
 		.attr('x', (d) => (d.x < Math.PI ? 6 : -6))
 		.attr('text-anchor', (d) => (d.x < Math.PI ? 'start' : 'end'))
@@ -216,6 +252,19 @@ function renderChart(hierarchyData) {
 		.clone(true) // create stroke effect on text
 		.lower()
 		.attr('stroke', 'white');
+
+	labels
+		.on('mouseover', function(d) {
+			return tooltip.style('visibility', 'visible').text(tooltipText(d));
+		})
+		.on('mousemove', function() {
+			return tooltip
+				.style('top', d3.event.pageY - 10 + 'px')
+				.style('left', d3.event.pageX + 10 + 'px');
+		})
+		.on('mouseout', function() {
+			return tooltip.style('visibility', 'hidden');
+		});
 
 	const chart = svg.attr('viewBox', autoBox).node();
 
@@ -237,4 +286,14 @@ function dotColor({ data: { gender, age } = { gender: '', age: -1 } }) {
 
 	// colors for younger patients
 	return !gender ? '#aaa' : gender === 'male' ? '#339af0' : '#fa5252';
+}
+
+function tooltipText({ id, parent, children = [], data: { label } }) {
+	if (!parent) {
+		// root
+		return `Tổng số ca: ${summary.total}. Số ca âm tính ${summary.negative}.`;
+	} else if (parent.id === 'root') {
+		return `Nguồn lây: ${label} - Lây cho: ${children.length} người`;
+	}
+	return `BN${id} - Nguồn lây từ: ${parent.data.label} - Lây cho: ${children.length} người`;
 }

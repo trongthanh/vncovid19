@@ -11,12 +11,28 @@
 				max-width: 1200px;
 				margin: auto;
 			}
+
+			.svg-tooltip {
+				font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				background: rgba(69,77,93,.9);
+				border-radius: .1rem;
+				color: #fff;
+				display: block;
+				font-size: 11px;
+				max-width: 320px;
+				padding: .2rem .4rem;
+				position: absolute;
+				text-overflow: ellipsis;
+				white-space: pre;
+				z-index: 300;
+				visibility: hidden;
+			}
 		</style>
 	</head>
 	<body>
 		<main class="content">
 			<h1>Biểu đồ tổng quan các ca nhiễm COVID-19 tại Việt Nam</h1>
-			<p>Cập nhật lần cuối: <span id="modified-time">đang lấy</span>. <a href="https://github.com/vncovid19/vncovid19.github.io">Mã nguồn tại GitHub</a></p>
+			<p><span id="modified-time"></span> <a href="https://github.com/vncovid19/vncovid19.github.io">Mã nguồn tại GitHub</a></p>
 			<div id="chart" class="chart"></div>
 		</main>
 		<script src="js/d3.min.js"></script>

@@ -163,11 +163,9 @@ function renderChart(hierarchyData) {
 	dots
 		.filter((d) => d.depth > 0)
 		.append('circle')
-		.attr('fill', ({ data }) =>
-			!data.gender ? '#999' : data.gender === 'male' ? '#0066ff' : '#ff0000'
-		)
+		.attr('fill', dotColor)
 		.attr('stroke', (d) => (d.data.status === 'negative' ? 'green' : 'black'))
-		.attr('stroke-width', (d) => (d.data.status === 'negative' ? 1.5 : 1))
+		.attr('stroke-width', 1)
 		.attr('r', (d) => getDotScale(d))
 		.classed('tippy', true);
 
@@ -226,4 +224,14 @@ function autoBox() {
 	const { x, y, width, height } = this.getBBox();
 	document.body.removeChild(this);
 	return [x, y, width, height];
+}
+
+function dotColor({ data: { gender, age } = { gender: '', age: -1 } }) {
+	if (age >= 50) {
+		// colors for senior patients
+		return !gender ? '#666' : gender === 'male' ? '#2244ee' : '#991111';
+	}
+
+	// colors for younger patients
+	return !gender ? '#aaa' : gender === 'male' ? '#339af0' : '#fa5252';
 }

@@ -35,6 +35,9 @@ const radialTree = d3
 	});
 
 d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
+	// update modified
+	d3.select('#modified-time').text(new Date(modified).toISOString());
+
 	const keys = Object.keys(patients);
 	// ID should only listed once
 	const countryIds = new Set();

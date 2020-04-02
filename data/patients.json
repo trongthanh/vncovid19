@@ -1,6 +1,6 @@
 {
 	"modified": "2020-04-02T13:17:58+07:00",
-	"total": 212,
+	"total": 222,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -2649,7 +2649,7 @@
 		},
 		"219": {
 			"positiveDate": "2020-04-02",
-			"gender": "nữ",
+			"gender": "female",
 			"age": 59,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hưng Yên",
@@ -2662,7 +2662,7 @@
 		},
 		"220": {
 			"positiveDate": "2020-04-02",
-			"gender": "nam",
+			"gender": "male",
 			"age": 20,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
@@ -2673,7 +2673,8 @@
 			"description": "nam, 20 tuổi, quốc tịch Việt Nam, từ Pháp về nước ngày 17/3."
 		},
 		"221": {
-			"gender": "nữ",
+			"positiveDate": "2020-04-02",
+			"gender": "female",
 			"age": 24,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
@@ -2684,7 +2685,8 @@
 			"description": "nữ, 24 tuổi, quốc tịch Việt Nam, du học sinh tại Canada. Ngày 24/3, bệnh nhân từ Canada về Việt Nam, có quá cảnh ở Đài Bắc, Đài Loan."
 		},
 		"222": {
-			"gender": "nữ",
+			"positiveDate": "2020-04-02",
+			"gender": "female",
 			"age": 28,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",

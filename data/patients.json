@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-02T00:56:39+07:00",
+	"modified": "2020-04-02T13:17:58+07:00",
 	"total": 212,
 	"data": {
 		"1": {
@@ -2646,6 +2646,53 @@
 			"flights": ["SU290"],
 			"source": ["RU"],
 			"description": "nữ 43 tuổi, có địa chỉ tại Phú Xá, Thái Nguyên. Bệnh nhân về nước trên chuyến bay SU290 ngày 25/3/2020"
+		},
+		"219": {
+			"positiveDate": "2020-04-02",
+			"gender": "nữ",
+			"age": 59,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hưng Yên",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nữ, 59 tuổi, quê Hưng Yên; chăm sóc người bệnh tại Khoa Thần kinh Bệnh viện Bạch Mai,  cùng phòng bệnh với BN133 ngày 16/3."
+
+		},
+		"220": {
+			"positiveDate": "2020-04-02",
+			"gender": "nam",
+			"age": 20,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["FR"],
+			"description": "nam, 20 tuổi, quốc tịch Việt Nam, từ Pháp về nước ngày 17/3."
+		},
+		"221": {
+			"gender": "nữ",
+			"age": 24,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["CA"],
+			"description": "nữ, 24 tuổi, quốc tịch Việt Nam, du học sinh tại Canada. Ngày 24/3, bệnh nhân từ Canada về Việt Nam, có quá cảnh ở Đài Bắc, Đài Loan."
+		},
+		"222": {
+			"gender": "nữ",
+			"age": 28,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["JL751"],
+			"source": ["US"],
+			"description": "nữ, 28 tuổi, có địa chỉ tại Long Biên, Hà Nội; sống và làm việc tại Mỹ. Ngày 20/3, bệnh nhân về Việt Nam trên chuyến bay mang số hiệu JL751."
 		}
 	}
 }

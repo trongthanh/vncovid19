@@ -1,5 +1,6 @@
 {
 	"AU": { "label": "Úc",             "icon": "icon-au.png" },
+	"CA": { "label": "Canada",         "icon": "icon-ca.png" },
 	"CH": { "label": "Thụy Sĩ",        "icon": "icon-ch.png" },
 	"CN": { "label": "Trung Quốc",     "icon": "icon-cn.png" },
 	"CZ": { "label": "CH Séc",         "icon": "icon-cz.png" },

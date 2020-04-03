@@ -215,11 +215,7 @@ function renderChart(hierarchyData) {
 		.on('mouseover', function(d) {
 			return tooltip.style('visibility', 'visible').text(tooltipText(d));
 		})
-		.on('mousemove', function() {
-			return tooltip
-				.style('top', d3.event.pageY - 10 + 'px')
-				.style('left', d3.event.pageX + 10 + 'px');
-		})
+		.on('mousemove', tooltipPosition)
 		.on('mouseout', function() {
 			return tooltip.style('visibility', 'hidden');
 		});
@@ -255,15 +251,11 @@ function renderChart(hierarchyData) {
 
 	labels
 		.on('mouseover', function(d) {
-			return tooltip.style('visibility', 'visible').text(tooltipText(d));
+			tooltip.style('visibility', 'visible').text(tooltipText(d));
 		})
-		.on('mousemove', function() {
-			return tooltip
-				.style('top', d3.event.pageY - 10 + 'px')
-				.style('left', d3.event.pageX + 10 + 'px');
-		})
+		.on('mousemove', tooltipPosition)
 		.on('mouseout', function() {
-			return tooltip.style('visibility', 'hidden');
+			tooltip.style('visibility', 'hidden');
 		});
 
 	const chart = svg.attr('viewBox', autoBox).node();
@@ -288,12 +280,65 @@ function dotColor({ data: { gender, age } = { gender: '', age: -1 } }) {
 	return !gender ? '#aaa' : gender === 'male' ? '#339af0' : '#fa5252';
 }
 
-function tooltipText({ id, parent, children = [], data: { label } }) {
+function tooltipPosition() {
+	tooltip
+		.style('top', d3.event.pageY - 10 + 'px')
+		.style(
+			'left',
+			(d3.event.pageX > window.innerWidth - 320 ? d3.event.pageX - 340 : d3.event.pageX + 10) + 'px'
+		);
+}
+
+function tooltipText(d) {
+	const {
+		id,
+		parent,
+		children = [],
+		data: { label, description = '' },
+	} = d;
+
+	// tooltip for root
 	if (!parent) {
-		// root
-		return `Tổng số ca: ${summary.total}. Số ca âm tính ${summary.negative}.`;
-	} else if (parent.id === 'root') {
-		return `Nguồn lây: ${label} - Lây cho: ${children.length} người`;
+		return `Tổng số ca: ${summary.total}.\nSố ca âm tính ${summary.negative}.`;
 	}
-	return `BN${id} - Nguồn lây từ: ${parent.data.label} - Lây cho: ${children.length} người`;
+
+	const childrenCount = children.length;
+	const descendantsCount = countDescendants(d);
+
+	// tooltip for source or cluster
+	if (parent.id === 'root') {
+		return `Nguồn lây: ${label}
+- Lây trực tiếp cho ${childrenCount} người
+- Lây cho tất cả: ${descendantsCount} người`;
+	}
+	// tooltip for patients
+	let patientTooltip = `BN${id} - Nguồn lây từ: ${parent.data.label}`;
+	if (childrenCount) {
+		patientTooltip += `\n- Lây trực tiếp cho: ${childrenCount} người`;
+	}
+	if (descendantsCount > childrenCount) {
+		patientTooltip += `\n- Lây cho tất cả: ${descendantsCount} người`;
+	}
+
+	patientTooltip += `\n[${description}]`;
+
+	return patientTooltip;
+}
+
+/**
+ *
+ * @param {Object<{children, data}>} node the node object of the hierachy tree
+ * @param {boolean} notRoot=false use to skip the first node during recursive calls
+ * @return {number} the number of descendants from the node
+ */
+function countDescendants(node, notRoot = false) {
+	// only count people, not sources or cluster
+	let childrenCount = notRoot && node.data && node.data.positiveDate ? 1 : 0;
+	if (Array.isArray(node.children)) {
+		for (const child of node.children) {
+			// console.log('count child', child);
+			childrenCount += countDescendants(child, true);
+		}
+	}
+	return childrenCount;
 }

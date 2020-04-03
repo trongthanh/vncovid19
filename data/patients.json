@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-03T14:47:53+07:00",
+	"modified": "2020-04-03T16:06:45+07:00",
 	"total": 233,
 	"data": {
 		"1": {
@@ -228,18 +228,19 @@
 			"nationality": "Việt Nam",
 			"status": "positive",
 			"source": ["17"],
-			"description": "nữ, người tiếp xúc gần với BN17 đã xác định mắc COVID-19 ngày 6/3."
+			"description": "nữ, người tiếp xúc gần với BN17 (bác gái) đã xác định mắc COVID-19 ngày 6/3."
 		},
 		"20": {
 			"positiveDate": "2020-03-08",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 27,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["17"],
-			"description": "nam, người tiếp xúc gần với BN17 đã xác định mắc COVID-19 ngày 6/3."
+			"description": "nam, người tiếp xúc gần với BN17 (tài xế) đã xác định mắc COVID-19 ngày 6/3."
 		},
 		"21": {
 			"positiveDate": "2020-03-08",
@@ -407,12 +408,13 @@
 		},
 		"34": {
 			"positiveDate": "2020-03-10",
+			"dischargeDate": "2020-04-03",
 			"gender": "female",
 			"age": 51,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["BN34"],
 			"source": ["US"],
 			"description": "nữ 51 tuổi, quốc tịch Việt Nam, khởi hành từ Washington DC (Mỹ) về Việt Nam, quá cảnh tại sân bay Quốc tế Doha (Qatar) và sáng ngày 2/3/2020 nhập cảnh vào Việt Nam. "
@@ -442,23 +444,25 @@
 		},
 		"37": {
 			"positiveDate": "2020-03-11",
+			"dischargeDate": "2020-04-03",
 			"gender": "female",
 			"age": 37,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["34"],
 			"description": "quê ở Bình Thuận có tiếp xúc gần với BN34 đã được xác định mắc COVID-19 ngày 10/3/2020. "
 		},
 		"38": {
 			"positiveDate": "2020-03-11",
+			"dischargeDate": "2020-04-03",
 			"gender": "female",
 			"age": 28,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["34"],
 			"description": "quê ở Bình Thuận có tiếp xúc gần với BN34 đã được xác định mắc COVID-19 ngày 10/3/2020. "
 		},
@@ -476,45 +480,49 @@
 		},
 		"40": {
 			"positiveDate": "2020-03-13",
+			"dischargeDate": "2020-04-03",
 			"gender": "female",
 			"age": 2,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["34"],
 			"description": "quê tỉnh Bình Thuận, trong đó có bệnh nhi 02 tuổi có tiếp xúc gần với BN34 "
 		},
 		"41": {
 			"positiveDate": "2020-03-13",
+			"dischargeDate": "2020-04-03",
 			"gender": "male",
 			"age": 59,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["34"],
 			"description": "quê tỉnh Bình Thuận, trong đó có bệnh nhi 02 tuổi có tiếp xúc gần với BN34 "
 		},
 		"42": {
 			"positiveDate": "2020-03-13",
+			"dischargeDate": "2020-04-03",
 			"gender": "male",
 			"age": 28,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["34"],
 			"description": "quê tỉnh Bình Thuận, trong đó có bệnh nhi 02 tuổi có tiếp xúc gần với BN34 "
 		},
 		"43": {
 			"positiveDate": "2020-03-13",
+			"dischargeDate": "2020-04-03",
 			"gender": "female",
 			"age": 47,
 			"treatmentLocation": "Bình Thuận",
 			"residence": "Bình Thuận",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["38"],
 			"description": "nữ 47 tuổi, quê Bình Thuận tiếp xúc gần với BN38"
 		},
@@ -755,12 +763,13 @@
 		},
 		"63": {
 			"positiveDate": "2020-03-17",
+			"dischargeDate": "2020-04-02",
 			"gender": "female",
 			"age": 20,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["GB"],
 			"description": "nữ, 20 tuổi trú quận Cầu Giấy, Hà Nội, là du học sinh tại Anh nhập cảnh về Nội Bài ngày 15/03/2020 trên chuyến bay TG564."
 		},
@@ -778,13 +787,12 @@
 		},
 		"65": {
 			"positiveDate": "2020-03-17",
-			"dischargeDate": "2020-04-01",
 			"gender": "female",
 			"age": 28,
 			"treatmentLocation": "Ho Chi Minh",
 			"residence": "Ho Chi Minh",
 			"nationality": "Việt Nam",
-			"status": "negative",
+			"status": "positive",
 			"source": ["45", "48"],
 			"description": "nữ, 28 tuổi trú quận Gò Vấp, TP.HCM có tiếp xúc và làm việc cùng BN45,48 vào các ngày 7/3 và 10/3."
 		},
@@ -879,7 +887,7 @@
 		},
 		"73": {
 			"positiveDate": "2020-03-18",
-			"dischargeDate": "2020-03-29",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 11,
 			"treatmentLocation": "Hải Dương",
@@ -917,12 +925,13 @@
 		},
 		"76": {
 			"positiveDate": "2020-03-18",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 52,
 			"treatmentLocation": "Pháp",
 			"residence": "Pháp",
 			"nationality": "Pháp",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TK162"],
 			"source": ["FR"],
 			"description": "nam, 52 tuổi, quốc tịch Pháp, là hành khách trên chuyến bay TK162 nhập cảnh tại Cảng hàng không quốc tế Tân Sơn Nhất ngày 10/03/2020."
@@ -943,12 +952,13 @@
 
 		"78": {
 			"positiveDate": "2020-03-19",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 22,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["EK394"],
 			"source": ["GB"],
 			"description": "nam, 22 tuổi quê quán Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 17/03/2020 trên chuyến bay EK394."
@@ -1202,24 +1212,26 @@
 		},
 		"99": {
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-03",
 			"gender": "male",
 			"age": 29,
 			"treatmentLocation": "Hồ Chí Minh",
 			"residence": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["AF258"],
 			"source": ["FR"],
 			"description": "29 tuổi, ở Quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân từ Paris – Pháp về tới sân bay Tân Sơn Nhất ngày 18/3/2020 trên chuyến bay của hãng hàng không AirFrance số hiệu AF258."
 		},
 		"100": {
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-03",
 			"gender": "male",
 			"age": 55,
 			"treatmentLocation": "Hồ Chí Minh",
 			"residence": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["AK524"],
 			"source": ["MY"],
 			"description": "nam, 55 tuổi ở Quận 8, TP. Hồ Chí Minh. Ngày 03/3/2020, bệnh nhân từ Kuala Lumpur - Malaysia về Việt Nam trên chuyến bay của hãng hàng không AsiaAir số hiệu AK524."
@@ -1298,12 +1310,13 @@
 		},
 		"107": {
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-02",
 			"gender": "female",
 			"age": 25,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["86"],
 			"description": "nữ, 25 tuổi, là con gái và sống cùng BN86, thường trú tại Thanh Xuân, Hà Nội."
@@ -1469,12 +1482,13 @@
 		},
 		"121": {
 			"positiveDate": "2020-03-23",
+			"dischargeDate": "2020-04-03",
 			"gender": "male",
 			"age": 58,
 			"treatmentLocation": "Hồ Chí Minh",
 			"residence": "Hồ Chí Minh",
 			"nationality": "Canada",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["NH831"],
 			"source": ["US"],
 			"description": "nam, 58 tuổi, trú tại Quận Tân Bình, TP. Hồ Chí Minh. Ngày 19/3/2020 nhập cảnh Cảng hàng không quốc tế Tân Sơn Nhất trên chuyến bay số hiệu NH831 từ New York- Hoa Kỳ về Việt Nam, quá cảnh tại Narita - Nhật Bản."
@@ -1565,12 +1579,13 @@
 		},
 		"129": {
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 20,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"description": "nam, 20 tuổi ở Nghĩa Tân, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 20/03/2020 trên chuyến bay VN0054."
@@ -1590,24 +1605,26 @@
 		},
 		"131": {
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 23,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["ES"],
 			"description": "nam, 23 tuổi, địa chỉ ở Quận Bình Chánh, TP. Hồ Chí Minh, từ Tây Ban Nha về nước, quá cảnh tại Nga và về tới Nội Bài ngày 22/03/2020 trên chuyến bay SU290."
 		},
 		"132": {
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-02",
 			"gender": "female",
 			"age": 25,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["ES"],
 			"description": "nữ, 25 tuổi, địa chỉ ở Quận Long Biên, Hà Nội, từ Tây Ban Nha về nước, quá cảnh tại Nga và về tới Nội Bài ngày 22/03/2020 trên chuyến bay SU290."
@@ -1674,12 +1691,13 @@
 		},
 		"138": {
 			"positiveDate": "2020-03-25",
+			"dischargeDate": "2020-04-02",
 			"gender": "male",
 			"age": 23,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"description": "nam, 23 tuổi ở Đống Đa, Hà Nội, là học sinh từ Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054."
@@ -2167,12 +2185,13 @@
 		},
 		"179": {
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-02",
 			"gender": "",
 			"age": 62,
 			"treatmentLocation": "Thanh Hóa",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["EU"],
 			"description": "62 tuổi, có địa chỉ ở quận Hà Đông, TP Hà Nội, từ nước ngoài về trên chuyến bay EK394, nhập cảnh ngày 18/03."
@@ -2397,12 +2416,13 @@
 		},
 		"198": {
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-04-02",
 			"gender": "female",
 			"age": 53,
 			"treatmentLocation": "Hà Nội",
 			"residence": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"description": "nữ, 53 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai."

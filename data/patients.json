@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-02T13:17:58+07:00",
-	"total": 222,
+	"modified": "2020-04-03T14:47:53+07:00",
+	"total": 233,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -2657,7 +2657,7 @@
 			"status": "positive",
 			"flights": null,
 			"source": ["BVBM"],
-			"description": "nữ, 59 tuổi, quê Hưng Yên; chăm sóc người bệnh tại Khoa Thần kinh Bệnh viện Bạch Mai,  cùng phòng bệnh với BN133 ngày 16/3."
+			"description": "nữ, 59 tuổi, quê Hưng Yên; chăm sóc người bệnh tại Khoa Thần kinh Bệnh viện Bạch Mai, cùng phòng bệnh với BN133 ngày 16/3."
 
 		},
 		"220": {
@@ -2695,6 +2695,147 @@
 			"flights": ["JL751"],
 			"source": ["US"],
 			"description": "nữ, 28 tuổi, có địa chỉ tại Long Biên, Hà Nội; sống và làm việc tại Mỹ. Ngày 20/3, bệnh nhân về Việt Nam trên chuyến bay mang số hiệu JL751."
+		},
+		"223": {
+			"positiveDate": "2020-04-02",
+			"gender": "female",
+			"age": 29,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Nam Định",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nữ, 29 tuổi ở Hải Hậu, Nam Định, chăm sóc người thân tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai từ 11/3."
+
+		},
+		"224": {
+			"positiveDate": "2020-04-02",
+			"gender": "male",
+			"age": 39,
+			"treatmentLocation": "Hồ Chí Minh",
+			"residence": "Hồ Chí Minh",
+			"nationality": "Brazil",
+			"status": "positive",
+			"flights": null,
+			"source": ["158"],
+			"description": "nam, 39 tuổi, quốc tịch Brazil, có địa chỉ tại Quận 2, TP Hồ Chí Minh. Bệnh nhân có thời gian sống cùng phòng với BN158 tại chung cư Masteri."
+		},
+		"225": {
+			"positiveDate": "2020-04-02",
+			"gender": "male",
+			"age": 35,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hải Phòng",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["RU"],
+			"description": "nam, 35 tuổi, quê An Dương, Hải Phòng, làm việc ở Nga 10 năm nay, về nước trên chuyến bay SU290 ngày 25/3/2020"
+
+		},
+		"226": {
+			"positiveDate": "2020-04-02",
+			"gender": "male",
+			"age": 22,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Thái Bình",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["RU"],
+			"description": "nam, 22 tuổi, về nước cùng chuyến bay với BN 212 ngày 27/3."
+
+		},
+		"227": {
+			"positiveDate": "2020-04-02",
+			"gender": "male",
+			"age": 31,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["209"],
+			"description": "nam, 31 tuổi, là con của BN209, có tiếp xúc gần tại gia đình trong khoảng thời gian từ 16-25/3."
+
+		},
+		"228": {
+			"positiveDate": "2020-04-03",
+			"gender": "male",
+			"age": 29,
+			"treatmentLocation": "",
+			"residence": "Bắc Giang",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": [],
+			"source": ["IMPORT"],
+			"description": "nam, 29 tuổi, có địa chỉ tại tỉnh Bắc Giang. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3."
+
+		},
+		"229": {
+			"positiveDate": "2020-04-03",
+			"gender": "female",
+			"age": 30,
+			"treatmentLocation": "",
+			"residence": "Hà Tĩnh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": [],
+			"source": ["IMPORT"],
+			"description": "nữ, 30 tuổi, có địa chỉ tại tỉnh Hà Tĩnh. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3."
+
+		},
+		"230": {
+			"positiveDate": "2020-04-03",
+			"gender": "female",
+			"age": 28,
+			"treatmentLocation": "",
+			"residence": "Hà Tĩnh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": [],
+			"source": ["IMPORT"],
+			"description": "nữ, 28 tuổi, có địa chỉ tại tỉnh Hà Tĩnh. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3."
+
+		},
+		"231": {
+			"positiveDate": "2020-04-03",
+			"gender": "female",
+			"age": 57,
+			"treatmentLocation": "",
+			"residence": "Bắc Kạn",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nữ, 57 tuổi, có địa chỉ tại huyện Na Rì, tỉnh Bắc Kạn, là nhân viên Công ty Trường Sinh."
+
+		},
+		"232": {
+			"positiveDate": "2020-04-03",
+			"gender": "male",
+			"age": 67,
+			"treatmentLocation": "",
+			"residence": "Bà Rịa-Vũng Tàu",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["IMPORT"],
+			"description": "nam, 67 tuổi, có địa chỉ tại Bà Rịa-Vũng Tàu. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3."
+
+		},
+		"233": {
+			"positiveDate": "2020-04-03",
+			"gender": "female",
+			"age": 24,
+			"treatmentLocation": "",
+			"residence": "Nghệ An",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["IMPORT"],
+			"description": "nữ, 24 tuổi, có địa chỉ tại Diễn Châu, Nghệ An. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3."
 		}
 	}
 }

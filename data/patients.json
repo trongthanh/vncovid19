@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-03T16:06:45+07:00",
-	"total": 233,
+	"modified": "2020-04-04T11:26:36+07:00",
+	"total": 239,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -2830,7 +2830,6 @@
 			"flights": null,
 			"source": ["BVBM"],
 			"description": "nữ, 57 tuổi, có địa chỉ tại huyện Na Rì, tỉnh Bắc Kạn, là nhân viên Công ty Trường Sinh."
-
 		},
 		"232": {
 			"positiveDate": "2020-04-03",
@@ -2856,6 +2855,78 @@
 			"flights": ["SU290"],
 			"source": ["IMPORT"],
 			"description": "nữ, 24 tuổi, có địa chỉ tại Diễn Châu, Nghệ An. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3."
+		},
+		"234": {
+			"positiveDate": "2020-04-03",
+			"gender": "female",
+			"age": 69,
+			"treatmentLocation": "Hồ Chí Minh",
+			"residence": "Đăk Lăk",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["VN2106"],
+			"source": ["FR"],
+			"description": "nữ, 69 tuổi, có địa chỉ tại huyện Buôn Đôn, tỉnh Đăk Lăk. Ngày 17/3/2020, bệnh nhân từ Paris về Việt Nam trên chuyến bay số hiệu VN2106."
+		},
+		"235": {
+			"positiveDate": "2020-04-03",
+			"gender": "male",
+			"age": 25,
+			"treatmentLocation": "Hồ Chí Minh",
+			"residence": "Hồ Chí Minh",
+			"nationality": "Anh",
+			"status": "positive",
+			"flights": null,
+			"source": ["91"],
+			"description": "nam, 25 tuổi, quốc tịch Anh. Ngày 14/3/2020 có đi quán Bar Buddha (TP. Hồ Chí Minh)."
+		},
+		"236": {
+			"positiveDate": "2020-04-03",
+			"gender": "female",
+			"age": 26,
+			"treatmentLocation": "Hồ Chí Minh",
+			"residence": "Hồ Chí Minh",
+			"nationality": "Anh",
+			"status": "positive",
+			"flights": null,
+			"source": ["91"],
+			"description": "nữ, 26 tuổi, quốc tịch Anh, lưu trú tại Quận 2, TP. Hồ Chí Minh. Ngày 14/3/2020, bệnh nhân có tới quán bar Buddha, tiếp xúc với trường hợp bệnh COVID-19."
+		},
+		"237": {
+			"positiveDate": "2020-04-03",
+			"gender": "male",
+			"age": 64,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Thụy Điển",
+			"nationality": "Thụy Điển",
+			"status": "positive",
+			"flights": null,
+			"source": ["IMPORT"],
+			"description": "nam, 64 tuổi, quốc tịch Thụy Điển, đến Việt Nam từ cuối tháng 12/2019, di chuyển tới một số địa phương và lưu trú tại Hà Nội từ 22/3/2020 đến nay."
+		},
+		"238": {
+			"positiveDate": "2020-04-04",
+			"gender": "female",
+			"age": 17,
+			"treatmentLocation": "Hà Tĩnh",
+			"residence": "Hà Tĩnh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["210", "TH"],
+			"description": "nữ, 17 tuổi, địa chỉ tại Thạch Hà, tỉnh Hà Tĩnh; là lao động tự do và có ở cùng bạn (BN 210) tại Thái Lan. Ngày 17/3, bệnh nhân từ Thái Lan về Việt Nam, nhập cảnh qua Cửa khẩu Cha Lo ngày 18/3."
+		},
+		"239": {
+			"positiveDate": "2020-04-04",
+			"gender": "male",
+			"age": 71,
+			"treatmentLocation": "Hà Nội",
+			"residence": "Vĩnh Phúc",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"description": "nam, 71 tuổi, địa chỉ tại Tam Dương, tỉnh Vĩnh Phúc.  Ngày 11 và 18/3 đi khám, điều trị tại Khoa Tiêu hóa, Bệnh viện Bạch Mai và có mua đồ ăn ở căng tin bệnh viện."
 		}
 	}
 }

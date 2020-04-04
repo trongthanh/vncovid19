@@ -294,7 +294,7 @@ function tooltipText(d) {
 		id,
 		parent,
 		children = [],
-		data: { label, description = '' },
+		data: { label, desc = '' },
 	} = d;
 
 	// tooltip for root
@@ -320,7 +320,7 @@ function tooltipText(d) {
 		patientTooltip += `\n- Lây cho tất cả: ${descendantsCount} người`;
 	}
 
-	patientTooltip += `\n[${description}]`;
+	patientTooltip += `\n[${desc}]`;
 
 	return patientTooltip;
 }

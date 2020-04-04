@@ -26,27 +26,27 @@
 						{
 							"positiveDate": "2020-03-16",
 							"dischargeDate": "2020-03-30",
-							"status": "positive",
+							"gender": "male",
 							"age": 58,
-							"residence": "Hà Nội",
-							"nationality": "Việt Nam",
-							"description": "nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054.",
-							"source": ["GB"],
-							"flights": ["VN0054"],
 							"treatmentLocation": "Hà Nội",
-							"gender": "male"
+							"from": "Hà Nội",
+							"nationality": "Việt Nam",
+							"status": "positive",
+							"flights": ["VN0054"],
+							"source": ["GB"],
+							"description": "nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
 						}
 					],
 					"required": [
 						"positiveDate",
 						"gender",
 						"age",
-						"treatmentLocation",
-						"residence",
+						"treatLoc",
+						"from",
 						"nationality",
 						"status",
 						"source",
-						"description"
+						"desc"
 					],
 					"properties": {
 						"positiveDate": {
@@ -74,13 +74,13 @@
 							"default": -1,
 							"examples": [58, 0.25]
 						},
-						"treatmentLocation": {
+						"treatLoc": {
 							"type": "string",
 							"description": "Tỉnh / thành nơi chữa bệnh.",
 							"default": "",
 							"examples": ["Hà Nội"]
 						},
-						"residence": {
+						"from": {
 							"type": "string",
 							"description": "Tỉnh / thành nơi cư trú",
 							"default": "",
@@ -118,7 +118,7 @@
 								"examples": ["GB", "17", "BVBM"]
 							}
 						},
-						"description": {
+						"desc": {
 							"type": "string",
 							"description": "Ghi chú, mô tả về bệnh nhân.",
 							"default": "",

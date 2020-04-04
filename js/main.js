@@ -261,6 +261,29 @@ function renderChart(hierarchyData) {
 	const chart = svg.attr('viewBox', autoBox).node();
 
 	document.getElementById('chart').appendChild(chart);
+
+	renderLegend(svg);
+}
+
+function renderLegend(svg) {
+	// prettier-ignore
+	const patientColorScale = d3.scaleOrdinal(
+		['Nữ < 60 tuổi', 'Nữ ≧ 60 tuổi', 'Nam < 60 tuổi', 'Nam ≧ 60 tuổi', 'Người < 60 tuổi', 'Người ≧ 60 tuổi'],
+		['#fa5252', '#991111', '#339af0', '#2244ee', '#999', '#666']
+	);
+	const legend = d3
+		.legendColor()
+		.scale(patientColorScale)
+		.shape('circle')
+		.shapeRadius(5);
+
+	svg
+		.append('g')
+		.classed('legend-color', true)
+		.attr('text-anchor', 'start')
+		.attr('transform', 'translate(-400,-400)')
+		.style('font-size', '12px')
+		.call(legend);
 }
 
 function autoBox() {
@@ -271,8 +294,8 @@ function autoBox() {
 }
 
 function dotColor({ data: { gender, age } = { gender: '', age: -1 } }) {
-	if (age >= 50) {
-		// colors for senior patients
+	if (age >= 60) {
+		// colors f60or senior patients
 		return !gender ? '#666' : gender === 'male' ? '#2244ee' : '#991111';
 	}
 

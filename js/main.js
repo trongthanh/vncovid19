@@ -2,18 +2,13 @@
 // inline from sources.json
 // prettier-ignore
 const countries = {"AU":{"label":"Úc","icon":"icon-au.png"},"CA":{"label":"Canada","icon":"icon-ca.png"},"CH":{"label":"Thụy Sĩ","icon":"icon-ch.png"},"CN":{"label":"Trung Quốc","icon":"icon-cn.png"},"CZ":{"label":"CH Séc","icon":"icon-cz.png"},"DE":{"label":"Đức","icon":"icon-de.png"},"DK":{"label":"Đan Mạch","icon":"icon-dk.png"},"ES":{"label":"Tây Ban Nha","icon":"icon-es.png"},"EU":{"label":"Châu Âu","icon":"icon-eu.png"},"FR":{"label":"Pháp","icon":"icon-fr.png"},"GB":{"label":"Anh","icon":"icon-gb.png"},"GR":{"label":"Hy Lạp","icon":"icon-gr.png"},"HU":{"label":"Hungary","icon":"icon-hu.png"},"JP":{"label":"Nhật","icon":"icon-jp.png"},"KH":{"label":"Campuchia","icon":"icon-kh.png"},"KR":{"label":"Hàn Quốc","icon":"icon-kr.png"},"MY":{"label":"Malaysia","icon":"icon-my.png"},"NL":{"label":"Hà Lan","icon":"icon-nl.png"},"RU":{"label":"Nga","icon":"icon-ru.png"},"SG":{"label":"Singapore","icon":"icon-sg.png"},"TH":{"label":"Thái Lan","icon":"icon-th.png"},"US":{"label":"Mỹ","icon":"icon-us.png"},"VN":{"label":"Việt Nam","icon":"icon-vn.png"},"IMPORT":{"label":"Nước Ngoài","icon":"icon-globe.svg"},"BVBM":{"label":"BV Bạch Mai","icon":"icon-bvbm.png"}};
-const width = 1200;
+const width = 1320;
 const radius = width / 2;
 
 const radiusScale = d3.scaleLog([1, 100], [3, 15]);
 const sepScale = d3.scaleLog([1, 100], [1, 2]);
 
-function getDotScale(d) {
-	if (d.data.label === 'Trung Quốc') {
-		console.log(d);
-	}
-	return radiusScale(d.children ? d.children.length : 1);
-}
+const getDotScale = (d) => radiusScale(d.children ? d.children.length : 1);
 
 const tooltip = d3
 	.select('body')
@@ -46,6 +41,8 @@ const summary = {
 	total: 0,
 	positive: 0,
 	negative: 0,
+	latestPositiveDate: '',
+	latestDischargeDate: '',
 };
 
 d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
@@ -100,6 +97,19 @@ d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
 	);
 	summary.positive = summary.total - summary.negative;
 
+	// find latest positive date to highlight
+	summary.latestPositiveDate = patientsTable.reduce((latestDate, patient) => {
+		// the format YYYY-MM-DD allows to sort the string directly
+		return patient.positiveDate > latestDate ? patient.positiveDate : latestDate;
+	}, '0000-00-00');
+
+	summary.latestDischargeDate = patientsTable.reduce((latestDate, patient) => {
+		// the format YYYY-MM-DD allows to sort the string directly
+		return patient.dischargeDate > latestDate ? patient.dischargeDate : latestDate;
+	}, '0000-00-00');
+
+	// console.log('latest', summary.latestPositiveDate);
+
 	// console.log(sourcesTable);
 
 	const table = [
@@ -147,9 +157,15 @@ function renderChart(hierarchyData) {
 		.data(root.links())
 		.join('path')
 		.attr('fill', 'none')
-		.attr('stroke', ({ target }) => (target.data.status === 'negative' ? 'green' : '#555'))
-		.attr('stroke-opacity', 0.4)
-		.attr('stroke-width', 1.5);
+		.attr('stroke', ({ target: { data } }) => {
+			if (data.status === 'negative') {
+				return data.dischargeDate === summary.latestDischargeDate ? '#51cf66' : '#226633';
+			}
+			// console.log('latestPositiveDate', data.positiveDate === summary.latestPositiveDate);
+			return data.positiveDate === summary.latestPositiveDate ? '#000' : '#999';
+		})
+		.attr('stroke-opacity', 1)
+		.attr('stroke-width', 1);
 
 	// only draw the radial link from depth 1++
 	links
@@ -189,7 +205,7 @@ function renderChart(hierarchyData) {
 		.filter((d) => d.depth > 0)
 		.append('circle')
 		.attr('fill', dotColor)
-		.attr('stroke', (d) => (d.data.status === 'negative' ? 'green' : 'black'))
+		.attr('stroke', (d) => (d.data.status === 'negative' ? '#226633' : 'black'))
 		.attr('stroke-width', 1)
 		.attr('r', (d) => getDotScale(d))
 		.classed('tippy', true);
@@ -263,6 +279,34 @@ function renderChart(hierarchyData) {
 	document.getElementById('chart').appendChild(chart);
 
 	renderLegend(svg);
+
+	const latestPositiveLinks = links.filter(
+		({ target: { data } }) => data.positiveDate === summary.latestPositiveDate
+	);
+
+	// blinking negative links makes the chart chaotic
+	// const latestNegativeLinks = links.filter(
+	// 	({ target: { data } }) => data.dischargeDate === summary.latestDischargeDate
+	// );
+
+	// animations
+	function tick() {
+		// this value oscillate from 0 to 1 at 1 second interval
+		const osc = (Math.sin(Date.now() / 250) + 1) * 0.5;
+
+		if (osc >= 0.5) {
+			latestPositiveLinks.attr('stroke', '#999');
+			// latestNegativeLinks.attr('stroke', '#51cf66');
+		} else {
+			latestPositiveLinks.attr('stroke', '#000');
+			// latestNegativeLinks.attr('stroke', '#226633');
+		}
+
+		// this updates too much, only use it when we need smooth animation
+		// requestAnimationFrame(tick);
+	}
+
+	setInterval(tick, 250);
 }
 
 function renderLegend(svg) {

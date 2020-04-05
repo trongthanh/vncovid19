@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-04T11:26:36+07:00",
+	"modified": "2020-04-06T00:00:50+07:00",
 	"total": 239,
 	"data": {
 		"1": {
@@ -2927,6 +2927,30 @@
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nam, 71 tuổi, địa chỉ tại Tam Dương, tỉnh Vĩnh Phúc.  Ngày 11 và 18/3 đi khám, điều trị tại Khoa Tiêu hóa, Bệnh viện Bạch Mai và có mua đồ ăn ở căng tin bệnh viện."
+		},
+		"240": {
+			"positiveDate": "2020-04-04",
+			"gender": "female",
+			"age": 29,
+			"treatLoc": "Ninh Bình",
+			"from": "Bắc Giang",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["VN618"],
+			"source": ["166", "TH"],
+			"desc": "nữ, 29 tuổi, có địa chỉ tại Lục Nam, tỉnh Bắc Giang, làm việc tại Thái Lan. Ngày 20/3, bệnh nhân về Hà Nội trên chuyến bay VN618. Trước khi về Việt Nam, bệnh nhân có tham gia buổi liên hoan với gia đình BN166."
+		},
+		"241": {
+			"positiveDate": "2020-04-05",
+			"gender": "male",
+			"age": 20,
+			"treatLoc": "Cần Thơ",
+			"from": "Hồ Chí Minh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["VN0050"],
+			"source": ["GB"],
+			"desc": "nam, 20 tuổi, ở phường Thảo Điền, quận 2, TP.HCM, là du học sinh tại Anh. Ngày 21/3, bệnh nhân từ London lên chuyến bay của Vietnam Airlines số hiệu VN0050, số ghế 5A, về tới sân bay Cần Thơ ngày 22/3"
 		}
 	}
 }

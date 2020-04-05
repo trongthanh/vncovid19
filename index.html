@@ -7,9 +7,17 @@
 				font-family: sans-serif;
 			}
 
+			.chart {
+				margin: 2em 0;
+			}
+
 			.content {
 				max-width: 1200px;
 				margin: auto;
+			}
+
+			.cc-image {
+				vertical-align: middle;
 			}
 
 			.svg-tooltip {
@@ -28,13 +36,28 @@
 				visibility: hidden;
 			}
 		</style>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4430452-13"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-4430452-13');
+		</script>
+
 	</head>
 	<body>
 		<main class="content">
 			<h1>Biểu đồ tổng quan các ca nhiễm COVID-19 tại Việt Nam</h1>
-			<p><span id="modified-time"></span> <a href="https://github.com/vncovid19/vncovid19.github.io">Mã nguồn tại GitHub</a></p>
+			<p><span id="modified-time"></span></p>
 			<div id="chart" class="chart"></div>
 		</main>
+		<footer class="content">
+			© 2020 vncovid19.github.io - <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International License"><img class="cc-image" src="https://i.creativecommons.org/l/by/4.0/80x15.png" alt="CC-By-4.0"></a> -
+			<a href="https://github.com/vncovid19/vncovid19.github.io">Mã nguồn tại GitHub</a>
+
+		</footer>
 		<script src="js/d3.min.js"></script>
 		<script src="js/d3-legend.min.js"></script>
 		<script src="js/main.js"></script>

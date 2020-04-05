@@ -312,22 +312,42 @@ function renderChart(hierarchyData) {
 function renderLegend(svg) {
 	// prettier-ignore
 	const patientColorScale = d3.scaleOrdinal(
-		['Nữ < 60 tuổi', 'Nữ ≧ 60 tuổi', 'Nam < 60 tuổi', 'Nam ≧ 60 tuổi', 'Người < 60 tuổi', 'Người ≧ 60 tuổi'],
+		['Nữ < 60 tuổi', 'Nữ ≥ 60 tuổi', 'Nam < 60 tuổi', 'Nam ≥ 60 tuổi', 'Người < 60 tuổi', 'Người ≥ 60 tuổi'],
 		['#fa5252', '#991111', '#339af0', '#2244ee', '#999', '#666']
 	);
-	const legend = d3
+	const dotsLegend = d3
 		.legendColor()
 		.scale(patientColorScale)
 		.shape('circle')
 		.shapeRadius(5);
 
-	svg
+	const linkColorScale = d3.scaleOrdinal(
+		[
+			'Ca dương tính',
+			'Ca dương tính mới nhất',
+			'Ca đã âm tính và xuất viện',
+			'Ca đã xuất viện mới nhất',
+		],
+		['#999', '#000', '#226633', '#51cf66']
+	);
+
+	const linksLegend = d3
+		.legendColor()
+		.scale(linkColorScale)
+		.shape('line');
+
+	const legendPanel = svg
 		.append('g')
-		.classed('legend-color', true)
+		.classed('legend-panel', true)
 		.attr('text-anchor', 'start')
 		.attr('transform', 'translate(-400,-400)')
-		.style('font-size', '12px')
-		.call(legend);
+		.style('font-size', '12px');
+
+	legendPanel.append('g').call(dotsLegend);
+	legendPanel
+		.append('g')
+		.attr('transform', 'translate(150,0)')
+		.call(linksLegend);
 }
 
 function autoBox() {

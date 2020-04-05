@@ -41,6 +41,7 @@ const summary = {
 	total: 0,
 	positive: 0,
 	negative: 0,
+	deceased: 0,
 	latestPositiveDate: '',
 	latestDischargeDate: '',
 };
@@ -95,7 +96,11 @@ d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
 		(negTotal, patient) => (patient.status === 'negative' ? negTotal + 1 : negTotal),
 		0
 	);
-	summary.positive = summary.total - summary.negative;
+	summary.deceased = patientsTable.reduce(
+		(dieTotal, patient) => (patient.status === 'deceased' ? dieTotal + 1 : dieTotal),
+		0
+	);
+	summary.positive = summary.total - summary.negative - summary.deceased;
 
 	// find latest positive date to highlight
 	summary.latestPositiveDate = patientsTable.reduce((latestDate, patient) => {
@@ -191,14 +196,33 @@ function renderChart(hierarchyData) {
       `
 		);
 
-	// drag the center
-	dots
+	// draw the center
+	const centerDot = dots
 		.filter((d) => d.depth === 0)
+		.append('g')
+		.attr('transform', (d) => `rotate(${90 - (d.x * 180) / Math.PI})`);
+
+	centerDot
 		.append('circle')
 		.attr('fill', '#f0f0f0')
 		.attr('stroke', 'black')
 		.attr('stroke-width', 1)
 		.attr('r', (d) => `${d.children[0].y}`);
+
+	const summaryLines = [
+		`Tổng số ca: ${summary.total}`,
+		`Số ca dương tính: ${summary.positive}`,
+		`Số ca chữa khỏi: ${summary.negative}`,
+		`Số ca tử vong: ${summary.deceased}`,
+	];
+
+	centerDot
+		.selectAll('text')
+		.data(summaryLines)
+		.join('text')
+		.attr('x', -70)
+		.attr('y', (d, i) => -20 + i * 20)
+		.text((d) => d);
 
 	// patients and countries with scale based on children.length
 	dots
@@ -225,9 +249,7 @@ function renderChart(hierarchyData) {
         rotate(${90 - (d.x * 180) / Math.PI})
         scale(${getDotScale(d) * 1.2})
       `
-		);
-
-	dots
+		)
 		.on('mouseover', function(d) {
 			return tooltip.style('visibility', 'visible').text(tooltipText(d));
 		})

@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-06T00:00:50+07:00",
-	"total": 241,
+	"modified": "2020-04-06T22:59:24+07:00",
+	"total": 245,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -2951,6 +2951,54 @@
 			"flights": ["VN0050"],
 			"source": ["GB"],
 			"desc": "nam, 20 tuổi, ở phường Thảo Điền, quận 2, TP.HCM, là du học sinh tại Anh. Ngày 21/3, bệnh nhân từ London lên chuyến bay của Vietnam Airlines số hiệu VN0050, số ghế 5A, về tới sân bay Cần Thơ ngày 22/3"
+		},
+		"242": {
+			"positiveDate": "2020-04-06",
+			"gender": "female",
+			"age": 34,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Tĩnh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["RU"],
+			"desc": "nữ, 34 tuổi, có địa chỉ tại Cẩm Xuyên, tỉnh Hà Tĩnh, sinh sống và làm việc tại Nga. Ngày 25/3, bệnh nhân từ Nga về Việt Nam trên chuyến bay SU290. "
+		},
+		"243": {
+			"positiveDate": "2020-04-06",
+			"gender": "male",
+			"age": 47,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"desc": "nam, 47 tuổi, cư trú tại huyện Mê Linh, TP Hà Nội. Ngày 12/3, bệnh nhân đưa vợ đi khám bệnh tại Khoa Miễn dịch - Dị ứng, Bệnh viện Bạch Mai và về trong ngày, ăn uống tại quán cơm đường Giải Phóng đối diện cổng bệnh viện. "
+		},
+		"244": {
+			"positiveDate": "2020-04-06",
+			"gender": "female",
+			"age": 44,
+			"treatLoc": "Hà Nội",
+			"from": "Quảng Bình",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["DE"],
+			"desc": "nữ, 44 tuổi, có địa chỉ tại Bố Trạch, Quảng Bình, nhân viên phục vụ quán ăn nhanh tại Đức. Bệnh nhân từ Đức đến Nga, nối chuyến từ Nga về Việt Nam ngày 25/3 trên chuyến bay SU290. "
+		},
+		"245": {
+			"positiveDate": "2020-04-06",
+			"gender": "female",
+			"age": 21,
+			"treatLoc": "Hà Nội",
+			"from": "Nghệ An",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["SU290"],
+			"source": ["ES"],
+			"desc": "nữ, 21 tuổi, có địa chỉ tại Quỳnh Lưu, Nghệ An, nhân viên làm móng tại Tây Ban Nha. Bệnh nhân từ Tây Ban Nha đến Nga, nối chuyến từ Nga về Việt Nam ngày 25/3 trên chuyến bay SU290. "
 		}
 	}
 }

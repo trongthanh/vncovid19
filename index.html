@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Covid-19 Tracker</title>
-		<style>
-			body {
-				font-family: sans-serif;
-			}
 
-			.chart {
-				margin: 2em 0;
-			}
+<head>
+	<title>Covid-19 Tracker</title>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
 
-			.content {
-				max-width: 1200px;
-				margin: auto;
-			}
+		.chart {
+			margin: 2em 0;
+		}
 
-			.cc-image {
-				vertical-align: middle;
-			}
+		.content {
+			max-width: 1200px;
+			margin: auto;
+		}
 
-			.svg-tooltip {
-				font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-				background: rgba(69,77,93,.9);
-				border-radius: .1rem;
-				color: #fff;
-				display: block;
-				font-size: 11px;
-				max-width: 320px;
-				padding: .2rem .4rem;
-				position: absolute;
-				text-overflow: ellipsis;
-				white-space: pre-line;
-				z-index: 300;
-				visibility: hidden;
-			}
-		</style>
+		.cc-image {
+			vertical-align: middle;
+		}
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4430452-13"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-4430452-13');
-		</script>
+		.svg-tooltip {
+			font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+			background: rgba(69, 77, 93, .9);
+			border-radius: .1rem;
+			color: #fff;
+			display: block;
+			font-size: 11px;
+			max-width: 320px;
+			padding: .2rem .4rem;
+			position: absolute;
+			text-overflow: ellipsis;
+			white-space: pre-line;
+			z-index: 300;
+			visibility: hidden;
+		}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	</head>
-	<body>
-		<main class="content">
-			<h1>Biểu đồ tổng quan các ca nhiễm COVID-19 tại Việt Nam</h1>
-			<p><span id="modified-time"></span></p>
-			<div id="chart" class="chart"></div>
-		</main>
-		<footer class="content">
-			© 2020 vncovid19.github.io - <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International License"><img class="cc-image" src="https://i.creativecommons.org/l/by/4.0/80x15.png" alt="CC-By-4.0"></a> -
-			<a href="https://github.com/vncovid19/vncovid19.github.io">Mã nguồn tại GitHub</a>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4430452-13"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-4430452-13');
+	</script>
 
-		</footer>
-		<script src="js/d3.min.js"></script>
-		<script src="js/d3-legend.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+</head>
+
+<body>
+	<main class="content">
+		<h1>Biểu đồ tổng quan các ca nhiễm COVID-19 tại Việt Nam</h1>
+		<p><span id="modified-time"></span></p>
+		<div id="chart" class="chart"></div>
+
+		<div class="card">
+			<h5 class="card-header">Lịch sử</h5>
+			<div class="card-body">
+				<div id="historicalChart"></div>
+			</div>
+		</div>
+	</main>
+	<footer class="content">
+		© 2020 vncovid19.github.io - <a href="http://creativecommons.org/licenses/by/4.0/"
+			title="Creative Commons Attribution 4.0 International License"><img class="cc-image"
+				src="https://i.creativecommons.org/l/by/4.0/80x15.png" alt="CC-By-4.0"></a> -
+		<a href="https://github.com/vncovid19/vncovid19.github.io">Mã nguồn tại GitHub</a>
+	</footer>
+	<script src="js/d3.min.js"></script>
+	<script src="js/d3-legend.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/historical.js"></script>
+
+</body>
+
 </html>

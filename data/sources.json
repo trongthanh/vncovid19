@@ -21,7 +21,7 @@
 	"SG": { "label": "Singapore",      "icon": "icon-sg.png" },
 	"TH": { "label": "Thái Lan",       "icon": "icon-th.png" },
 	"US": { "label": "Mỹ",             "icon": "icon-us.png" },
-	"VN": { "label": "Việt Nam",       "icon": "icon-vn.png" },
+	"VN": { "label": "Trong cộng đồng", "icon": "icon-vn.png" },
 	"IMPORT": { "label": "Nước Ngoài", "icon": "icon-globe.svg" },
 	"BVBM": {"label": "BV Bạch Mai",   "icon": "icon-bvbm.png"}
 }

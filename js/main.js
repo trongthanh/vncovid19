@@ -231,8 +231,7 @@ function renderChart(hierarchyData) {
 		.attr('fill', dotColor)
 		.attr('stroke', (d) => (d.data.status === 'negative' ? '#226633' : 'black'))
 		.attr('stroke-width', 1)
-		.attr('r', (d) => getDotScale(d))
-		.classed('tippy', true);
+		.attr('r', (d) => getDotScale(d));
 
 	// flag image for countries
 	dots
@@ -249,7 +248,10 @@ function renderChart(hierarchyData) {
         rotate(${90 - (d.x * 180) / Math.PI})
         scale(${getDotScale(d) * 1.2})
       `
-		)
+		);
+
+	dots
+		.filter((d) => d.depth > 0)
 		.on('mouseover', function(d) {
 			return tooltip.style('visibility', 'visible').text(tooltipText(d));
 		})

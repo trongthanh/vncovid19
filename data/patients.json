@@ -64,7 +64,7 @@
 		},
 		"6": {
 			"positiveDate": "2020-02-01",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-04",
 			"gender": "female",
 			"age": 25,
 			"treatLoc": "Nha Trang",
@@ -76,9 +76,9 @@
 		},
 		"7": {
 			"positiveDate": "2020-02-02",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-21",
 			"gender": "male",
-			"age": -1,
+			"age": 73,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Mỹ",
 			"nationality": "Mỹ",
@@ -88,7 +88,7 @@
 		},
 		"8": {
 			"positiveDate": "2020-02-03",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-18",
 			"gender": "female",
 			"age": 29,
 			"treatLoc": "Hà Nội",
@@ -112,7 +112,7 @@
 		},
 		"10": {
 			"positiveDate": "2020-02-04",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-18",
 			"gender": "female",
 			"age": 42,
 			"treatLoc": "Vĩnh Phúc",
@@ -124,7 +124,7 @@
 		},
 		"11": {
 			"positiveDate": "2020-02-06",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-20",
 			"gender": "female",
 			"age": 49,
 			"treatLoc": "Vĩnh Phúc",
@@ -136,7 +136,7 @@
 		},
 		"12": {
 			"positiveDate": "2020-02-06",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-20",
 			"gender": "female",
 			"age": 16,
 			"treatLoc": "Vĩnh Phúc",
@@ -148,7 +148,7 @@
 		},
 		"13": {
 			"positiveDate": "2020-02-07",
-			"dischargeDate": "",
+			"dischargeDate": "2020-02-20",
 			"gender": "male",
 			"age": 29,
 			"treatLoc": "Vĩnh Phúc",
@@ -184,9 +184,9 @@
 		},
 		"16": {
 			"positiveDate": "2020-02-13",
-			"dischargeDate": "2020-02-25",
+			"dischargeDate": "2020-02-26",
 			"gender": "male",
-			"age": -1,
+			"age": 50,
 			"treatLoc": "Vĩnh Phúc",
 			"nationality": "Việt Nam",
 			"from": "Vĩnh Phúc",
@@ -209,6 +209,7 @@
 		},
 		"18": {
 			"positiveDate": "2020-03-07",
+			"dischargeDate": "2020-03-20",
 			"gender": "male",
 			"age": 27,
 			"treatLoc": "Thái Bình",

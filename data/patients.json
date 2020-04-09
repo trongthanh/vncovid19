@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-09T14:31:46+07:00",
-	"total": 251,
+	"modified": "2020-04-09T23:24:06+07:00",
+	"total": 255,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -3102,6 +3102,54 @@
 			"flights": null,
 			"source": ["VN"],
 			"desc": "nam, 64 tuổi, trú tại Bình Lục, Hà Nam. Từ ngày 20/3 đến nay bệnh nhân điều trị tại Khoa Tiêu hoá, Bệnh viện Đa khoa tỉnh Hà Nam, con trai và con dâu từ Hà Nội về chăm. Trường hợp này đang được tiếp tục điều tra nguồn lây."
+		},
+		"252": {
+			"positiveDate": "2020-04-09",
+			"gender": "male",
+			"age": 6,
+			"treatLoc": "Tây Ninh",
+			"from": "Hồ Chí Minh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["KH"],
+			"desc": "nam, 6 tuổi, có địa chỉ tại Quận 5, TP. Hồ Chí Minh. Bệnh nhân sống tại Campuchia cùng gia đình có 5 người, trong đó 2 người đã được xác định mắc COVID-19 và được cách ly, điều trị tại Campuchia. Ngày 8/4, bệnh nhân cùng 2 người còn lại trong gia đình trở về Việt Nam qua cửa khẩu Mộc Bài, Tây Ninh."
+		},
+		"253": {
+			"positiveDate": "2020-04-09",
+			"gender": "female",
+			"age": 41,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243"],
+			"desc": "nữ, 41 tuổi, trú ở Mê Linh, Hà Nội, là chị dâu, ở gần nhà  và có tiếp xúc gần với BN243. "
+		},
+		"254": {
+			"positiveDate": "2020-04-09",
+			"gender": "male",
+			"age": 51,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243", "250"],
+			"desc": "nam, 51 tuổi, trú  ở Mê Linh, Hà Nội, là hàng xóm có tiếp xúc gần BN243,  BN250. "
+		},
+		"255": {
+			"positiveDate": "2020-04-09",
+			"gender": "male",
+			"age": 29,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Giang",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["RU"],
+			"desc": "nam, 29 tuổi, có địa chỉ tại Bắc Quang, Hà Giang. Ngày 27/3, bệnh nhân từ Nga về Sân bay Quốc tế Nội Bài trên chuyến bay SU290."
 		}
 	}
 }

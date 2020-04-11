@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-10T23:42:33+07:00",
-	"total": 257,
+	"modified": "2020-04-11T22:59:16+07:00",
+	"total": 258,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -3191,6 +3191,18 @@
 			"flights": null,
 			"source": ["243"],
 			"desc": "nữ, 15 tuổi, địa chỉ ở Mê Linh, Hà Nội. Ngày 20/3/2020, BN234 (bạn của bố bệnh nhân) có đến chơi nhà và nói chuyện với bố bệnh nhân."
+		},
+		"258": {
+			"positiveDate": "2020-04-11",
+			"gender": "female",
+			"age": 47,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243", "257"],
+			"desc": "nữ, 47 tuổi, địa chỉ ở Mê Linh, Hà Nội. Là mẹ BN257 (đang được cách ly tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2)."
 		}
 	}
 }

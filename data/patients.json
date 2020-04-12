@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-11T22:59:16+07:00",
-	"total": 258,
+	"modified": "2020-04-12T23:55:51+07:00",
+	"total": 260,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -3203,6 +3203,30 @@
 			"flights": null,
 			"source": ["243", "257"],
 			"desc": "nữ, 47 tuổi, địa chỉ ở Mê Linh, Hà Nội. Là mẹ BN257 (đang được cách ly tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2)."
+		},
+		"259": {
+			"positiveDate": "2020-04-12",
+			"gender": "female",
+			"age": 41,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["254", "250"],
+			"desc": "nữ, 41 tuổi, ở xóm Bàng, thôn Hạ Lôi, xã Mê Linh, huyện Mê Linh, Hà Nội, là vợ BN254, thỉnh thoảng có đi giao hoa tại thôn Liễu Trì, xã Mê Linh và một số nơi khác khi có đơn hàng, thường xuyên mua hàng tại nhà BN250 (lần cuối ngày 25/3). Từ ngày 03/4-06/4, có đi sang xóm, thôn khác gồm xóm Chùa, xóm Ao Sen, thôn Liễu Trì để giao hoa và mua đồ, có tiếp xúc nhiều người. Lần cuối tiếp xúc chồng là BN254 vào 8/4, trước khi BN254 lên chạy thận ở BV Thận Hà Nội;"
+		},
+		"260": {
+			"positiveDate": "2020-04-12",
+			"gender": "female",
+			"age": 35,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243", "259"],
+			"desc": "nữ, 35 tuổi, quốc tịch Việt Nam, địa chỉ ở xóm Đường, thôn Hạ Lôi, làm nghề trồng hoa, không đi đâu xa trong vòng 2 tuần gần đây. Hàng ngày thường đi chợ sau đó ra đồng chăm hoa rồi về nhà. Có thói quen mua thịt tại nhà Bảy Huấn (tại xóm Đường) cũng là nơi BN259 hay tới mua thịt. Ngày 6/4, có tiếp xúc gần với 2 người F1 của BN243 khi đi giao hoa."
 		}
 	}
 }

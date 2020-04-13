@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-12T23:55:51+07:00",
-	"total": 260,
+	"modified": "2020-04-13T15:10:12+07:00",
+	"total": 262,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -3227,6 +3227,30 @@
 			"flights": null,
 			"source": ["243", "259"],
 			"desc": "nữ, 35 tuổi, quốc tịch Việt Nam, địa chỉ ở xóm Đường, thôn Hạ Lôi, làm nghề trồng hoa, không đi đâu xa trong vòng 2 tuần gần đây. Hàng ngày thường đi chợ sau đó ra đồng chăm hoa rồi về nhà. Có thói quen mua thịt tại nhà Bảy Huấn (tại xóm Đường) cũng là nơi BN259 hay tới mua thịt. Ngày 6/4, có tiếp xúc gần với 2 người F1 của BN243 khi đi giao hoa."
+		},
+		"261": {
+			"positiveDate": "2020-04-13",
+			"gender": "female",
+			"age": 60,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243"],
+			"desc": "nữ, 60 tuổi, trú tại xóm Hội, Hạ Lôi, Mê Linh, Hà Nội, bán tạp hoá tại chợ Hạ trong xóm Hội, được lấy mẫu bệnh phẩm ngày 11/4 và xét nghiệm ngày 12/4 cho kết quả dương tính với SARS-CoV-2."
+		},
+		"262": {
+			"positiveDate": "2020-04-13",
+			"gender": "male",
+			"age": 26,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["254"],
+			"desc": "nam, 26 tuổi, trú tại xóm Chợ, Hạ Lôi, ngày 27/3 có tiếp xúc gần với BN254 (là bác của bệnh nhân), ngày 31/3 có xuất hiện ho khan, sốt, được lấy mẫu bệnh phẩm ngày 11/4 và xét nghiệm ngày 12/4 cho kết quả dương tính với virus SARS-CoV-2."
 		}
 	}
 }

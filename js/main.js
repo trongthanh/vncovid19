@@ -46,7 +46,10 @@ const summary = {
 	latestDischargeDate: '',
 };
 
-d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
+const now = new Date();
+const todayStr = `${now.getFullYear()}${now.getMonth() + 1}${now.getDate()}`;
+
+d3.json(`data/patients.json?date=${todayStr}`).then(({ modified, data: patients = {} }) => {
 	// update modified time
 	d3.select('#modified-time').text(`Cập nhật lần cuối: ${new Date(modified).toLocaleString()}.`);
 

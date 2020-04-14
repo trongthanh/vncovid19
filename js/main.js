@@ -167,7 +167,7 @@ function renderChart(hierarchyData) {
 		.attr('fill', 'none')
 		.attr('stroke', ({ target: { data } }) => {
 			if (data.status === 'negative') {
-				return data.dischargeDate === summary.latestDischargeDate ? '#51cf66' : '#226633';
+				return data.dischargeDate === summary.latestDischargeDate ? '#51cf66' : '#2b8a3e';
 			}
 			// console.log('latestPositiveDate', data.positiveDate === summary.latestPositiveDate);
 			return data.positiveDate === summary.latestPositiveDate ? '#000' : '#999';
@@ -355,7 +355,7 @@ function renderLegend(svg) {
 			'Ca đã âm tính và xuất viện',
 			'Ca đã xuất viện mới nhất',
 		],
-		['#999', '#000', '#226633', '#51cf66']
+		['#999', '#000', '#2b8a3e', '#51cf66']
 	);
 
 	const linksLegend = d3

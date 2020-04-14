@@ -1,3 +1,4 @@
+#!/usr/local/bin/node
 // Quick script to insert dischargeDate and turn status to "negative"
 // Example: Run the script with following params
 // node scripts/batch-discharge.js 2020-04-07 12,14,156
@@ -12,10 +13,12 @@ console.log('Discharge date:', dateStr);
 console.log('Changing status for patients:', patientIds);
 
 patientIds.forEach((id) => {
-	const p = patientsJson.data[id];
+	const patientIndex = patientsJson.data.findIndex((patient) => patient.id === id);
+	const p = patientsJson.data[patientIndex];
 	if (!p) return;
 	// overwrite with new dischargeDate
-	patientsJson.data[id] = {
+	patientsJson.data[patientIndex] = {
+		id,
 		positiveDate: p.positiveDate,
 		dischargeDate: dateStr,
 		gender: p.gender,
@@ -34,7 +37,7 @@ patientIds.forEach((id) => {
 const jsonStep1 = JSON.stringify(
 	patientsJson,
 	(key, value) => {
-		if (Array.isArray(value)) {
+		if (key !== 'data' && Array.isArray(value)) {
 			return JSON.stringify(value);
 		}
 

@@ -16,118 +16,115 @@
 			"type": "integer"
 		},
 		"data": {
-			"additionalProperties": false,
-			"patternProperties": {
-				"^[0-9]+$": {
-					"type": "object",
-					"description": "An explanation about the purpose of this instance.",
-					"default": null,
-					"examples": [
-						{
-							"positiveDate": "2020-03-16",
-							"dischargeDate": "2020-03-30",
-							"gender": "male",
-							"age": 58,
-							"treatmentLocation": "Hà Nội",
-							"from": "Hà Nội",
-							"nationality": "Việt Nam",
-							"status": "positive",
-							"flights": ["VN0054"],
-							"source": ["GB"],
-							"description": "nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
+			"type": "array",
+			"items": {
+				"type": "object",
+				"description": "Patient object",
+				"examples": [
+					{
+						"positiveDate": "2020-03-16",
+						"dischargeDate": "2020-03-30",
+						"gender": "male",
+						"age": 58,
+						"treatmentLocation": "Hà Nội",
+						"from": "Hà Nội",
+						"nationality": "Việt Nam",
+						"status": "positive",
+						"flights": ["VN0054"],
+						"source": ["GB"],
+						"description": "nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
+					}
+				],
+				"required": [
+					"positiveDate",
+					"gender",
+					"age",
+					"treatLoc",
+					"from",
+					"nationality",
+					"status",
+					"source",
+					"desc"
+				],
+				"if": { "properties": { "status": { "const": "negative" } } },
+				"then": { "required": [ "dischargeDate" ] },
+				"properties": {
+					"positiveDate": {
+						"type": "string",
+						"pattern": "^[0-9]{4}-[0-1][1-9]-[0-3][0-9]$",
+						"description": "Ngày được công bố dương tính",
+						"default": "",
+						"examples": ["2020-03-28"]
+					},
+					"dischargeDate": {
+						"type": "string",
+						"pattern": "^[0-9]{4}-[0-1][1-9]-[0-3][0-9]$",
+						"description": "Ngày được công bố khỏi bệnh",
+						"default": "",
+						"examples": ["2020-03-28"]
+					},
+					"gender": {
+						"type": "string",
+						"description": "Giới tính",
+						"enum": ["male", "female", ""]
+					},
+					"age": {
+						"type": "number",
+						"description": "Tuổi",
+						"default": -1,
+						"examples": [58, 0.25]
+					},
+					"treatLoc": {
+						"type": "string",
+						"description": "Tỉnh / thành nơi chữa bệnh.",
+						"default": "",
+						"examples": ["Hà Nội"]
+					},
+					"from": {
+						"type": "string",
+						"description": "Tỉnh / thành nơi cư trú",
+						"default": "",
+						"examples": ["Hà Nội"]
+					},
+					"nationality": {
+						"type": "string",
+						"description": "Quốc tịch",
+						"default": "",
+						"examples": ["Việt Nam"]
+					},
+					"status": {
+						"type": "string",
+						"description": "Tình trạng",
+						"enum": ["positive", "negative", "deceased"]
+					},
+					"flights": {
+						"type": ["array", "null"],
+						"description": "Danh sách các chuyến bay",
+						"default": null,
+						"items": {
+							"type": "string",
+							"description": "Mã chuyến bay",
+							"default": "",
+							"examples": ["VN0054"]
 						}
-					],
-					"required": [
-						"positiveDate",
-						"gender",
-						"age",
-						"treatLoc",
-						"from",
-						"nationality",
-						"status",
-						"source",
-						"desc"
-					],
-					"if": { "properties": { "status": { "const": "negative" } } },
-					"then": { "required": [ "dischargeDate" ] },
-					"properties": {
-						"positiveDate": {
+					},
+					"source": {
+						"type": "array",
+						"description": "Nguồn lây nhiễm",
+						"items": {
 							"type": "string",
-							"pattern": "^[0-9]{4}-[0-1][1-9]-[0-3][0-9]$",
-							"description": "Ngày được công bố dương tính",
+							"description": "Mã bệnh nhân, mã quốc gia hoặc nguồn lây",
 							"default": "",
-							"examples": ["2020-03-28"]
-						},
-						"dischargeDate": {
-							"type": "string",
-							"pattern": "^[0-9]{4}-[0-1][1-9]-[0-3][0-9]$",
-							"description": "Ngày được công bố khỏi bệnh",
-							"default": "",
-							"examples": ["2020-03-28"]
-						},
-						"gender": {
-							"type": "string",
-							"description": "Giới tính",
-							"enum": ["male", "female", ""]
-						},
-						"age": {
-							"type": "number",
-							"description": "Tuổi",
-							"default": -1,
-							"examples": [58, 0.25]
-						},
-						"treatLoc": {
-							"type": "string",
-							"description": "Tỉnh / thành nơi chữa bệnh.",
-							"default": "",
-							"examples": ["Hà Nội"]
-						},
-						"from": {
-							"type": "string",
-							"description": "Tỉnh / thành nơi cư trú",
-							"default": "",
-							"examples": ["Hà Nội"]
-						},
-						"nationality": {
-							"type": "string",
-							"description": "Quốc tịch",
-							"default": "",
-							"examples": ["Việt Nam"]
-						},
-						"status": {
-							"type": "string",
-							"description": "Tình trạng",
-							"enum": ["positive", "negative", "deceased"]
-						},
-						"flights": {
-							"type": ["array", "null"],
-							"description": "Danh sách các chuyến bay",
-							"default": null,
-							"items": {
-								"type": "string",
-								"description": "Mã chuyến bay",
-								"default": "",
-								"examples": ["VN0054"]
-							}
-						},
-						"source": {
-							"type": "array",
-							"description": "Nguồn lây nhiễm",
-							"items": {
-								"type": "string",
-								"description": "Mã bệnh nhân, mã quốc gia hoặc nguồn lây",
-								"default": "",
-								"examples": ["GB", "17", "BVBM"]
-							}
-						},
-						"desc": {
-							"type": "string",
-							"description": "Ghi chú, mô tả về bệnh nhân.",
-							"default": "",
-							"examples": [
-								"nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
-							]
+							"examples": ["GB", "17", "BVBM"]
 						}
+					},
+					"desc": {
+						"type": "string",
+						"description": "Ghi chú, mô tả về bệnh nhân.",
+						"default": "",
+						"examples": [
+							"nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
+						]
 					}
 				}
 			}

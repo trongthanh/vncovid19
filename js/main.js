@@ -49,17 +49,15 @@ const summary = {
 const now = new Date();
 const todayStr = `${now.getFullYear()}${now.getMonth() + 1}${now.getDate()}`;
 
-d3.json(`data/patients.json?date=${todayStr}`).then(({ modified, data: patients = {} }) => {
+d3.json(`data/patients.json?date=${todayStr}`).then(({ modified, data: patients = [] }) => {
 	// update modified time
 	d3.select('#modified-time').text(`Cập nhật lần cuối: ${new Date(modified).toLocaleString()}.`);
 
-	const keys = Object.keys(patients);
 	// ID should only listed once
 	const countryIds = new Set();
 
 	// collect sources that in global `countries` object
-	keys.forEach((no) => {
-		const patient = patients[no];
+	patients.forEach((patient) => {
 		const sourceId = patient.source && patient.source[0];
 		if (countries[sourceId]) {
 			countryIds.add(sourceId);
@@ -81,16 +79,14 @@ d3.json(`data/patients.json?date=${todayStr}`).then(({ modified, data: patients 
 		);
 	}
 
-	const patientsTable = keys.map((id) => {
-		const item = patients[id];
-
+	const patientsTable = patients.map((patient) => {
 		return Object.assign(
 			{
-				id: id,
-				parent: item.source && item.source[0],
-				label: item.label || id, // add label for patients
+				id: patient.id,
+				parent: patient.source && patient.source[0],
+				label: patient.label || patient.id, // add label for patients
 			},
-			item
+			patient
 		);
 	});
 

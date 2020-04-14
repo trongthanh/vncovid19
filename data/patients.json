@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-13T15:10:12+07:00",
-	"total": 262,
+	"modified": "2020-04-14T11:41:59+07:00",
+	"total": 265,
 	"data": {
 		"1": {
 			"positiveDate": "2020-01-23",
@@ -336,12 +336,13 @@
 		},
 		"28": {
 			"positiveDate": "2020-03-08",
+			"dischargeDate": "2020-04-13",
 			"gender": "male",
 			"age": 74,
 			"treatLoc": "",
 			"from": "",
 			"nationality": "Anh",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"desc": "74 tuổi, quốc tịch Anh, là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020"
@@ -1939,12 +1940,13 @@
 		},
 		"155": {
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-04-13",
 			"gender": "female",
 			"age": 21,
 			"treatLoc": "Cần Thơ",
 			"from": "Hưng Yên",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0050"],
 			"source": ["GB", "145"],
 			"desc": "nữ, 21 tuổi, địa chỉ tại thị trấn Ân Thi, tỉnh Hưng Yên, là sinh viên trường Đại học tại Anh. Ngày 22/3/2020 từ Anh về tới Cần Thơ trên chuyến bay số hiệu VN0050, cùng chuyến bay với BN145."
@@ -3251,6 +3253,43 @@
 			"flights": null,
 			"source": ["254"],
 			"desc": "nam, 26 tuổi, trú tại xóm Chợ, Hạ Lôi, ngày 27/3 có tiếp xúc gần với BN254 (là bác của bệnh nhân), ngày 31/3 có xuất hiện ho khan, sốt, được lấy mẫu bệnh phẩm ngày 11/4 và xét nghiệm ngày 12/4 cho kết quả dương tính với virus SARS-CoV-2."
+		},
+
+		"263": {
+			"positiveDate": "2020-04-13",
+			"gender": "female",
+			"age": 45,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243"],
+			"desc": "nữ, 45 tuổi, trú tại Hạ Lôi, Mê Linh, Hà Nội. Ngày 25/3, bệnh nhân có biểu hiện sốt rét, đau rát họng, ho khan, mệt. Bệnh nhân thuộc diện sàng lọc và được lấy mẫu xét nghiệm ngày 11/4, được kết luận dương tính với SARS-CoV-2 vào ngày 13/4, hiện đang được cách ly, điều trị tại BV Bệnh nhiệt đới Trung ương cơ sở 2;"
+		},
+		"264": {
+			"positiveDate": "2020-04-13",
+			"gender": "female",
+			"age": 24,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243"],
+			"desc": "nữ, 24 tuổi, trú tại Hạ Lôi, thuộc diện sàng lọc và được lấy mẫu xét nghiệm ngày 11/4, có kết quả xét nghiệm dương tính với SARS-CoV-2 vào ngày 13/4, hiện đang được cách ly, điều trị tại BV Bệnh nhiệt đới Trung ương cơ sở 2;"
+		},
+		"265": {
+			"positiveDate": "2020-04-13",
+			"gender": "male",
+			"age": 26,
+			"treatLoc": "Hà Tĩnh",
+			"from": "Hà Tĩnh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["TH"],
+			"desc": "nam, 26 tuổi, trú tại Hà Tĩnh, ngày 23/3 từ Thái Lan nhập cảnh về Việt Nam qua cửa khẩu Cha Lo, Quảng Bình, hiện đang được cách ly, điều trị tại Bệnh viện Cầu Treo, Hà Tĩnh."
 		}
 	}
 }

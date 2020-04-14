@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-14T11:41:59+07:00",
-	"total": 265,
+	"modified": "2020-04-14T22:46:39+07:00",
+	"total": 266,
 	"data": [
 		{
 			"id": "1",
@@ -862,12 +862,13 @@
 		{
 			"id": "65",
 			"positiveDate": "2020-03-17",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 28,
 			"treatLoc": "Ho Chi Minh",
 			"from": "Ho Chi Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"source": ["45", "48"],
 			"desc": "nữ, 28 tuổi trú quận Gò Vấp, TP.HCM có tiếp xúc và làm việc cùng BN45,48 vào các ngày 7/3 và 10/3."
 		},
@@ -1982,12 +1983,13 @@
 		{
 			"id": "146",
 			"positiveDate": "2020-03-26",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 17,
 			"treatLoc": "Đà Nẵng",
 			"from": "Nghệ An",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TG947"],
 			"source": ["122"],
 			"desc": "nữ, 17 tuổi ở huyện Nghi Lộc, Nghệ An, đi từ Thái Lan về ngày 20/03/2020, trước đó có tiếp xúc gần với ca dương tính xác định tại Đà Nẵng."
@@ -3575,6 +3577,19 @@
 			"flights": null,
 			"source": ["TH"],
 			"desc": "nam, 26 tuổi, trú tại Hà Tĩnh, ngày 23/3 từ Thái Lan nhập cảnh về Việt Nam qua cửa khẩu Cha Lo, Quảng Bình, hiện đang được cách ly, điều trị tại Bệnh viện Cầu Treo, Hà Tĩnh."
+		},
+		{
+			"id": "266",
+			"positiveDate": "2020-04-14",
+			"gender": "female",
+			"age": 36,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["BVBM"],
+			"desc": "nữ, 36 tuổi, trú tại Thường Tín, Hà Nội. Ngày 08-10/3, bệnh nhân đến chăm mẹ tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai."
 		}
 	]
 }

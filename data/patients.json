@@ -609,18 +609,6 @@
 		},
 		"50": {
 			"positiveDate": "2020-03-14",
-			"gender": "female",
-			"age": 24,
-			"treatLoc": "Quảng Ninh",
-			"from": "Quảng Ninh",
-			"nationality": "Việt Nam",
-			"status": "positive",
-			"flights": ["BN50"],
-			"source": ["GB"],
-			"desc": "nữ 24 tuổi tại Hạ Long (Quảng Ninh), là hành khách trên chuyến bay từ London (Anh) về Việt Nam ngày 9/3/2020"
-		},
-		"51": {
-			"positiveDate": "2020-03-14",
 			"dischargeDate": "2020-03-30",
 			"gender": "male",
 			"age": 50,
@@ -632,17 +620,30 @@
 			"source": ["FR"],
 			"desc": "nam 50 tuổi tại Hà Nội từ Paris về Việt Nam ngày 10/3/2020 ."
 		},
-		"52": {
+		"51": {
 			"positiveDate": "2020-03-14",
+			"dischargeDate": "2020-04-01",
 			"gender": "female",
 			"age": 22,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["QR968"],
 			"source": ["EU"],
 			"desc": "nữ 22 tuổi tại Hà Nội, là du học sinh ở Châu Âu đi qua nhiều nước, về Nội Bài trên chuyến bay QR968 ngày 13/3/2020 ."
+		},
+		"52": {
+			"positiveDate": "2020-03-14",
+			"gender": "female",
+			"age": 24,
+			"treatLoc": "Quảng Ninh",
+			"from": "Quảng Ninh",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["BN50"],
+			"source": ["GB"],
+			"desc": "nữ 24 tuổi tại Hạ Long (Quảng Ninh), là hành khách trên chuyến bay từ London (Anh) về Việt Nam ngày 9/3/2020"
 		},
 		"53": {
 			"positiveDate": "2020-03-14",
@@ -796,13 +797,12 @@
 		},
 		"65": {
 			"positiveDate": "2020-03-17",
-			"dischargeDate": "2020-04-01",
 			"gender": "female",
 			"age": 28,
 			"treatLoc": "Ho Chi Minh",
 			"from": "Ho Chi Minh",
 			"nationality": "Việt Nam",
-			"status": "negative",
+			"status": "positive",
 			"source": ["45", "48"],
 			"desc": "nữ, 28 tuổi trú quận Gò Vấp, TP.HCM có tiếp xúc và làm việc cùng BN45,48 vào các ngày 7/3 và 10/3."
 		},
@@ -1081,12 +1081,13 @@
 		},
 		"87": {
 			"positiveDate": "2020-03-20",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 34,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["86"],
 			"desc": "nữ, 34 tuổi, điều dưỡng làm việc tiếp đón tại khu cách ly Trung tâm Bệnh nhiệt đới thuộc Bệnh viện Bạch Mai. Qua rà soát cho thấy, bệnh nhân có nhiều lần tiếp xúc gần với BN86."
@@ -1144,12 +1145,13 @@
 		},
 		"92": {
 			"positiveDate": "2020-03-21",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 21,
 			"treatLoc": "Đà Lạt",
 			"from": "Đà Lạt",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["QR970"],
 			"source": ["FR"],
 			"desc": "nam, 21 tuổi trú tại TP. Đà Lạt, tỉnh Lâm Đồng, là du học sinh tại Pháp, về Việt Nam ngày 17/3/2020 trên chuyến bay của Qatar Airways số hiệu QR970. "
@@ -1360,12 +1362,13 @@
 		},
 		"109": {
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 42,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TG560"],
 			"source": ["GB"],
 			"desc": "nam, 42 tuổi ở Hoàng Mai, Hà Nội, là giảng viên một trường đại học của Anh, về nước ngày 15/3/2020 (quá cảnh qua Bangkok, Thái Lan sau đó từ Thái Lan về Việt Nam trên chuyến bay TG560)."
@@ -1424,24 +1427,26 @@
 		},
 		"114": {
 			"positiveDate": "2020-03-23",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 19,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SQ176"],
 			"source": ["EU"],
 			"desc": "nam, 19 tuổi ở Hoàng Mai, Hà Nội, là du học sinh Việt Nam tại Hà Lan về nước ngày 15/03/2020 trên chuyến bay SQ176 (quá cảnh tại Singapore)."
 		},
 		"115": {
 			"positiveDate": "2020-03-23",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 44,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["CZ", "94"],
 			"desc": "nữ, 44 tuổi, quốc tịch Việt Nam, sống tại Cộng Hòa Séc (là con gái của BN94). Bệnh nhân về Việt Nam và nhập cảnh qua sân bay Nội Bài ngày 18/03/2020 trên chuyến bay SU290 với BN94 và BN93."
@@ -1552,12 +1557,13 @@
 		},
 		"124": {
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 52,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Brazil",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["91"],
 			"desc": "nam, 52 tuổi, quốc tịch Brazil, trú tại Quận 2, TP. Hồ Chí Minh. Ngày 14/3/2020, bệnh nhân có đến quán bar Buddha."
@@ -1590,12 +1596,13 @@
 		},
 		"127": {
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 23,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["91"],
 			"desc": "nam, 23 tuổi, trú tại Quận Tân Phú, TP. Hồ Chí Minh, là nhân viên phục vụ bàn (theo ca 21h00 - 04h00) tại quán Bar Buddha - Quận 2."
@@ -1792,12 +1799,13 @@
 		},
 		"143": {
 			"positiveDate": "2020-03-26",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 58,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Nam Phi",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["BR395"],
 			"source": ["US"],
 			"desc": "nữ, 58 tuổi, quốc tịch Nam Phi thường trú quận Tân Phú, TP. Hồ Chí Minh. Từ Hoa Kỳ, quá cảnh tại Đài Loan và về tới Việt Nam ngày 21/3/2020 trên chuyến bay số hiệu BR395."
@@ -1877,12 +1885,13 @@
 		},
 		"150": {
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 55,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["BR395"],
 			"source": ["US"],
 			"desc": "nam, 55 tuổi trú tại Quận 1, TP. Hồ Chí Minh. Ngày 13/3/2020 cùng vợ từ Hoa Kỳ về Việt Nam, quá cảnh tại Đài Loan - Trung Quốc trên chuyến bay của hãng hàng không EVA Air, số hiệu BR395. "
@@ -2185,12 +2194,13 @@
 		},
 		"175": {
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 57,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nam, 57 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người."
@@ -2209,12 +2219,13 @@
 		},
 		"177": {
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 49,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 49 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người."
@@ -2318,12 +2329,13 @@
 		},
 		"186": {
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 52,
 			"treatLoc": "Hà Nội",
 			"from": "Pháp",
 			"nationality": "Pháp",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TK162"],
 			"source": ["FR", "76"],
 			"desc": "nữ, 52 tuổi, quốc tịch Pháp, là vợ của bệnh nhân số 76, đến Sân bay Tân Sơn Nhất ngày 10/03/2020 trên chuyến bay TK162."
@@ -2355,24 +2367,26 @@
 		},
 		"189": {
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 46,
 			"treatLoc": "Hà Nội",
 			"from": "Thanh Hóa",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 46 tuổi, địa chỉ tại Nông Cống, Thanh Hóa, là nhân viên thuộc bộ phận chuyển phát nước sôi của Công ty Trường Sinh tại Bệnh viện Bạch Mai."
 		},
 		"190": {
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 49,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 49 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai"
@@ -2479,12 +2493,13 @@
 		},
 		"199": {
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 57,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 57 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai."
@@ -2592,12 +2607,13 @@
 		},
 		"208": {
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 38,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 38 tuổi, là nhân viên công ty Trường Sinh cung cấp dịch vụ tại Bệnh viện Bạch Mai."
@@ -2664,12 +2680,13 @@
 		},
 		"214": {
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-14",
 			"gender": "female",
 			"age": 45,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 45 tuổi, nhân viên Công ty Trường Sinh, cung cấp dịch vụ cho Bệnh viện Bạch Mai."
@@ -2736,12 +2753,13 @@
 		},
 		"220": {
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 20,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["FR"],
 			"desc": "nam, 20 tuổi, quốc tịch Việt Nam, từ Pháp về nước ngày 17/3."
@@ -2881,12 +2899,13 @@
 		},
 		"232": {
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 67,
 			"treatLoc": "",
 			"from": "Bà Rịa-Vũng Tàu",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["IMPORT"],
 			"desc": "nam, 67 tuổi, có địa chỉ tại Bà Rịa-Vũng Tàu. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3."
@@ -2918,12 +2937,13 @@
 		},
 		"235": {
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 25,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Anh",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["91"],
 			"desc": "nam, 25 tuổi, quốc tịch Anh. Ngày 14/3/2020 có đi quán Bar Buddha (TP. Hồ Chí Minh)."
@@ -2967,12 +2987,13 @@
 		},
 		"239": {
 			"positiveDate": "2020-04-04",
+			"dischargeDate": "2020-04-14",
 			"gender": "male",
 			"age": 71,
 			"treatLoc": "Hà Nội",
 			"from": "Vĩnh Phúc",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nam, 71 tuổi, địa chỉ tại Tam Dương, tỉnh Vĩnh Phúc.  Ngày 11 và 18/3 đi khám, điều trị tại Khoa Tiêu hóa, Bệnh viện Bạch Mai và có mua đồ ăn ở căng tin bệnh viện."
@@ -3254,7 +3275,6 @@
 			"source": ["254"],
 			"desc": "nam, 26 tuổi, trú tại xóm Chợ, Hạ Lôi, ngày 27/3 có tiếp xúc gần với BN254 (là bác của bệnh nhân), ngày 31/3 có xuất hiện ho khan, sốt, được lấy mẫu bệnh phẩm ngày 11/4 và xét nghiệm ngày 12/4 cho kết quả dương tính với virus SARS-CoV-2."
 		},
-
 		"263": {
 			"positiveDate": "2020-04-13",
 			"gender": "female",

@@ -18,10 +18,8 @@ const svg = d3
 	.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 // TODO: Read the data
-d3.csv('./data/historical.csv', (row /* , index, column */) => {
-	// TODO: nice, this almost changed from v5
-	data.push(row);
-}).then((/* _data */) => {
+d3.json('./data/historical.json').then((data) => {
+	console.log(data);
 	var groupedData = allGroup.map(function(grpName) {
 		return {
 			name: grpName,

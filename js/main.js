@@ -1,7 +1,7 @@
 /* global d3 */
 // inline from sources.json
 // prettier-ignore
-const countries = {"AU":{"label":"Úc","icon":"icon-au.png"},"CA":{"label":"Canada","icon":"icon-ca.png"},"CH":{"label":"Thụy Sĩ","icon":"icon-ch.png"},"CN":{"label":"Trung Quốc","icon":"icon-cn.png"},"CZ":{"label":"CH Séc","icon":"icon-cz.png"},"DE":{"label":"Đức","icon":"icon-de.png"},"DK":{"label":"Đan Mạch","icon":"icon-dk.png"},"ES":{"label":"Tây Ban Nha","icon":"icon-es.png"},"EU":{"label":"Châu Âu","icon":"icon-eu.png"},"FR":{"label":"Pháp","icon":"icon-fr.png"},"GB":{"label":"Anh","icon":"icon-gb.png"},"GR":{"label":"Hy Lạp","icon":"icon-gr.png"},"HU":{"label":"Hungary","icon":"icon-hu.png"},"JP":{"label":"Nhật","icon":"icon-jp.png"},"KH":{"label":"Campuchia","icon":"icon-kh.png"},"KR":{"label":"Hàn Quốc","icon":"icon-kr.png"},"MY":{"label":"Malaysia","icon":"icon-my.png"},"NL":{"label":"Hà Lan","icon":"icon-nl.png"},"RU":{"label":"Nga","icon":"icon-ru.png"},"SG":{"label":"Singapore","icon":"icon-sg.png"},"TH":{"label":"Thái Lan","icon":"icon-th.png"},"US":{"label":"Mỹ","icon":"icon-us.png"},"VN":{"label":"Việt Nam","icon":"icon-vn.png"},"IMPORT":{"label":"Nước Ngoài","icon":"icon-globe.svg"},"BVBM":{"label":"BV Bạch Mai","icon":"icon-bvbm.png"}};
+const countries = {"AU":{"label":"Úc","icon":"icon-au.png"},"CA":{"label":"Canada","icon":"icon-ca.png"},"CH":{"label":"Thụy Sĩ","icon":"icon-ch.png"},"CN":{"label":"Trung Quốc","icon":"icon-cn.png"},"CZ":{"label":"CH Séc","icon":"icon-cz.png"},"DE":{"label":"Đức","icon":"icon-de.png"},"DK":{"label":"Đan Mạch","icon":"icon-dk.png"},"ES":{"label":"Tây Ban Nha","icon":"icon-es.png"},"EU":{"label":"Châu Âu","icon":"icon-eu.png"},"FR":{"label":"Pháp","icon":"icon-fr.png"},"GB":{"label":"Anh","icon":"icon-gb.png"},"GR":{"label":"Hy Lạp","icon":"icon-gr.png"},"HU":{"label":"Hungary","icon":"icon-hu.png"},"JP":{"label":"Nhật","icon":"icon-jp.png"},"KH":{"label":"Campuchia","icon":"icon-kh.png"},"KR":{"label":"Hàn Quốc","icon":"icon-kr.png"},"MY":{"label":"Malaysia","icon":"icon-my.png"},"NL":{"label":"Hà Lan","icon":"icon-nl.png"},"RU":{"label":"Nga","icon":"icon-ru.png"},"SG":{"label":"Singapore","icon":"icon-sg.png"},"TH":{"label":"Thái Lan","icon":"icon-th.png"},"US":{"label":"Mỹ","icon":"icon-us.png"},"VN":{"label":"Trong cộng đồng","icon":"icon-vn.png"},"IMPORT":{"label":"Nước Ngoài","icon":"icon-globe.svg"},"BVBM":{"label":"BV Bạch Mai","icon":"icon-bvbm.png"}};
 const width = 1320;
 const radius = width / 2;
 
@@ -46,17 +46,18 @@ const summary = {
 	latestDischargeDate: '',
 };
 
-d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
+const now = new Date();
+const todayStr = `${now.getFullYear()}${now.getMonth() + 1}${now.getDate()}`;
+
+d3.json(`data/patients.json?date=${todayStr}`).then(({ modified, data: patients = [] }) => {
 	// update modified time
 	d3.select('#modified-time').text(`Cập nhật lần cuối: ${new Date(modified).toLocaleString()}.`);
 
-	const keys = Object.keys(patients);
 	// ID should only listed once
 	const countryIds = new Set();
 
 	// collect sources that in global `countries` object
-	keys.forEach((no) => {
-		const patient = patients[no];
+	patients.forEach((patient) => {
 		const sourceId = patient.source && patient.source[0];
 		if (countries[sourceId]) {
 			countryIds.add(sourceId);
@@ -78,16 +79,14 @@ d3.json('data/patients.json').then(({ modified, data: patients = {} }) => {
 		);
 	}
 
-	const patientsTable = keys.map((id) => {
-		const item = patients[id];
-
+	const patientsTable = patients.map((patient) => {
 		return Object.assign(
 			{
-				id: id,
-				parent: item.source && item.source[0],
-				label: item.label || id, // add label for patients
+				id: patient.id,
+				parent: patient.source && patient.source[0],
+				label: patient.label || patient.id, // add label for patients
 			},
-			item
+			patient
 		);
 	});
 
@@ -164,7 +163,7 @@ function renderChart(hierarchyData) {
 		.attr('fill', 'none')
 		.attr('stroke', ({ target: { data } }) => {
 			if (data.status === 'negative') {
-				return data.dischargeDate === summary.latestDischargeDate ? '#51cf66' : '#226633';
+				return data.dischargeDate === summary.latestDischargeDate ? '#51cf66' : '#2b8a3e';
 			}
 			// console.log('latestPositiveDate', data.positiveDate === summary.latestPositiveDate);
 			return data.positiveDate === summary.latestPositiveDate ? '#000' : '#999';
@@ -231,8 +230,7 @@ function renderChart(hierarchyData) {
 		.attr('fill', dotColor)
 		.attr('stroke', (d) => (d.data.status === 'negative' ? '#226633' : 'black'))
 		.attr('stroke-width', 1)
-		.attr('r', (d) => getDotScale(d))
-		.classed('tippy', true);
+		.attr('r', (d) => getDotScale(d));
 
 	// flag image for countries
 	dots
@@ -249,7 +247,10 @@ function renderChart(hierarchyData) {
         rotate(${90 - (d.x * 180) / Math.PI})
         scale(${getDotScale(d) * 1.2})
       `
-		)
+		);
+
+	dots
+		.filter((d) => d.depth > 0)
 		.on('mouseover', function(d) {
 			return tooltip.style('visibility', 'visible').text(tooltipText(d));
 		})
@@ -350,7 +351,7 @@ function renderLegend(svg) {
 			'Ca đã âm tính và xuất viện',
 			'Ca đã xuất viện mới nhất',
 		],
-		['#999', '#000', '#226633', '#51cf66']
+		['#999', '#000', '#2b8a3e', '#51cf66']
 	);
 
 	const linksLegend = d3

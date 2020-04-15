@@ -2,6 +2,14 @@
 <html>
 	<head>
 		<title>Covid-19 Tracker</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4430452-13"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-4430452-13');
+		</script>
 		<style>
 			body {
 				font-family: sans-serif;
@@ -36,22 +44,13 @@
 				visibility: hidden;
 			}
 		</style>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4430452-13"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-4430452-13');
-		</script>
-
 	</head>
 	<body>
 		<main class="content">
 			<h1>Biểu đồ tổng quan các ca nhiễm COVID-19 tại Việt Nam</h1>
 			<p><span id="modified-time"></span></p>
 			<div id="chart" class="chart"></div>
+			<div id="historicalChart" class="chart"></div>
 		</main>
 		<footer class="content">
 			<p>Nguồn dữ liệu từ <a href="https://ncov.moh.gov.vn" rel="noopener" target="_blank">Bộ Y Tế Việt Nam</a>, trang <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_d%E1%BB%8Bch_COVID-19_t%E1%BA%A1i_Vi%E1%BB%87t_Nam#B%E1%BA%A3ng_th%C3%B4ng_tin" rel="noopener" target="_blank">Wikipedia về Đại dịch COVID-19</a> và được chuẩn hóa <a href="https://vncovid19.github.io/data/patients.json" rel="noopener" target="_blank">tại đây</a>.</p>
@@ -61,5 +60,6 @@
 		<script src="js/d3.min.js"></script>
 		<script src="js/d3-legend.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/historical.js"></script>
 	</body>
 </html>

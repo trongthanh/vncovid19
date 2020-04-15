@@ -25,20 +25,20 @@ Một số thông tin được thu thập bổ sung từ trang [Wiki Đại dị
 
 ```js
 [
-	{
-		"id": "17",                    // ID và là số thứ tự bệnh nhân
-		"positiveDate": "2020-03-06",  // ngày xác nhận dương tính
-		"dischargeDate": "2020-03-22", // ngày xác xác nhận khỏi bệnh
-		"gender": "female",            // male or female, để trống nếu không
-		"age": 26,                     // tuổi, gán -1 nếu không có
-		"treatLoc": "Hà Nội",          // địa phương nơi bệnh nhân được chữa
-		"residence": "Hà Nội",         // nơi cư trú
-		"nationality": "Việt Nam",     // quốc tịch
-		"status": "positive",          // tình trạng hiện tại (positive, negative, deceased)
-		"flights": ["VN0054"],         // mã (các) chuyến bay
-		"source": ["GB"],              // nguồn lây từ (mã quốc gia, ổ dịch hoặc mã BN)
-		"desc": "Nữ 26 tuổi đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020"
-	}
+  {
+    "id": "17",                    // ID và là số thứ tự bệnh nhân
+    "positiveDate": "2020-03-06",  // ngày xác nhận dương tính
+    "dischargeDate": "2020-03-22", // ngày xác xác nhận khỏi bệnh
+    "gender": "female",            // male or female, để trống nếu không
+    "age": 26,                     // tuổi, gán -1 nếu không có
+    "treatLoc": "Hà Nội",          // địa phương nơi bệnh nhân được chữa
+    "residence": "Hà Nội",         // nơi cư trú
+    "nationality": "Việt Nam",     // quốc tịch
+    "status": "positive",          // tình trạng hiện tại (positive, negative, deceased)
+    "flights": ["VN0054"],         // mã (các) chuyến bay
+    "source": ["GB"],              // nguồn lây từ (mã quốc gia, ổ dịch hoặc mã BN)
+    "desc": "Nữ 26 tuổi đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020"
+  }
 ]
 ```
 
@@ -46,13 +46,13 @@ Một số thông tin được thu thập bổ sung từ trang [Wiki Đại dị
 
 ```js
 {
-	"date": "2020-01-23",    // ngày
-	"dailyCases": 2,         // số ca nhiễm trong ngày
-	"dailyDeaths": 0,        // số ca tử vong trong ngày
-	"dailyRecovered": 0,     // số ca hồi phục / xuất viện trong ngày
-	"cases": 2,              // tổng số ca nhiễm
-	"deaths": 0,             // tổng số ca tử vong
-	"recovered": 0           // tổng số ca đã hồi phục
+  "date": "2020-01-23",    // ngày
+  "dailyCases": 2,         // số ca nhiễm trong ngày
+  "dailyDeaths": 0,        // số ca tử vong trong ngày
+  "dailyRecovered": 0,     // số ca hồi phục / xuất viện trong ngày
+  "cases": 2,              // tổng số ca nhiễm
+  "deaths": 0,             // tổng số ca tử vong
+  "recovered": 0           // tổng số ca đã hồi phục
 }
 ```
 

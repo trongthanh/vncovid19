@@ -1,12 +1,11 @@
 /* global d3 */
 const allGroup = ['cases', 'deaths', 'recovered'];
+const legendLabels = { cases: 'Số ca', deaths: 'Tử vong', recovered: 'Khỏi' };
 // TODO: set the dimensions and margins of the graph
-const margin = { top: 10, right: 30, bottom: 30, left: 30 };
+const margin = { top: 30, right: 30, bottom: 50, left: 30 };
 const _width = 960 - margin.left - margin.right;
 const _height = 400 - margin.top - margin.bottom;
 // append the svg object to the body of the page
-
-const data = [];
 
 const svg = d3
 	.select('#historicalChart')
@@ -37,7 +36,7 @@ d3.csv('./data/historical.csv', (row /* , index, column */) => {
 		.domain(allGroup)
 		.range(d3.schemeSet2);
 
-	// TODO: Add X axis
+	// Add X axis
 	const x = d3
 		.scaleTime()
 		.domain([
@@ -45,10 +44,20 @@ d3.csv('./data/historical.csv', (row /* , index, column */) => {
 			d3.timeParse('%Y-%m-%d')(data[data.length - 1].date),
 		])
 		.range([0, _width]);
+	const xAxis = d3
+		.axisBottom(x)
+		.ticks(d3.timeDay)
+		.tickFormat(d3.timeFormat('%m/%d'));
 	svg
 		.append('g')
 		.attr('transform', 'translate(0,' + _height + ')')
-		.call(d3.axisBottom(x));
+		.call(xAxis)
+		.selectAll('text')
+		.attr('y', 0)
+		.attr('x', 9)
+		.attr('dy', '.35em')
+		.attr('transform', 'rotate(90)')
+		.style('text-anchor', 'start');
 
 	// Add Y axis
 	const y = d3
@@ -123,7 +132,7 @@ d3.csv('./data/historical.csv', (row /* , index, column */) => {
 		})
 		.attr('y', 30)
 		.text(function(d) {
-			return `${d.name} ${d.values[d.values.length - 1].value}`;
+			return `${legendLabels[d.name]} ${d.values[d.values.length - 1].value}`;
 		})
 		.style('fill', function(d) {
 			return colorSchema(d.name);

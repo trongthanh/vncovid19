@@ -1,4 +1,3 @@
-#!/usr/local/bin/node
 // Script to convert from patients.json to historical.json
 // Should be run with local time GMT+7
 

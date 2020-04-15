@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-14T22:46:39+07:00",
-	"total": 266,
+	"modified": "2020-04-16T00:59:06+07:00",
+	"total": 267,
 	"data": [
 		{
 			"id": "1",
@@ -1970,12 +1970,13 @@
 		{
 			"id": "145",
 			"positiveDate": "2020-03-26",
+			"dischargeDate": "2020-04-15",
 			"gender": "male",
 			"age": 34,
 			"treatLoc": "Cần Thơ",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0050"],
 			"source": ["GB"],
 			"desc": "nam, 34 tuổi trú quận Tân Phú, TP. Hồ Chí Minh. Bệnh nhân đáp chuyến bay VN0050 của Hãng hàng không VietnamAirlines, số ghế 28A, về tới sân bay Cần Thơ ngày 22/3/2020."
@@ -2147,12 +2148,13 @@
 		{
 			"id": "158",
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-04-15",
 			"gender": "male",
 			"age": 45,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Brazil",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["91"],
 			"desc": "nam, 45 tuổi, quốc tịch Brazil, trú quận 2, TP. Hồ Chí Minh, có tiếp xúc với ca bệnh dương tính trong quán bar Buddha ngày 14/03/2020."
@@ -3590,6 +3592,19 @@
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 36 tuổi, trú tại Thường Tín, Hà Nội. Ngày 08-10/3, bệnh nhân đến chăm mẹ tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai."
+		},
+		{
+			"id": "267",
+			"positiveDate": "2020-04-15",
+			"gender": "male",
+			"age": 46,
+			"treatLoc": "Hà Nội",
+			"from": "Hà Nội",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["243", "257", "258"],
+			"desc": "nam, 46 tuổi, xóm Hội, Hạ Lôi, Mê Linh, Hà Nội, là bố của BN 257, chồng của BN 258, có tiếp xúc gần với BN243 tại nhà ngày 20/3"
 		}
 	]
 }

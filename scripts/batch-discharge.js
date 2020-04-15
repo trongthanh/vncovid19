@@ -1,4 +1,3 @@
-#!/usr/local/bin/node
 // Quick script to insert dischargeDate and turn status to "negative"
 // Example: Run the script with following params
 // node scripts/batch-discharge.js 2020-04-07 12,14,156

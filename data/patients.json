@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-16T11:20:03+07:00",
+	"modified": "2020-04-17T00:27:38+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -687,12 +687,13 @@
 		{
 			"id": "52",
 			"positiveDate": "2020-03-14",
+			"dischargeDate": "2020-04-16",
 			"gender": "female",
 			"age": 24,
 			"treatLoc": "Quảng Ninh",
 			"from": "Quảng Ninh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["BN50"],
 			"source": ["GB"],
 			"desc": "nữ 24 tuổi tại Hạ Long (Quảng Ninh), là hành khách trên chuyến bay từ London (Anh) về Việt Nam ngày 9/3/2020"
@@ -2025,12 +2026,13 @@
 		{
 			"id": "149",
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-04-16",
 			"gender": "male",
 			"age": 40,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN36"],
 			"source": ["DE"],
 			"desc": "nam, 40 tuổi ở Long Biên, Hà Nội, là lao động tự do tại Bang Hessen - CHLB Đức. Ngày 23/3/2020 về Việt Nam trên chuyến bay VN36 của Vietnam Airlines."
@@ -2281,12 +2283,13 @@
 		{
 			"id": "168",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-16",
 			"gender": "female",
 			"age": -1,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, là nhân viên cung cấp nước sôi của Bệnh viện Bạch Mai (sẽ cập nhật thêm)."
@@ -2547,12 +2550,13 @@
 		{
 			"id": "188",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-16",
 			"gender": "female",
 			"age": 44,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 44 tuổi, địa chỉ tại Mỹ Đức, Hà Nội, là nhân viên của công ty Trường Sinh cung cấp nước sôi cho Bệnh viện Bạch Mai."
@@ -2859,12 +2863,13 @@
 		{
 			"id": "211",
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-16",
 			"gender": "female",
 			"age": 23,
 			"treatLoc": "Ninh Bình",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["US"],
 			"desc": "nữ, 23 tuổi, có địa chỉ tại Đống Đa, Hà Nội, là du học sinh tại Mỹ. Ngày 19/3, bệnh nhân từ Mỹ về Việt Nam, quá cảnh Abu Dhabi và Bangkok, đến Hà Nội ngày 20/3/2020"
@@ -3122,12 +3127,13 @@
 		{
 			"id": "231",
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-16",
 			"gender": "female",
 			"age": 57,
 			"treatLoc": "",
 			"from": "Bắc Kạn",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 57 tuổi, có địa chỉ tại huyện Na Rì, tỉnh Bắc Kạn, là nhân viên Công ty Trường Sinh."

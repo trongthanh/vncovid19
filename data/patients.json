@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-16T00:59:06+07:00",
-	"total": 267,
+	"modified": "2020-04-16T11:20:03+07:00",
+	"total": 268,
 	"data": [
 		{
 			"id": "1",
@@ -3605,6 +3605,19 @@
 			"flights": null,
 			"source": ["243", "257", "258"],
 			"desc": "nam, 46 tuổi, xóm Hội, Hạ Lôi, Mê Linh, Hà Nội, là bố của BN 257, chồng của BN 258, có tiếp xúc gần với BN243 tại nhà ngày 20/3"
+		},
+		{
+			"id": "268",
+			"positiveDate": "2020-04-16",
+			"gender": "female",
+			"age": 16,
+			"treatLoc": "Hà Giang",
+			"from": "Hà Giang",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": null,
+			"source": ["CN"],
+			"desc": "BN268 là nữ giới, 16 tuổi, quốc tịch Việt Nam, dân tộc Mông, trú tại một thôn hẻo lánh ở gần biên giới giáp Trung Quốc của huyện Đồng Văn, tỉnh Hà Giang. Gia đình bệnh nhân có 3 anh trai làm việc tự do bên Trung Quốc"
 		}
 	]
 }

@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npx live-server .",
+    "build": "node ./scripts/generate-historical.js",
+    "prebuild": "npm run test",
     "test": "node scripts/validate.js"
   },
   "repository": {

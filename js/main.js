@@ -46,8 +46,7 @@ const summary = {
 	latestDischargeDate: '',
 };
 
-const now = new Date();
-const todayStr = `${now.getFullYear()}${now.getMonth() + 1}${now.getDate()}`;
+const todayStr = new Date().toLocaleDateString('sv'); // this locale has format YYYY-MM-DD
 
 d3.json(`data/patients.json?date=${todayStr}`).then(({ modified, data: patients = [] }) => {
 	// update modified time
@@ -308,9 +307,9 @@ function renderChart(hierarchyData) {
 	);
 
 	// blinking negative links makes the chart chaotic
-	// const latestNegativeLinks = links.filter(
-	// 	({ target: { data } }) => data.dischargeDate === summary.latestDischargeDate
-	// );
+	const latestNegativeLinks = links.filter(
+		({ target: { data } }) => data.dischargeDate === summary.latestDischargeDate
+	);
 
 	// animations
 	function tick() {
@@ -319,10 +318,10 @@ function renderChart(hierarchyData) {
 
 		if (osc >= 0.5) {
 			latestPositiveLinks.attr('stroke', '#999');
-			// latestNegativeLinks.attr('stroke', '#51cf66');
+			latestNegativeLinks.attr('stroke', '#999');
 		} else {
 			latestPositiveLinks.attr('stroke', '#000');
-			// latestNegativeLinks.attr('stroke', '#226633');
+			latestNegativeLinks.attr('stroke', '#51cf66');
 		}
 
 		// this updates too much, only use it when we need smooth animation

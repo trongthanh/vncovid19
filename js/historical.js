@@ -17,8 +17,9 @@ const svg = d3
 	.append('g')
 	.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-// TODO: Read the data
-d3.json('./data/historical.json').then((data) => {
+/* global todayStr */
+// Read the data
+d3.json(`./data/historical.json?date=${todayStr}`).then((data) => {
 	console.log(data);
 	var groupedData = allGroup.map(function(grpName) {
 		return {

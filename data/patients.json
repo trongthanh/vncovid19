@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-17T00:27:38+07:00",
+	"modified": "2020-04-17T23:20:51+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -1420,12 +1420,13 @@
 		{
 			"id": "105",
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 35,
 			"treatLoc": "Cần Thơ",
 			"from": "An Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["AK575"],
 			"source": ["MY"],
 			"desc": "Bệnh nhân nữ, quốc tịch Việt Nam, 35 tuổi, địa chỉ ở huyện Chợ Mới, An Giang, là hành khách trên chuyến bay của hãng hàng không AirAsia số hiệu AK575 từ Malaysia về tới sân bay Cần Thơ sáng ngày 18/3/2020"
@@ -1433,12 +1434,13 @@
 		{
 			"id": "106",
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 20,
 			"treatLoc": "Cần Thơ",
 			"from": "An Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["AK575"],
 			"source": ["MY"],
 			"desc": "Bệnh nhân nữ, quốc tịch Việt Nam, 20 tuổi, địa chỉ ở huyện Châu Phú, An Giang, là hành khách trên chuyến bay của hãng hàng không AirAsia số hiệu AK575 từ Malaysia về tới sân bay Cần Thơ sáng ngày 18/3/2020"
@@ -1460,12 +1462,13 @@
 		{
 			"id": "108",
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-17",
 			"gender": "male",
 			"age": 19,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN054"],
 			"source": ["GB"],
 			"desc": "nam, 19 tuổi ở Cầu Giấy, Hà Nội, là du học sinh Việt Nam tại Anh về nước ngày 18/3/2020 trên chuyến bay VN054."
@@ -1739,12 +1742,13 @@
 		{
 			"id": "128",
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-17",
 			"gender": "male",
 			"age": 20,
 			"treatLoc": "Hà Nội",
 			"from": "Hải Phòng",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"desc": "nam, 20 tuổi ở Lê Chân, TP. Hải Phòng, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 20/03/2020 trên chuyến bay VN0054."
@@ -1808,12 +1812,13 @@
 		{
 			"id": "133",
 			"positiveDate": "2020-03-24",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 66,
 			"treatLoc": "Lai Châu",
 			"from": "Lai Châu",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 66 tuổi ở Tân Phong, Lai Châu, trong tháng 3/2020 có đến Bệnh viện Bạch Mai điều trị bệnh và 22/03/2020 trở về nhà tại tỉnh Lai Châu."
@@ -1890,12 +1895,13 @@
 		{
 			"id": "139",
 			"positiveDate": "2020-03-25",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 24,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"desc": "nữ, 24 tuổi ở Hai Bà Trưng, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054."
@@ -1958,12 +1964,13 @@
 		{
 			"id": "144",
 			"positiveDate": "2020-03-26",
+			"dischargeDate": "2020-04-17",
 			"gender": "male",
 			"age": 22,
 			"treatLoc": "Cần Thơ",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0050"],
 			"source": ["GB"],
 			"desc": "nam, 22 tuổi, trú tại quận Phú Nhuận, TP. Hồ Chí Minh. Bệnh nhân từ Anh về Việt Nam trên chuyến bay của Vietnam Airlines VN0050 ngày 22/3/2020."
@@ -2297,12 +2304,13 @@
 		{
 			"id": "169",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": -1,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, là nhân viên cung cấp nước sôi của Bệnh viện Bạch Mai (sẽ cập nhật thêm)."
@@ -2337,12 +2345,13 @@
 		{
 			"id": "172",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": -1,
 			"treatLoc": "Hà Nội",
 			"from": "Lai Châu",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["133"],
 			"desc": " nữ, là con dâu bệnh nhân số 133, chăm sóc bệnh nhân 23 ngày."
@@ -2350,12 +2359,13 @@
 		{
 			"id": "173",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": -1,
 			"treatLoc": "Hà Nội",
 			"from": "Nga",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["RU"],
 			"desc": "nữ, quốc tịch Việt Nam, sống và làm việc Mátxcơva (LB Nga) về nước ngày 25/3/2020."
@@ -2363,12 +2373,13 @@
 		{
 			"id": "174",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": -1,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": " nữ, làm việc tại nhà ăn Bệnh viện Bạch Mai"
@@ -2483,12 +2494,13 @@
 		{
 			"id": "183",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 43,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["148"],
 			"desc": "nữ, 43 tuổi, địa chỉ tại Cầu Giấy, Hà Nội; là phóng viên có tiếp xúc gần (phỏng vấn) với bệnh nhân số 148 ngày 12/3/2020."
@@ -2592,12 +2604,13 @@
 		{
 			"id": "191",
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 36,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 36 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai"
@@ -2890,12 +2903,13 @@
 		{
 			"id": "213",
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 40,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 40 tuổi, có địa chỉ tại Thanh Oai, Hà Nội. Do sốt 38,6 độ C nên bệnh nhân đã cùng chồng đến khám tại Trung tâm nhiệt đới, Bệnh viện Bạch Mai."
@@ -2943,12 +2957,13 @@
 		{
 			"id": "217",
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 25,
 			"treatLoc": "Hà Nội",
 			"from": "Nghệ An",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["NH857"],
 			"source": ["JP"],
 			"desc": "nữ, 25 tuổi, có địa chỉ tại Nam Đàn, Nghệ An. Bệnh nhân từ Nhật Bản về nước ngày 25/3/2020 trên chuyến bay NH857."
@@ -2969,12 +2984,13 @@
 		{
 			"id": "219",
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 59,
 			"treatLoc": "Hà Nội",
 			"from": "Hưng Yên",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 59 tuổi, quê Hưng Yên; chăm sóc người bệnh tại Khoa Thần kinh Bệnh viện Bạch Mai, cùng phòng bệnh với BN133 ngày 16/3."
@@ -2996,12 +3012,13 @@
 		{
 			"id": "221",
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 24,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["IMPORT", "CA"],
 			"desc": "nữ, 24 tuổi, quốc tịch Việt Nam, du học sinh tại Canada. Ngày 24/3, bệnh nhân từ Canada về Việt Nam, có quá cảnh ở Đài Bắc, Đài Loan."
@@ -3023,12 +3040,13 @@
 		{
 			"id": "223",
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 29,
 			"treatLoc": "Hà Nội",
 			"from": "Nam Định",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 29 tuổi ở Hải Hậu, Nam Định, chăm sóc người thân tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai từ 11/3."
@@ -3101,12 +3119,13 @@
 		{
 			"id": "229",
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 30,
 			"treatLoc": "",
 			"from": "Hà Tĩnh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": [],
 			"source": ["IMPORT"],
 			"desc": "nữ, 30 tuổi, có địa chỉ tại tỉnh Hà Tĩnh. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3."
@@ -3276,12 +3295,13 @@
 		{
 			"id": "242",
 			"positiveDate": "2020-04-06",
+			"dischargeDate": "2020-04-17",
 			"gender": "female",
 			"age": 34,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Tĩnh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["RU"],
 			"desc": "nữ, 34 tuổi, có địa chỉ tại Cẩm Xuyên, tỉnh Hà Tĩnh, sinh sống và làm việc tại Nga. Ngày 25/3, bệnh nhân từ Nga về Việt Nam trên chuyến bay SU290. "
@@ -3394,12 +3414,13 @@
 		{
 			"id": "251",
 			"positiveDate": "2020-04-08",
+			"dischargeDate": "2020-04-17",
 			"gender": "male",
 			"age": 64,
 			"treatLoc": "Hà Nam",
 			"from": "Hà Nam",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["VN"],
 			"desc": "nam, 64 tuổi, trú tại Bình Lục, Hà Nam. Từ ngày 20/3 đến nay bệnh nhân điều trị tại Khoa Tiêu hoá, Bệnh viện Đa khoa tỉnh Hà Nam, con trai và con dâu từ Hà Nội về chăm. Trường hợp này đang được tiếp tục điều tra nguồn lây."

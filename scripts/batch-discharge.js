@@ -32,6 +32,11 @@ patientIds.forEach((id) => {
 	};
 });
 
+// update modified time
+const d = new Date();
+// generate this date format
+patientsJson.modified = getLocalISOString(d);
+
 // these 2 steps to keep Array items the same line, for e.g: ["45", "34"]
 const jsonStep1 = JSON.stringify(
 	patientsJson,
@@ -55,3 +60,11 @@ const jsonStep2 = jsonStep1
 fs.writeFileSync(path.resolve(__dirname, '../data/patients.json'), jsonStep2);
 
 console.log('Batch task done');
+
+function getLocalISOString(d) {
+	return (
+		d.toLocaleDateString('sv') + // convert Date to 2020-04-17
+		'T' +
+		d.toTimeString().replace(/([0-9:]+) GMT([+-]\d{2})(\d{2}).*/, '$1$2:$3') // convert time from 00:25:52 GMT+0700 (Indochina Time) to 00:25:52+07:00
+	);
+}

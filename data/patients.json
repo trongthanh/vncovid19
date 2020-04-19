@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-17T23:20:51+07:00",
+	"modified": "2020-04-19T12:03:57+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -1309,12 +1309,13 @@
 		{
 			"id": "97",
 			"positiveDate": "2020-03-22",
+			"dischargeDate": "2020-04-18",
 			"gender": "male",
 			"age": 34,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Anh",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["MY"],
 			"desc": "nam, 34 tuổi quốc tịch Anh, trú tại Quận 4, TP. Hồ Chí Minh. Bệnh nhân là giáo viên ngoại ngữ tại Việt Nam.. Bệnh nhân ở Malaysia trong 2 tuần trước khi về Việt Nam, ngày 14/3/2020 có đến quán Bar Buddha (nơi BN91 cũng tới cùng ngày)."
@@ -2061,12 +2062,13 @@
 		{
 			"id": "151",
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-04-18",
 			"gender": "female",
 			"age": 45,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Brazil",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["124"],
 			"desc": "nữ, quốc tịch Brazil, 45 tuổi, trú tại Quận 2, TP. Hồ Chí Minh, là đồng nghiệp, tiếp xúc gần với BN124."
@@ -2823,12 +2825,13 @@
 		{
 			"id": "207",
 			"positiveDate": "2020-03-31",
+			"dischargeDate": "2020-04-18",
 			"gender": "male",
 			"age": 49,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Brazil",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["151", "124"],
 			"desc": "nam, 49 tuổi, quốc tịch Brazil trú tại Quận 2, TP Hồ Chí Minh. Bệnh nhân là chồng BN151 và là đồng nghiệp BN124."

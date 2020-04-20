@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-19T12:03:57+07:00",
+	"modified": "2020-04-21T00:12:58+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -2132,12 +2132,13 @@
 		{
 			"id": "156",
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-04-19",
 			"gender": "male",
 			"age": 21,
 			"treatLoc": "Cần Thơ",
 			"from": "Trà Vinh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0050"],
 			"source": ["GB", "145"],
 			"desc": "nam, 21 tuổi quê TP Trà Vinh, là du học sinh tại Anh. Ngày 22/3/2020, bệnh nhân bay từ London (Anh) về tới Cần Thơ trên chuyến bay số hiệu VN0050, chung chuyến bay với BN145."
@@ -2240,12 +2241,13 @@
 		{
 			"id": "164",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-20",
 			"gender": "male",
 			"age": 23,
 			"treatLoc": "Hà Nội",
 			"from": "Kiên Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"desc": "nam, 23 tuổi ở Rạch Giá, Kiên Giang. Bệnh nhân là du học sinh tại Anh, về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
@@ -2253,12 +2255,13 @@
 		{
 			"id": "165",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-20",
 			"gender": "male",
 			"age": 58,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"desc": "nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054."
@@ -2457,12 +2460,13 @@
 		{
 			"id": "180",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 27,
 			"treatLoc": "Ninh Bình",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TG564"],
 			"source": ["FR"],
 			"desc": "nữ, 27 tuổi địa chỉ tại Mỹ Đức, Hà Nội, du học sinh tại Pháp (quá cảnh Thái Lan) về Nội Bài ngày 20/03/2020 trên chuyến bay TG564."
@@ -2470,12 +2474,13 @@
 		{
 			"id": "181",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-20",
 			"gender": "male",
 			"age": 33,
 			"treatLoc": "Ninh Bình",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TG564"],
 			"source": ["TH"],
 			"desc": "nam, 33 tuổi ở Hà Nội, từ Thái Lan về Việt Nam ngày 20/03/2020 trên chuyến bay TG564."
@@ -2483,12 +2488,13 @@
 		{
 			"id": "182",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 19,
 			"treatLoc": "Ninh Bình",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN618"],
 			"source": ["EU", "CH"],
 			"desc": "nữ, 19 tuổi, ở Hà Nội, du học sinh từ Thuỵ Sỹ (quá cảnh Thái Lan) về Nội Bài ngày 20/03/2020 trên chuyến bay VN618."
@@ -2866,12 +2872,13 @@
 		{
 			"id": "210",
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 26,
 			"treatLoc": "Hà Tĩnh",
 			"from": "Hà Tĩnh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["201"],
 			"desc": "nữ, 26 tuổi, có địa chỉ ở huyện Can Lộc, tỉnh Hà Tĩnh. Bệnh nhân từ Thái Lan về nước ngày 20/3, trước đó có tiếp xúc gần với BN201."
@@ -3057,12 +3064,13 @@
 		{
 			"id": "224",
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-04-20",
 			"gender": "male",
 			"age": 39,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Brazil",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["158"],
 			"desc": "nam, 39 tuổi, quốc tịch Brazil, có địa chỉ tại Quận 2, TP Hồ Chí Minh. Bệnh nhân có thời gian sống cùng phòng với BN158 tại chung cư Masteri."
@@ -3109,12 +3117,13 @@
 		{
 			"id": "228",
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-20",
 			"gender": "male",
 			"age": 29,
 			"treatLoc": "",
 			"from": "Bắc Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": [],
 			"source": ["IMPORT"],
 			"desc": "nam, 29 tuổi, có địa chỉ tại tỉnh Bắc Giang. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3."
@@ -3136,12 +3145,13 @@
 		{
 			"id": "230",
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 28,
 			"treatLoc": "",
 			"from": "Hà Tĩnh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": [],
 			"source": ["IMPORT"],
 			"desc": "nữ, 28 tuổi, có địa chỉ tại tỉnh Hà Tĩnh. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3."
@@ -3218,12 +3228,13 @@
 		{
 			"id": "236",
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 26,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Anh",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["91"],
 			"desc": "nữ, 26 tuổi, quốc tịch Anh, lưu trú tại Quận 2, TP. Hồ Chí Minh. Ngày 14/3/2020, bệnh nhân có tới quán bar Buddha, tiếp xúc với trường hợp bệnh COVID-19."
@@ -3245,12 +3256,13 @@
 		{
 			"id": "238",
 			"positiveDate": "2020-04-04",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 17,
 			"treatLoc": "Hà Tĩnh",
 			"from": "Hà Tĩnh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["210", "TH"],
 			"desc": "nữ, 17 tuổi, địa chỉ tại Thạch Hà, tỉnh Hà Tĩnh; là lao động tự do và có ở cùng bạn (BN 210) tại Thái Lan. Ngày 17/3, bệnh nhân từ Thái Lan về Việt Nam, nhập cảnh qua Cửa khẩu Cha Lo ngày 18/3."
@@ -3272,12 +3284,13 @@
 		{
 			"id": "240",
 			"positiveDate": "2020-04-04",
+			"dischargeDate": "2020-04-20",
 			"gender": "female",
 			"age": 29,
 			"treatLoc": "Ninh Bình",
 			"from": "Bắc Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN618"],
 			"source": ["166", "TH"],
 			"desc": "nữ, 29 tuổi, có địa chỉ tại Lục Nam, tỉnh Bắc Giang, làm việc tại Thái Lan. Ngày 20/3, bệnh nhân về Hà Nội trên chuyến bay VN618. Trước khi về Việt Nam, bệnh nhân có tham gia buổi liên hoan với gia đình BN166."
@@ -3285,12 +3298,13 @@
 		{
 			"id": "241",
 			"positiveDate": "2020-04-05",
+			"dischargeDate": "2020-04-19",
 			"gender": "male",
 			"age": 20,
 			"treatLoc": "Cần Thơ",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0050"],
 			"source": ["GB"],
 			"desc": "nam, 20 tuổi, ở phường Thảo Điền, quận 2, TP.HCM, là du học sinh tại Anh. Ngày 21/3, bệnh nhân từ London lên chuyến bay của Vietnam Airlines số hiệu VN0050, số ghế 5A, về tới sân bay Cần Thơ ngày 22/3"

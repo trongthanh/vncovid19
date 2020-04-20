@@ -85,5 +85,7 @@
 	{"date":"2020-04-15","dailyCases":1,"dailyDeaths":0,"dailyRecovered":2,"cases":267,"deaths":0,"recovered":171},
 	{"date":"2020-04-16","dailyCases":1,"dailyDeaths":0,"dailyRecovered":6,"cases":268,"deaths":0,"recovered":177},
 	{"date":"2020-04-17","dailyCases":0,"dailyDeaths":0,"dailyRecovered":21,"cases":268,"deaths":0,"recovered":198},
-	{"date":"2020-04-18","dailyCases":0,"dailyDeaths":0,"dailyRecovered":3,"cases":268,"deaths":0,"recovered":201}
+	{"date":"2020-04-18","dailyCases":0,"dailyDeaths":0,"dailyRecovered":3,"cases":268,"deaths":0,"recovered":201},
+	{"date":"2020-04-19","dailyCases":0,"dailyDeaths":0,"dailyRecovered":2,"cases":268,"deaths":0,"recovered":203},
+	{"date":"2020-04-20","dailyCases":0,"dailyDeaths":0,"dailyRecovered":12,"cases":268,"deaths":0,"recovered":215}
 ]

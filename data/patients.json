@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-21T00:12:58+07:00",
+	"modified": "2020-04-22T12:33:09+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -3391,12 +3391,13 @@
 		{
 			"id": "248",
 			"positiveDate": "2020-04-07",
+			"dischargeDate": "2020-04-21",
 			"gender": "male",
 			"age": 20,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["JL079"],
 			"source": ["US"],
 			"desc": "nam, 20 tuổi, quốc tịch Việt Nam. Bệnh nhân từ Mỹ, quá cảnh Nhật Bản trên chuyến bay JL079 về Việt Nam ngày 23/3/2020 nhập cảnh tại sân bay Tân Sơn Nhất."

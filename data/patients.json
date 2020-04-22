@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-22T12:33:09+07:00",
+	"modified": "2020-04-22T23:08:35+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -2516,12 +2516,13 @@
 		{
 			"id": "184",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-22",
 			"gender": "female",
 			"age": 43,
 			"treatLoc": "Hà Nội",
 			"from": "Vĩnh Phúc",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["RU"],
 			"desc": "nữ, 43 tuổi ở huyện Phúc Yên, tỉnh Vĩnh Phúc, từ Nga về Việt Nam trên chuyến bay SU290 ngày 25/03/2020."
@@ -2941,12 +2942,13 @@
 		{
 			"id": "215",
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-22",
 			"gender": "male",
 			"age": 31,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nam, 31 tuổi, nhân viên công ty Trường Sinh, có địa chỉ tại Đống Đa, Hà Nội."
@@ -2954,12 +2956,13 @@
 		{
 			"id": "216",
 			"positiveDate": "2020-04-01",
+			"dischargeDate": "2020-04-22",
 			"gender": "female",
 			"age": 48,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["DE"],
 			"desc": "nữ, 48 tuổi, từ Đức trở về Việt Nam trên chuyến bay SU290 ngày 23/3."
@@ -3104,12 +3107,13 @@
 		{
 			"id": "227",
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-04-22",
 			"gender": "male",
 			"age": 31,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["209"],
 			"desc": "nam, 31 tuổi, là con của BN209, có tiếp xúc gần tại gia đình trong khoảng thời gian từ 16-25/3."
@@ -3365,12 +3369,13 @@
 		{
 			"id": "246",
 			"positiveDate": "2020-04-07",
+			"dischargeDate": "2020-04-22",
 			"gender": "male",
 			"age": 33,
 			"treatLoc": "Hà Nội",
 			"from": "Nghệ An",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["RU"],
 			"desc": "nam, 33 tuổi, có địa chỉ tại huyện Yên Thành, tỉnh Nghệ An. Ngày 24/3, bệnh nhân từ Nga trở về Việt Nam trên chuyến bay SU290."
@@ -3446,12 +3451,13 @@
 		{
 			"id": "252",
 			"positiveDate": "2020-04-09",
+			"dischargeDate": "2020-04-22",
 			"gender": "male",
 			"age": 6,
 			"treatLoc": "Tây Ninh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["KH"],
 			"desc": "nam, 6 tuổi, có địa chỉ tại Quận 5, TP. Hồ Chí Minh. Bệnh nhân sống tại Campuchia cùng gia đình có 5 người, trong đó 2 người đã được xác định mắc COVID-19 và được cách ly, điều trị tại Campuchia. Ngày 8/4, bệnh nhân cùng 2 người còn lại trong gia đình trở về Việt Nam qua cửa khẩu Mộc Bài, Tây Ninh."
@@ -3628,12 +3634,13 @@
 		{
 			"id": "266",
 			"positiveDate": "2020-04-14",
+			"dischargeDate": "2020-04-22",
 			"gender": "female",
 			"age": 36,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 36 tuổi, trú tại Thường Tín, Hà Nội. Ngày 08-10/3, bệnh nhân đến chăm mẹ tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai."

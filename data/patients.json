@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-22T23:08:35+07:00",
+	"modified": "2020-04-23T22:51:47+07:00",
 	"total": 268,
 	"data": [
 		{
@@ -2819,12 +2819,13 @@
 		{
 			"id": "206",
 			"positiveDate": "2020-03-31",
+			"dischargeDate": "2020-04-23",
 			"gender": "male",
 			"age": 48,
 			"treatLoc": "Hồ Chí Minh",
 			"from": "Hồ Chí Minh",
 			"nationality": "Brazil",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["124"],
 			"desc": "nam, 48 tuổi, có địa chỉ tại Quận 2, TPHCM; là lái xe riêng của BN124 và BN151, hàng ngày đưa đón hai người đến các chi nhánh công ty tại Đồng Nai và TP Hồ Chí Minh."

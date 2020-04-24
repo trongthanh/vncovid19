@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-23T22:51:47+07:00",
-	"total": 268,
+	"modified": "2020-04-24T23:53:22+07:00",
+	"total": 270,
 	"data": [
 		{
 			"id": "1",
@@ -3384,12 +3384,13 @@
 		{
 			"id": "247",
 			"positiveDate": "2020-04-07",
+			"dischargeDate": "2020-04-24",
 			"gender": "male",
 			"age": 28,
 			"treatLoc": "Đồng Nai",
 			"from": "Hồ Chí Minh",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["124", "151"],
 			"desc": "nam, 28 tuổi, địa chỉ tại quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân đi làm hàng ngày từ TP. Hồ Chí Minh xuống Đồng Nai và là đồng nghiệp, thuộc nhóm tiếp xúc gần với BN124 và BN151."
@@ -3671,6 +3672,32 @@
 			"flights": null,
 			"source": ["CN"],
 			"desc": "BN268 là nữ giới, 16 tuổi, quốc tịch Việt Nam, dân tộc Mông, trú tại một thôn hẻo lánh ở gần biên giới giáp Trung Quốc của huyện Đồng Văn, tỉnh Hà Giang. Gia đình bệnh nhân có 3 anh trai làm việc tự do bên Trung Quốc"
+		},
+		{
+			"id": "269",
+			"positiveDate": "2020-04-24",
+			"gender": "male",
+			"age": 23,
+			"treatLoc": "Hà Nội",
+			"from": "Bắc Giang",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["VN311"],
+			"source": ["JP"],
+			"desc": "nam, 23 tuổi, địa chỉ ở Hương Mai, Việt Yên, Bắc Giang; Cả hai trường hợp mắc mới đều là du học sinh từ Nhật Bản về Việt Nam ngày 22/4 trên chuyến bay VN311"
+		},
+		{
+			"id": "270",
+			"positiveDate": "2020-04-24",
+			"gender": "female",
+			"age": 22,
+			"treatLoc": "Hà Nội",
+			"from": "Bắc Giang",
+			"nationality": "Việt Nam",
+			"status": "positive",
+			"flights": ["VN311"],
+			"source": ["JP"],
+			"desc": "nữ, 22 tuổi, địa chỉ ở Đông Thắng, Tiến Dũng, Yên Dũng, Bắc Giang. Cả hai trường hợp mắc mới đều là du học sinh từ Nhật Bản về Việt Nam ngày 22/4 trên chuyến bay VN311"
 		}
 	]
 }

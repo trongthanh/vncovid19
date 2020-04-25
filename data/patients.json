@@ -1,5 +1,5 @@
 {
-	"modified": "2020-04-24T23:53:22+07:00",
+	"modified": "2020-04-25T22:48:37+07:00",
 	"total": 270,
 	"data": [
 		{
@@ -2282,12 +2282,13 @@
 		{
 			"id": "167",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-04-25",
 			"gender": "female",
 			"age": 20,
 			"treatLoc": "Hà Nội",
 			"from": "Đan Mạch",
 			"nationality": "Đan Mạch",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["QR976"],
 			"source": ["DK"],
 			"desc": "nữ, 20 tuổi, quốc tịch Đan Mạch, ngày 8/3/2020 cùng bạn nhập cảnh sân bay Hà Nội trên chuyến bay số hiệu QR976."
@@ -2406,12 +2407,13 @@
 		{
 			"id": "176",
 			"positiveDate": "2020-03-29",
+			"dischargeDate": "2020-04-25",
 			"gender": "female",
 			"age": 38,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 38 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người."
@@ -2668,12 +2670,13 @@
 		{
 			"id": "195",
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-04-25",
 			"gender": "female",
 			"age": 41,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 41 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai."
@@ -3467,12 +3470,13 @@
 		{
 			"id": "253",
 			"positiveDate": "2020-04-09",
+			"dischargeDate": "2020-04-25",
 			"gender": "female",
 			"age": 41,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["243"],
 			"desc": "nữ, 41 tuổi, trú ở Mê Linh, Hà Nội, là chị dâu, ở gần nhà  và có tiếp xúc gần với BN243. "
@@ -3532,12 +3536,13 @@
 		{
 			"id": "258",
 			"positiveDate": "2020-04-11",
+			"dischargeDate": "2020-04-25",
 			"gender": "female",
 			"age": 47,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["243", "257"],
 			"desc": "nữ, 47 tuổi, địa chỉ ở Mê Linh, Hà Nội. Là mẹ BN257 (đang được cách ly tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2)."

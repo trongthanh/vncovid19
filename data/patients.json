@@ -3668,7 +3668,7 @@
 		{
 			"id": "268",
 			"positiveDate": "2020-04-16",
-			"negativeDate": "2020-04-30",
+			"dischargeDate": "2020-04-30",
 			"gender": "female",
 			"age": 16,
 			"treatLoc": "Hà Giang",

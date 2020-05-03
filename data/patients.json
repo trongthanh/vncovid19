@@ -1,6 +1,6 @@
 {
-	"modified": "2020-04-30T22:57:59+07:00",
-	"total": 270,
+	"modified": "2020-05-03T21:20:35+07:00",
+	"total": 271,
 	"data": [
 		{
 			"id": "1",
@@ -3704,6 +3704,19 @@
 			"flights": ["VN311"],
 			"source": ["JP"],
 			"desc": "nữ, 22 tuổi, địa chỉ ở Đông Thắng, Tiến Dũng, Yên Dũng, Bắc Giang. Cả hai trường hợp mắc mới đều là du học sinh từ Nhật Bản về Việt Nam ngày 22/4 trên chuyến bay VN311"
+		},
+		{
+			"id": "271",
+			"positiveDate": "2020-05-03",
+			"gender": "male",
+			"age": 37,
+			"treatLoc": "Hồ Chí Minh",
+			"from": "Anh",
+			"nationality": "Anh",
+			"status": "positive",
+			"flights": ["AXY2504"],
+			"source": ["GB"],
+			"desc": " nam, 37 tuổi, quốc tịch Anh, là chuyên gia của Tập đoàn Dầu khí được nhập cảnh để thực hiện dự án kinh tế"
 		}
 	]
 }

@@ -57,7 +57,7 @@ const jsonStep2 = jsonStep1
 	.replace(/\\"/g, '"')
 	.replace(/,"/g, ', "');
 
-fs.writeFileSync(path.resolve(__dirname, '../data/patients.json'), jsonStep2);
+fs.writeFileSync(path.resolve(__dirname, '../data/patients.json'), jsonStep2 + '\n');
 
 console.log('Batch task done');
 

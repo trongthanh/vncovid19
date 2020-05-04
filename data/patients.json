@@ -1,5 +1,5 @@
 {
-	"modified": "2020-05-03T21:20:35+07:00",
+	"modified": "2020-05-04T22:58:48+07:00",
 	"total": 271,
 	"data": [
 		{
@@ -2269,12 +2269,13 @@
 		{
 			"id": "166",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-05-04",
 			"gender": "female",
 			"age": 25,
 			"treatLoc": "Ninh Bình",
 			"from": "Bắc Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["TG564"],
 			"source": ["TH"],
 			"desc": "nữ, 25 tuổi ở Lục Nam, Bắc Giang. Bệnh nhân sống tại Thái Lan, về Việt Nam ngày 20/03/2020 trên chuyến bay mang số hiệu TG564."
@@ -2324,12 +2325,13 @@
 		{
 			"id": "170",
 			"positiveDate": "2020-03-28",
+			"dischargeDate": "2020-05-04",
 			"gender": "male",
 			"age": 27,
 			"treatLoc": "Ninh Bình",
 			"from": "Ninh Bình",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nam, 27 tuổi ở huyện Kim Sơn, tỉnh Ninh Bình. Ngày 20 - 22/3 ở Bệnh viện Bạch Mai chăm bố chữa bệnh, đến mua và ăn cơm 5 lần ở quầy số 1 căng tin Bệnh viện Bạch Mai."

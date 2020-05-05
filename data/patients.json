@@ -1,5 +1,5 @@
 {
-	"modified": "2020-05-04T22:58:48+07:00",
+	"modified": "2020-05-05T23:05:46+07:00",
 	"total": 271,
 	"data": [
 		{
@@ -2007,12 +2007,13 @@
 		{
 			"id": "147",
 			"positiveDate": "2020-03-26",
+			"dischargeDate": "2020-05-05",
 			"gender": "male",
 			"age": 19,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["VN0054"],
 			"source": ["GB"],
 			"desc": "nam, 19 tuổi ở Cầu Giấy, Hà Nội, là du học sinh từ Anh, đáp chuyến bay VN0054 của Vietnam Airlines về Nội Bài ngày 21/03/2020."
@@ -2202,12 +2203,13 @@
 		{
 			"id": "161",
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-05-05",
 			"gender": "female",
 			"age": 88,
 			"treatLoc": "Hà Nội",
 			"from": "Hưng Yên",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM", "133"],
 			"desc": "nữ, 88 tuổi , trú tại Văn Lâm, Hưng Yên, là người nằm cùng phòng với BN133 tại Phòng điều trị tự nguyên, Khoa Thần kinh Bệnh viện Bạch Mai từ ngày 17-22/3/2020 ."
@@ -2228,12 +2230,13 @@
 		{
 			"id": "163",
 			"positiveDate": "2020-03-27",
+			"dischargeDate": "2020-05-05",
 			"gender": "female",
 			"age": 43,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["161"],
 			"desc": "nữ, 43 tuổi (cháu gái BN161), trú tại Long Biên, Hà Nội, là người vào chăm sóc BN161."
@@ -2755,12 +2758,13 @@
 		{
 			"id": "201",
 			"positiveDate": "2020-03-30",
+			"dischargeDate": "2020-05-05",
 			"gender": "female",
 			"age": 23,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["BVBM"],
 			"desc": "nữ, 23 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai."
@@ -3087,12 +3091,13 @@
 		{
 			"id": "225",
 			"positiveDate": "2020-04-02",
+			"dischargeDate": "2020-05-05",
 			"gender": "male",
 			"age": 35,
 			"treatLoc": "Hà Nội",
 			"from": "Hải Phòng",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["RU"],
 			"desc": "nam, 35 tuổi, quê An Dương, Hải Phòng, làm việc ở Nga 10 năm nay, về nước trên chuyến bay SU290 ngày 25/3/2020"
@@ -3197,12 +3202,13 @@
 		{
 			"id": "233",
 			"positiveDate": "2020-04-03",
+			"dischargeDate": "2020-05-05",
 			"gender": "female",
 			"age": 24,
 			"treatLoc": "Vĩnh Phúc",
 			"from": "Nghệ An",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["IMPORT"],
 			"desc": "nữ, 24 tuổi, có địa chỉ tại Diễn Châu, Nghệ An. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3."
@@ -3362,12 +3368,13 @@
 		{
 			"id": "245",
 			"positiveDate": "2020-04-06",
+			"dischargeDate": "2020-05-05",
 			"gender": "female",
 			"age": 21,
 			"treatLoc": "Hà Nội",
 			"from": "Nghệ An",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": ["SU290"],
 			"source": ["ES"],
 			"desc": "nữ, 21 tuổi, có địa chỉ tại Quỳnh Lưu, Nghệ An, nhân viên làm móng tại Tây Ban Nha. Bệnh nhân từ Tây Ban Nha đến Nga, nối chuyến từ Nga về Việt Nam ngày 25/3 trên chuyến bay SU290. "
@@ -3499,12 +3506,13 @@
 		{
 			"id": "255",
 			"positiveDate": "2020-04-09",
+			"dischargeDate": "2020-05-05",
 			"gender": "male",
 			"age": 29,
 			"treatLoc": "Vĩnh Phúc",
 			"from": "Hà Giang",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["RU"],
 			"desc": "nam, 29 tuổi, có địa chỉ tại Bắc Quang, Hà Giang. Ngày 27/3, bệnh nhân từ Nga về Sân bay Quốc tế Nội Bài trên chuyến bay SU290."
@@ -3657,12 +3665,13 @@
 		{
 			"id": "267",
 			"positiveDate": "2020-04-15",
+			"dischargeDate": "2020-05-05",
 			"gender": "male",
 			"age": 46,
 			"treatLoc": "Hà Nội",
 			"from": "Hà Nội",
 			"nationality": "Việt Nam",
-			"status": "positive",
+			"status": "negative",
 			"flights": null,
 			"source": ["243", "257", "258"],
 			"desc": "nam, 46 tuổi, xóm Hội, Hạ Lôi, Mê Linh, Hà Nội, là bố của BN 257, chồng của BN 258, có tiếp xúc gần với BN243 tại nhà ngày 20/3"
